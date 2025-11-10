@@ -53,7 +53,7 @@ header {
     border: 1.3px solid var(--border-color);
     border-radius: 5px;
     gap: 15px;
-    cursor: pointer;
+    cursor: text;
 }
 
 .btn-to-search i {
