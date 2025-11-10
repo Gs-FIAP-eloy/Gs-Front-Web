@@ -10,6 +10,7 @@ header {
     gap: 130px;
     border-bottom: 1px solid var(--border-color);
     background: var(--background-card);
+    transition: all 0.3s ease;
 }
 
 .main-header.hidden {

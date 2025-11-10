@@ -1,0 +1,10 @@
+.feed{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+    height: 2000px;
+    border: 1.2px solid var(--border-color);
+    border-radius: var(--border);
+    background: var(--background-card);
+}

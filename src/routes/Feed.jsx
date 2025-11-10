@@ -1,7 +1,9 @@
 import CardInfoProfile from "../components/ui/CardInfoProfile"
 import CardProfile from "../components/ui/CardProfile"
 import '../css/aside-left.css'
+import '../css/center.css'
 import '../css/aside-right.css'
+import CardAds from "../components/ui/CardAds"
 
 const Feed = () => {
   return (
@@ -16,7 +18,7 @@ const Feed = () => {
       </section>
 
       <aside className="right">
-
+        <CardAds />
       </aside>
     </section>
   )

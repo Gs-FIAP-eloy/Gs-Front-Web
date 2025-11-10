@@ -9,7 +9,7 @@ const CardProfile = () => {
             <section className="user-card-profile">
                 <img src="https://media.licdn.com/dms/image/v2/D4D03AQFnlrLQvobGTQ/profile-displayphoto-scale_400_400/B4DZmrHQWgJMAk-/0/1759512430533?e=1764201600&v=beta&t=wUtGBDNXXaVi-F_42kNW6syFUSWFhdQJsucgMH1kw08" />
                 <h1 className="name-card-profile">Leonardo Silva</h1>
-                <h2 className="title-card-profile">Software Engineer | Back-end Developer | Python | JavaS...</h2>
+                <h2 className="title-card-profile">Software Engineer | Back-end Developer | Python...</h2>
                 <h3 className="job-card-profile">Engenheiro de Software</h3>
             </section>
         </Link>
