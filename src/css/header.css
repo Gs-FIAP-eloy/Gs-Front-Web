@@ -1,43 +1,53 @@
-header{
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    gap: 110px;
+    gap: 130px;
     border-bottom: 1px solid var(--border-color);
+    background: var(--background-card);
 }
 
-.ctn-left-header{
+.main-header.hidden {
+    transform: translateY(-110%);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.ctn-left-header {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 }
 
-.logo img{
+.logo img {
     display: flex;
     width: 30px;
 }
 
-.repute{
+.repute {
     display: flex;
     gap: 5px;
 }
 
-.repute p{
+.repute p {
     display: flex;
     width: fit-content;
     align-items: center;
-    padding: 3px 6px;
-    font-size: 0.9rem;
-    box-shadow: inset 0px 0px 10px 1px #ffffff25;
+    font-size: 0.85rem;
+    color: #ababab;
     border-radius: 4px;
     gap: 5px;
 }
 
-.btn-to-search{
+.btn-to-search {
     display: flex;
     align-items: center;
-    padding: 6px 10px;
+    padding: 5px 10px;
     justify-content: center;
     background: transparent;
     border: 1.3px solid var(--border-color);
@@ -46,12 +56,12 @@ header{
     cursor: pointer;
 }
 
-.btn-to-search i{
+.btn-to-search i {
     font-size: 1rem;
     color: #b7b7b7;
 }
 
-.btn-to-search h1{
+.btn-to-search h1 {
     display: flex;
     align-items: center;
     font-size: 0.9rem;
@@ -60,20 +70,20 @@ header{
     gap: 6px;
 }
 
-.btn-to-search h1 span{
-    padding: 4px 6px;
+.btn-to-search h1 span {
+    padding: 3px 6px;
     border-radius: 4px;
     background: #ffffff20;
     font-size: 0.8rem;
     color: #c1c1c1;
 }
 
-nav ul{
+nav ul {
     display: flex;
     gap: 4px;
 }
 
-nav ul li a{
+nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,17 +93,18 @@ nav ul li a{
     gap: 5px;
     color: #8a8a8a;
     transition: var(--transition-2s);
+    border-bottom: 2px solid transparent;
 }
 
-nav ul li a i{
+nav ul li a i {
     font-size: 1.1rem;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: var(--light-color);
 }
 
-nav ul li .active{
+nav ul li .active {
     color: var(--light-color);
-    border-bottom: 2px solid rgb(0, 88, 177);
+    border-color: rgb(0, 88, 177);
 }
