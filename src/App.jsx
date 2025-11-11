@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
+import ChangeIcon from './hook/ChangeIcon'
 import Header from "./components/Header"
 import Icon from "./components/Icon"
 
@@ -9,6 +10,8 @@ import Publish from "./routes/Publish"
 import Notifications from "./routes/Notifications"
 import Profile from "./routes/Profile"
 function App() {
+
+  ChangeIcon();
 
   return (
     <BrowserRouter>

@@ -1,5 +1,5 @@
 
-const Newslatter = () => {
+const CardNewslatter = () => {
     return (
         <article className="newslatter">
             <section className="header-newslatter">
@@ -53,4 +53,4 @@ const Newslatter = () => {
     )
 }
 
-export default Newslatter
+export default CardNewslatter
