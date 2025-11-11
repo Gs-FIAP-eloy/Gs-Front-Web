@@ -1,0 +1,146 @@
+.ctn-chat-eloy {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(1px);
+}
+
+.chat-eloy {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 500px;
+    background: var(--background-card);
+    border: 1.2px solid var(--border-color);
+    border-radius: 7px 7px 0px 0px;
+    box-shadow: 0px 0px 10px 2px #000000aa;
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+.header-chat-eloy {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.header-chat-eloy h1 {
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.header-chat-eloy button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.content-chat-eloy {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.no-chat-eloy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.no-chat-eloy i {
+    font-size: 2.5rem;
+    color: #959595;
+}
+
+.no-chat-eloy h2{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #959595;
+}
+
+.no-chat-eloy p{
+    text-align: center;
+    width: 220px;
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: #606060;
+}
+
+.ctn-input-chat-eloy {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 13px;
+    border-top: 1px solid var(--border-color);
+}
+
+.ctn-input-chat-eloy textarea {
+    display: flex;
+    width: 420px;
+    height: 60px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    resize: none;
+    border-radius: var(--border);
+    background: var(--dark-color);
+    color: var(--light);
+}
+
+.send-message-chat-eloy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--border-color);
+    padding: 10px 0 0 0;
+}
+
+.btn-left-chat-eloy {
+    display: flex;
+    gap: 5px;
+}
+
+.btn-left-chat-eloy button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border-radius: 50%;
+    border: none;
+    color: #989898;
+    cursor: pointer;
+}
+
+.btn-left-chat-eloy button:hover {
+    background: #202020;
+}
+
+.btn-right-chat-eloy button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 12px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+    background: #959595;
+    color: #353535;
+    cursor: no-drop;
+}
