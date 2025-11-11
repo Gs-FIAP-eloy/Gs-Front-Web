@@ -4,6 +4,7 @@ import '../css/aside-left.css'
 import '../css/center.css'
 import '../css/aside-right.css'
 import CardAds from "../components/ui/CardAds"
+import Newslatter from "../components/ui/Newslatter"
 
 const Feed = () => {
   return (
@@ -18,6 +19,7 @@ const Feed = () => {
       </section>
 
       <aside className="right">
+        <Newslatter /> 
         <CardAds />
       </aside>
     </section>
