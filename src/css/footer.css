@@ -1,0 +1,42 @@
+footer{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.links-footer{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+
+.about-eloy-footer{
+    display: flex;
+    width: 300px;
+}
+
+.about-eloy-footer h2{
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: #878787;
+}
+
+.links-footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.links-footer ul a{
+    font-size: 0.85rem;
+    color: #878787;
+}
+
+footer p{
+    margin-top: 40px;
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: #7f7f7f;
+}

@@ -9,6 +9,7 @@ import Chat from "./routes/Chat"
 import Publish from "./routes/Publish"
 import Notifications from "./routes/Notifications"
 import Profile from "./routes/Profile"
+import Footer from "./components/Footer"
 function App() {
 
   ChangeIcon();
@@ -26,6 +27,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
       </Routes>
       <Icon />
+      <Footer />
     </BrowserRouter>
 
   )
