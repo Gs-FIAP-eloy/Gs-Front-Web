@@ -18,7 +18,7 @@
     width: 450px;
     height: 500px;
     background: #111;
-    border: 1.2px solid #333;
+    border: 1.2px solid #292929;
     border-radius: 7px 7px 0 0;
     box-shadow: 0 0 10px 2px #000000aa;
     animation: fadeIn 0.2s ease;
@@ -28,9 +28,10 @@
 
 .header-chat-eloy {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 10px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .header-chat-eloy h1 {
@@ -38,14 +39,54 @@
     font-weight: 500;
 }
 
-.header-chat-eloy button {
+.btns-header-chat-eloy {
+    display: flex;
+    gap: 15px;
+}
+
+.btns-header-chat-eloy button {
     display: flex;
     align-items: center;
     justify-content: center;
     background: transparent;
+    width: 25px;
+    height: 25px;
     color: #fff;
     border: none;
+    border-radius: 3px;
     cursor: pointer;
+}
+
+.btns-header-chat-eloy button:hover {
+    background: #1e1e1e;
+}
+
+.ctn-options-chat-eloy{
+    position: absolute;
+    top: 54px;
+    right: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background: #111;
+}
+
+.ctn-options-chat-eloy button{
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    color: #959595;
+    background: transparent;
+    gap: 5px;
+}
+
+.ctn-options-chat-eloy button:hover{
+    background: #202020;
 }
 
 .content-chat-eloy {
@@ -57,16 +98,16 @@
     gap: 6px;
 }
 
-.content-chat-eloy::-webkit-scrollbar{
+.content-chat-eloy::-webkit-scrollbar {
     display: flex;
     width: 5px;
 }
 
-.content-chat-eloy::-webkit-scrollbar-thumb{
+.content-chat-eloy::-webkit-scrollbar-thumb {
     background: var(--border-color);
 }
 
-.chat-messages{
+.chat-messages {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -108,14 +149,14 @@
     color: #959595;
 }
 
-.no-chat-eloy h2{
+.no-chat-eloy h2 {
     margin-top: 10px;
     font-size: 1rem;
     font-weight: 400;
     color: #959595;
 }
 
-.no-chat-eloy p{
+.no-chat-eloy p {
     text-align: center;
     width: 220px;
     font-size: 0.75rem;
@@ -146,12 +187,12 @@
     color: var(--light);
 }
 
-.ctn-input-chat-eloy textarea::-webkit-scrollbar{
+.ctn-input-chat-eloy textarea::-webkit-scrollbar {
     display: flex;
     width: 5px;
 }
 
-.ctn-input-chat-eloy textarea::-webkit-scrollbar-thumb{
+.ctn-input-chat-eloy textarea::-webkit-scrollbar-thumb {
     background: var(--border-color);
     border-radius: 50px;
     cursor: pointer;
@@ -165,7 +206,7 @@
     padding: 10px 0 0 0;
 }
 
-.btn-left-chat-eloy{
+.btn-left-chat-eloy {
     display: flex;
     gap: 5px;
 }

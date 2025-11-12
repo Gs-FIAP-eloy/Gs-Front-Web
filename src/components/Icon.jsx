@@ -6,6 +6,7 @@ import '../css/chat-eloy.css';
 const Icon = () => {
     const { isOpen, openModal, closeModal } = useModal();
     const modalRef = useRef(null);
+    const optionsRef = useRef(null);
     const contentRef = useRef(null);
 
     const [messages, setMessages] = useState(() => {
@@ -15,6 +16,7 @@ const Icon = () => {
 
     const [input, setInput] = useState("");
     const [loading, setLoading] = useState(false);
+    const [showOptions, setShowOptions] = useState(false);
 
     const handleClickOutside = (e) => {
         if (modalRef.current && !modalRef.current.contains(e.target)) {
@@ -22,44 +24,75 @@ const Icon = () => {
         }
     };
 
+    useEffect(() => {
+        const handleClickOutsideOptions = (e) => {
+            if (showOptions && optionsRef.current && !optionsRef.current.contains(e.target)) {
+                setShowOptions(false);
+            }
+        };
+        document.addEventListener("mousedown", handleClickOutsideOptions);
+        return () => document.removeEventListener("mousedown", handleClickOutsideOptions);
+    }, [showOptions]);
+
     const enviarMensagem = async () => {
         if (!input.trim()) return;
 
         const userMessage = { from: "user", text: input };
-        setMessages(prev => {
-            const updated = [...prev, userMessage];
-            localStorage.setItem("chat_eloy", JSON.stringify(updated));
-            return updated;
-        });
+        const newMessages = [...messages, userMessage];
+
+        setMessages(newMessages);
+        localStorage.setItem("chat_eloy", JSON.stringify(newMessages));
         setInput("");
         setLoading(true);
 
         try {
+            const contexto = newMessages
+                .slice(-10)
+                .map(m => `${m.from === "user" ? "Usuário" : "Eloy"}: ${m.text}`)
+                .join("\n");
+
+            console.debug("📤 Enviando:", input);
+            console.debug("🧠 Contexto:", contexto);
+
             const res = await fetch("https://eloychatbot.onrender.com/api/chat", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ mensagem: input })
+                body: JSON.stringify({
+                    mensagem: input,
+                    contexto
+                })
             });
+
+            if (!res.ok) {
+                const text = await res.text();
+                console.error("❌ Erro HTTP:", res.status, text);
+                throw new Error(`Servidor respondeu com ${res.status}`);
+            }
 
             const data = await res.json();
-            const botMessage = { from: "eloy", text: data.resposta || "Erro ao receber resposta" };
+            const botText = data.resposta ?? data.message ?? data.answer ?? "Erro ao receber resposta";
 
-            setMessages(prev => {
-                const updated = [...prev, botMessage];
-                localStorage.setItem("chat_eloy", JSON.stringify(updated));
-                return updated;
-            });
+            const botMessage = { from: "eloy", text: botText };
+            const updated = [...newMessages, botMessage];
+
+            setMessages(updated);
+            localStorage.setItem("chat_eloy", JSON.stringify(updated));
         } catch (err) {
-            console.error(err);
+            console.error("⚠️ Erro no envio:", err);
             const errorMessage = { from: "eloy", text: "Erro de conexão" };
-            setMessages(prev => {
-                const updated = [...prev, errorMessage];
-                localStorage.setItem("chat_eloy", JSON.stringify(updated));
-                return updated;
-            });
+            const updated = [...newMessages, errorMessage];
+            setMessages(updated);
+            localStorage.setItem("chat_eloy", JSON.stringify(updated));
         } finally {
             setLoading(false);
         }
+    };
+
+
+    const apagarChat = () => {
+        localStorage.removeItem("chat_eloy");
+        setMessages([]);
+        setShowOptions(false);
     };
 
     useEffect(() => {
@@ -79,9 +112,27 @@ const Icon = () => {
                     <section className="chat-eloy" ref={modalRef}>
                         <div className="header-chat-eloy">
                             <h1>eloy - chat</h1>
-                            <button onClick={closeModal}>
-                                <i className="fa-solid fa-chevron-down"></i>
-                            </button>
+                            <section className="btns-header-chat-eloy">
+                                <button onClick={closeModal}>
+                                    <i className="fa-solid fa-chevron-down"></i>
+                                </button>
+                                <button onClick={() => setShowOptions(prev => !prev)}>
+                                    <i className="fa-solid fa-ellipsis"></i>
+                                </button>
+                            </section>
+
+                            {showOptions && (
+                                <section className="ctn-options-chat-eloy" ref={optionsRef}>
+                                    <button>
+                                        <i className="fa-solid fa-book-open"></i>
+                                        Documentação
+                                    </button>
+                                    <button onClick={apagarChat}>
+                                        <i className="fa-regular fa-trash-can"></i>
+                                        Apagar conversa
+                                    </button>
+                                </section>
+                            )}
                         </div>
 
                         <section className="content-chat-eloy" ref={contentRef}>
@@ -126,7 +177,7 @@ const Icon = () => {
                                         onClick={enviarMensagem}
                                         disabled={loading}
                                     >
-                                        {loading ? "Enviando..." : "Enviar"}
+                                        {loading ? "Pensando..." : "Enviar"}
                                     </button>
                                 </div>
                             </section>
