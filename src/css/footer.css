@@ -8,19 +8,7 @@ footer{
 
 .links-footer{
     display: flex;
-    align-items: center;
     gap: 110px;
-}
-
-.about-eloy-footer{
-    display: flex;
-    width: 300px;
-}
-
-.about-eloy-footer h2{
-    font-size: 0.85rem;
-    font-weight: 300;
-    color: #878787;
 }
 
 .links-footer ul{
@@ -31,7 +19,13 @@ footer{
 
 .links-footer ul a{
     font-size: 0.85rem;
-    color: #878787;
+    color: #878787;  
+}
+
+.links-footer ul a:hover{
+    color: #9f9f9f;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 footer p{

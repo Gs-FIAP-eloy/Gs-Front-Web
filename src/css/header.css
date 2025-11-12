@@ -11,6 +11,7 @@ header {
     border-bottom: 1px solid var(--border-color);
     background: var(--background-card);
     transition: all 0.3s ease;
+    z-index: 20;
 }
 
 .main-header.hidden {
@@ -108,5 +109,5 @@ nav ul li a:hover {
 
 nav ul li .active {
     color: var(--light-color);
-    border-color: rgb(0, 88, 177);
+    border-color: #0058b1;
 }

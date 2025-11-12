@@ -9,6 +9,109 @@
     background: var(--background-card);
 }
 
+.ctn-developers {
+    margin-top: 60px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.developer {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 380px;
+    border: 1.2px solid var(--border-color);
+    border-radius: 10px 0px 10px 0px;
+    background: var(--background-card);
+    overflow: hidden;
+    transition: var(--transition-3s);
+    cursor: default;
+}
+
+.ctn-developers .active{
+    transform: scale(1.03);
+}
+
+.ctn-developers .active:hover{
+    transform: scale(1.06);
+}
+
+.developer:hover{
+    transform: scale(1.03);
+}
+
+.developer-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+}
+
+.developer-img img {
+    display: flex;
+    width: 100%;
+}
+
+.ctn-developer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px;
+}
+
+.developer-name {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.developer-graduation {
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: #969696;
+}
+
+.title-developer-position {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.developer-position {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.developer-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.developer-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    color: var(--light-color);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    transition: var(--transition-3s);
+}
+
+.developer-links a:hover{
+    border-color: var(--light-color);
+    transform: translateY(-7px);
+}
+
+
 .ctn-content-profile {
     display: flex;
     flex-direction: column;
@@ -153,7 +256,7 @@
     border-color: #0d5195;
 }
 
-.ctn-about{
+.ctn-about {
     display: flex;
     flex-direction: column;
     padding: 25px;
@@ -165,18 +268,18 @@
     gap: 20px;
 }
 
-.header-card-about{
+.header-card-about {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header-card-about h1{
+.header-card-about h1 {
     font-size: 1.25rem;
     font-weight: 400;
 }
 
-.header-card-about button{
+.header-card-about button {
     font-size: 0.9rem;
     border: none;
     background: transparent;
@@ -184,7 +287,7 @@
     cursor: pointer;
 }
 
-.about p{
+.about p {
     font-size: 0.9rem;
     font-weight: 300;
     color: #ebebeb;

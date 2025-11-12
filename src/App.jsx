@@ -10,6 +10,7 @@ import Publish from "./routes/Publish"
 import Notifications from "./routes/Notifications"
 import Profile from "./routes/Profile"
 import Footer from "./components/Footer"
+import Devs from "./routes/Devs"
 function App() {
 
   ChangeIcon();
@@ -25,6 +26,7 @@ function App() {
         <Route path="/publish" element={<Publish />} />
         <Route path="/notifications" element={<Notifications />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/developers" element={<Devs />} />
       </Routes>
       <Icon />
       <Footer />
