@@ -31,15 +31,15 @@
     cursor: default;
 }
 
-.ctn-developers .active{
+.ctn-developers .active {
     transform: scale(1.03);
 }
 
-.ctn-developers .active:hover{
+.ctn-developers .active:hover {
     transform: scale(1.06);
 }
 
-.developer:hover{
+.developer:hover {
     transform: scale(1.03);
 }
 
@@ -106,7 +106,7 @@
     transition: var(--transition-3s);
 }
 
-.developer-links a:hover{
+.developer-links a:hover {
     border-color: var(--light-color);
     transform: translateY(-7px);
 }
@@ -291,4 +291,68 @@
     font-size: 0.9rem;
     font-weight: 300;
     color: #ebebeb;
+}
+
+.ctn-my-courses {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: 1.2px solid var(--border-color);
+    border-radius: var(--border);
+    background: var(--background-card);
+    overflow: hidden;
+    cursor: default;
+    gap: 20px;
+}
+
+.header-my-courses {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-my-courses h1 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.btn-header-my-courses{
+    display: flex;
+    gap: 25px;
+}
+
+.btn-header-my-courses button {
+    font-size: 0.9rem;
+    border: none;
+    background: transparent;
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+.my-courses{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.my-courses h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--light-color);
+}
+
+.my-courses h2{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--light-color);
+}
+
+.my-courses h3{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #969696;
+}
+
+.my-courses hr{
+    border: 1px solid #121212;
 }

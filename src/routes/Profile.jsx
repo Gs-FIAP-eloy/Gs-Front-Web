@@ -5,6 +5,7 @@ import CardNewslatter from "../components/ui/CardNewslatter"
 import BannerProfile from "../components/ui/BannerProfile"
 import ContentProfile from '../components/ui/ContentProfile'
 import CardAbout from '../components/ui/CardAbout'
+import CardMyCourses from '../components/ui/CardMyCourses'
 
 const Profile = () => {
   return (
@@ -15,6 +16,7 @@ const Profile = () => {
           <ContentProfile />
         </article>
         <CardAbout />
+        <CardMyCourses />
       </section>
       <aside className="right">
         <CardNewslatter />
