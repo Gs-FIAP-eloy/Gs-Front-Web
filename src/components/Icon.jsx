@@ -8,7 +8,11 @@ const Icon = () => {
     const modalRef = useRef(null);
     const contentRef = useRef(null);
 
-    const [messages, setMessages] = useState([]);
+    const [messages, setMessages] = useState(() => {
+        const saved = localStorage.getItem("chat_eloy");
+        return saved ? JSON.parse(saved) : [];
+    });
+
     const [input, setInput] = useState("");
     const [loading, setLoading] = useState(false);
 
@@ -22,7 +26,11 @@ const Icon = () => {
         if (!input.trim()) return;
 
         const userMessage = { from: "user", text: input };
-        setMessages(prev => [...prev, userMessage]);
+        setMessages(prev => {
+            const updated = [...prev, userMessage];
+            localStorage.setItem("chat_eloy", JSON.stringify(updated));
+            return updated;
+        });
         setInput("");
         setLoading(true);
 
@@ -35,16 +43,25 @@ const Icon = () => {
 
             const data = await res.json();
             const botMessage = { from: "eloy", text: data.resposta || "Erro ao receber resposta" };
-            setMessages(prev => [...prev, botMessage]);
+
+            setMessages(prev => {
+                const updated = [...prev, botMessage];
+                localStorage.setItem("chat_eloy", JSON.stringify(updated));
+                return updated;
+            });
         } catch (err) {
             console.error(err);
-            setMessages(prev => [...prev, { from: "eloy", text: "Erro de conexão" }]);
+            const errorMessage = { from: "eloy", text: "Erro de conexão" };
+            setMessages(prev => {
+                const updated = [...prev, errorMessage];
+                localStorage.setItem("chat_eloy", JSON.stringify(updated));
+                return updated;
+            });
         } finally {
             setLoading(false);
         }
     };
 
-    // Auto-scroll para a última mensagem
     useEffect(() => {
         if (contentRef.current) {
             contentRef.current.scrollTop = contentRef.current.scrollHeight;
@@ -87,7 +104,7 @@ const Icon = () => {
 
                         <section className="ctn-input-chat-eloy">
                             <textarea
-                                placeholder="Pergunte para eloy"
+                                placeholder={loading ? "eloy está pensando.." : "Pergunte para eloy"}
                                 value={input}
                                 onChange={(e) => setInput(e.target.value)}
                                 onKeyDown={(e) => {
