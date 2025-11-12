@@ -1,8 +1,8 @@
 <div align='center'>
 
-<a href=''>
+<a href='https://gs-front-web-two.vercel.app/'>
     <img src='./src/assets/img/logo.png' width='300px'>
 </a>
 </div>
 
-[eloy.com]()
+[eloy.com](https://gs-front-web-two.vercel.app/)
