@@ -6,6 +6,7 @@ import BannerProfile from "../components/ui/BannerProfile"
 import ContentProfile from '../components/ui/ContentProfile'
 import CardAbout from '../components/ui/CardAbout'
 import CardMyCourses from '../components/ui/CardMyCourses'
+import CardAcademic from '../components/ui/CardAcademic'
 
 const Profile = () => {
   return (
@@ -16,6 +17,7 @@ const Profile = () => {
           <ContentProfile />
         </article>
         <CardAbout />
+        <CardAcademic />
         <CardMyCourses />
       </section>
       <aside className="right">

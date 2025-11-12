@@ -316,12 +316,12 @@
     font-weight: 400;
 }
 
-.btn-header-my-courses{
+.btns-header-my-courses{
     display: flex;
     gap: 25px;
 }
 
-.btn-header-my-courses button {
+.btns-header-my-courses button {
     font-size: 0.9rem;
     border: none;
     background: transparent;
@@ -355,4 +355,64 @@
 
 .my-courses hr{
     border: 1px solid #121212;
+}
+
+.ctn-academic{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: 1.2px solid var(--border-color);
+    border-radius: var(--border);
+    background: var(--background-card);
+    overflow: hidden;
+    cursor: default;
+    gap: 20px;
+}
+
+.header-academic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-academic h1{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.btns-header-academic{
+    display: flex;
+    gap: 25px;
+}
+
+.btns-header-academic button{
+    font-size: 0.9rem;
+    border: none;
+    background: transparent;
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+.academics{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.academic h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--light-color);
+}
+
+.academic h2{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #b8b8b8;
+}
+
+.academic h3{
+    font-size: 0.85rem;
+    font-weight: 200;
+    color: #717171;
 }

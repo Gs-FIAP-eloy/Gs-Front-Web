@@ -4,7 +4,7 @@ const CardMyCourses = () => {
         <section className="ctn-my-courses">
             <section className="header-my-courses">
                 <h1>Certificações</h1>
-                <section className="btn-header-my-courses">
+                <section className="btns-header-my-courses">
                     <button><button><i className="fa-solid fa-plus"></i></button></button>
                     <button><button><i className="fa-solid fa-pencil"></i></button></button>
                 </section>
