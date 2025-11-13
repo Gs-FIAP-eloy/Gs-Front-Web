@@ -398,3 +398,42 @@
     font-weight: 300;
     color: #b8b8b8;
 }
+
+.ctn-experiences{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.experience h1 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--light-color);
+}
+
+.experience h2 {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #dadada;
+}
+
+.experience h3 {
+    margin-top: 2px;
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: #999999;
+}
+
+.experience h4 {
+    margin-top: 2px;
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: #999999;
+}
+
+.experience p {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #dedede;
+}
