@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
 import ChangeIcon from './hook/ChangeIcon'
+import ChangeTitle from './hook/ChangeTitle'
 import Header from "./components/Header"
 import Icon from "./components/Icon"
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
+      <ChangeTitle />
       <Routes>
         <Route path="*" element={<Error />} />
         <Route path="/" element={<Navigate to="/feed" replace />} />
