@@ -1,15 +1,10 @@
+import HeaderCard from "./HeaderCard"
 
 const CardMyCourses = () => {
     return (
-        <section className="ctn-my-courses">
-            <section className="header-my-courses">
-                <h1>Certificações</h1>
-                <section className="btns-header-my-courses">
-                    <button><button><i className="fa-solid fa-plus"></i></button></button>
-                    <button><button><i className="fa-solid fa-pencil"></i></button></button>
-                </section>
-            </section>
-            <section className="my-courses">
+        <section className="ctn-card">
+            <HeaderCard title='Meus cursos' btnPlus='true' />
+            <section className="ctn-my-courses">
                 <article className="course">
                     <h1>Front-End</h1>
                     <h2>FIAP</h2>

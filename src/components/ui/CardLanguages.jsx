@@ -1,24 +1,29 @@
 
-const CardAcademic = () => {
+const CardLanguages = () => {
     return (
         <section className="ctn-card">
             <section className="header-card">
-                <h1>Formação acadêmica</h1>
+                <h1>Idiomas</h1>
                 <section className="btns-header-card">
                     <button><button><i className="fa-solid fa-plus"></i></button></button>
                     <button><button><i className="fa-solid fa-pencil"></i></button></button>
                 </section>
             </section>
-            <section className="ctn-academics">
-                <article className="academic">
-                    <h1>FIAP</h1>
-                    <h2>Bacharelado, Engenharia de Software</h2>
-                    <h3>Fev de 2025 - Dez de 2028</h3>
+            <section className="ctn-languages">
+                <article className="language">
+                    <h1>Português</h1>
+                    <h2>Nativo</h2>
                 </article>
 
+                <hr />
+
+                <article className="language">
+                    <h1>Ingles</h1>
+                    <h2>Intermediário</h2>
+                </article>
             </section>
         </section>
     )
 }
 
-export default CardAcademic
+export default CardLanguages
