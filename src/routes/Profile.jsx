@@ -9,6 +9,7 @@ import CardMyCourses from '../components/ui/CardMyCourses'
 import CardAcademic from '../components/ui/CardAcademic'
 import CardLanguages from '../components/ui/CardLanguages'
 import CardExperiences from '../components/ui/CardExperiences'
+import CardInterests from '../components/ui/CardInterests'
 
 const Profile = () => {
   return (
@@ -18,6 +19,7 @@ const Profile = () => {
           <BannerProfile />
           <ContentProfile />
         </article>
+        <CardInterests />
         <CardAbout />
         <CardAcademic />
         <CardExperiences />
