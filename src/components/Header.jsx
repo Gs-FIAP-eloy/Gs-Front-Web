@@ -6,9 +6,18 @@ import logo from '../assets/svg/logo-light.svg'
 const Header = () => {
 
     const [hidden, setHidden] = useState(false)
+    const [showNotification, setShowNotification] = useState(false)
     const lastScrollY = useRef(0)
     const ticking = useRef(false)
     const headerRef = useRef(null)
+
+    useEffect(() => {
+        const isFirstVisit = localStorage.getItem('firstVisit') !== 'false'
+        if (isFirstVisit) {
+            setShowNotification(true)
+            localStorage.setItem('firstVisit', 'false')
+        }
+    }, [])
 
     useEffect(() => {
         const el = headerRef.current
@@ -53,6 +62,10 @@ const Header = () => {
         return () => window.removeEventListener('scroll', onScroll)
     }, [])
 
+    const handleNotificationClick = () => {
+        setShowNotification(false)
+    }
+
     return (
         <header ref={headerRef} className={`main-header ${hidden ? 'hidden' : ''}`}>
             <section className="ctn-left-header">
@@ -81,6 +94,7 @@ const Header = () => {
                     <li>
                         <NavLink to="/chat" className={({ isActive }) => isActive ? 'active' : ''}>
                             <i className="fa-solid fa-comments"></i> <p>Mensagens</p>
+                            <div className='on-message'></div>
                         </NavLink>
                     </li>
                     <li>
@@ -89,8 +103,13 @@ const Header = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/notifications" className={({ isActive }) => isActive ? 'active' : ''}>
+                        <NavLink 
+                            to="/notifications" 
+                            className={({ isActive }) => isActive ? 'active' : ''} 
+                            onClick={handleNotificationClick}
+                        >
                             <i className="fa-solid fa-bell"></i> <p>Notificações</p>
+                            {showNotification && <div className='on-notification'></div>}
                         </NavLink>
                     </li>
                     <li>

@@ -111,3 +111,25 @@ nav ul li .active {
     color: var(--light-color);
     border-color: #0058b1;
 }
+
+.on-notification{
+    top: 15px;
+    right: 188px;
+    position: absolute;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+}
+
+.on-message{
+    top: 15px;
+    right: 355px;
+    position: absolute;
+    display: none;
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+}

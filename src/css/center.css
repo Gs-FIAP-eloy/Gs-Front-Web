@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     width: 630px;
-    height: 2000px;
+    min-height: 100%;
     border: 1.2px solid var(--border-color);
     border-radius: var(--border);
     background: var(--background-card);
@@ -111,6 +111,28 @@
     transform: translateY(-7px);
 }
 
+.ctn-content-chat{
+    display: flex;
+    flex-direction: column;
+    width: 875px;
+    height: 530px;
+    border: 1.2px solid var(--border-color);
+    border-radius: var(--border);
+    background: var(--background-card);
+    overflow: hidden;
+    gap: 10px;
+}
+
+.ctn-header-chat{
+    display: flex;
+    padding: 10px;
+    background: #1e1e1e;
+}
+
+.ctn-header-chat h1{
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 .ctn-content-profile {
     display: flex;
@@ -484,4 +506,75 @@
     font-size: 0.9rem;
     font-weight: 300;
     color: #d1d1d1;
+}
+
+.notification{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid var(--border-color);
+    cursor: pointer;
+}
+
+.notification:hover{
+    background: #121212;
+}
+
+.img-user-notification{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.img-user-notification img{
+    display: flex;
+    width: 50px;
+}
+
+.content-notification{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-notification h1{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.content-notification p{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.info-notification{
+    display: flex;
+    align-items: center;
+    width: 90px;
+    flex-direction: column;
+}
+
+.info-notification p{
+    display: flex;
+    font-size: 0.7rem;
+    color: #969696;
+}
+
+.info-notification button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: var(--light-color);
+    cursor: pointer;
+}
+
+.info-notification button:hover{
+    background: #1b1b1b;
 }
