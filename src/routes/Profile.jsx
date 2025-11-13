@@ -11,6 +11,7 @@ import CardLanguages from '../components/ui/CardLanguages'
 import CardExperiences from '../components/ui/CardExperiences'
 import CardInterests from '../components/ui/CardInterests'
 import CardSkills from '../components/ui/CardSkills'
+import CardProjects from '../components/ui/CardProjects'
 
 const Profile = () => {
   return (
@@ -22,8 +23,9 @@ const Profile = () => {
         </article>
         <CardInterests />
         <CardAbout />
-        <CardAcademic />
         <CardExperiences />
+        <CardAcademic />
+        <CardProjects />
         <CardMyCourses />
         <CardLanguages />
         <CardSkills />
