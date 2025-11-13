@@ -184,7 +184,7 @@
     background: var(--dark-color);
     font-size: 0.9rem;
     font-weight: 300;
-    color: var(--light);
+    color: var(--light-color);
 }
 
 .ctn-input-chat-eloy textarea::-webkit-scrollbar {

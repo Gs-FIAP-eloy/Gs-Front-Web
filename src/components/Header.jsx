@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import { useEffect, useRef, useState } from 'react'
 import '../css/header.css'
 import logo from '../assets/svg/logo-light.svg'
@@ -10,14 +10,21 @@ const Header = () => {
     const lastScrollY = useRef(0)
     const ticking = useRef(false)
     const headerRef = useRef(null)
+    const location = useLocation()
 
     useEffect(() => {
-        const isFirstVisit = localStorage.getItem('firstVisit') !== 'false'
-        if (isFirstVisit) {
+        const notificationSeen = localStorage.getItem('notificationSeen') === 'true'
+        if (!notificationSeen) {
             setShowNotification(true)
-            localStorage.setItem('firstVisit', 'false')
         }
     }, [])
+
+    useEffect(() => {
+        if (location.pathname === '/notifications') {
+            setShowNotification(false)
+            localStorage.setItem('notificationSeen', 'true')
+        }
+    }, [location.pathname])
 
     useEffect(() => {
         const el = headerRef.current
@@ -34,7 +41,6 @@ const Header = () => {
         const update = () => {
             const currentY = window.scrollY || window.pageYOffset
             const delta = currentY - lastScrollY.current
-
             const threshold = 15
 
             if (Math.abs(delta) > threshold) {
@@ -63,7 +69,6 @@ const Header = () => {
     }, [])
 
     const handleNotificationClick = () => {
-        setShowNotification(false)
     }
 
     return (
