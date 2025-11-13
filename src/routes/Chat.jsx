@@ -9,8 +9,8 @@ const Chat = () => {
           <h1>Mensagens</h1>
         </section>
         <section className="content-chat">
-          <aside className="ctn-aside-chat active">
-            <article className="profile-user-chat">
+          <aside className="ctn-aside-chat">
+            <article className="profile-user-chat active">
               <section className="img-profile-chat">
                 <img src="https://avatars.githubusercontent.com/u/225023097?v=4" />
               </section>
