@@ -1,19 +1,59 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 const CardProfile = () => {
+
+    const [userData, setUserData] = useState(null);
+
+    useEffect(() => {
+        const user = localStorage.getItem("eloy_user");
+        if (!user) return;
+
+        const usuarioLogado = JSON.parse(user);
+
+        fetch("/db/users.json")
+            .then(res => res.json())
+            .then(data => {
+                if (Array.isArray(data)) {
+                    const userInfo = data.find(u => u.id === usuarioLogado.id);
+                    if (userInfo) setUserData(userInfo);
+                }
+            })
+            .catch(err => console.error("Erro ao carregar JSON:", err));
+    }, []);
+
+    if (!userData) return null;
+
+    const tituloLimite = (text) => {
+        if (!text) return "";
+        return text.length > 50 ? text.substring(0, 50) + "..." : text;
+    };
+
+    const bannerSrc = userData.banner && userData.banner.trim() !== ""
+        ? userData.banner
+        : "src/assets/img/img-banner-default.png";
+
+    const fotoSrc = userData.foto && userData.foto.trim() !== ""
+        ? userData.foto
+        : "src/assets/img/img-profile-default.png";
+
     return (
         <Link to='/profile' className="card-profile">
             <section className="banner-card-profile">
-                <img src="https://media.licdn.com/dms/image/v2/D4D16AQGjobWVHrk20Q/profile-displaybackgroundimage-shrink_200_800/B4DZoj8pleGQAU-/0/1761539704579?e=1764201600&v=beta&t=lbktxK-vhCcI3XGdqkfBVUyN4nTgVyOON0uBIvNgXdg" />
+                <img src={bannerSrc} alt="Banner do usuário" />
             </section>
+
             <section className="user-card-profile">
-                <img src="https://media.licdn.com/dms/image/v2/D4D03AQFnlrLQvobGTQ/profile-displayphoto-scale_400_400/B4DZmrHQWgJMAk-/0/1759512430533?e=1764201600&v=beta&t=wUtGBDNXXaVi-F_42kNW6syFUSWFhdQJsucgMH1kw08" />
-                <h1 className="name-card-profile">Leonardo Silva</h1>
-                <h2 className="title-card-profile">Software Engineer | Back-end Developer | Python...</h2>
-                <h3 className="job-card-profile">Engenheiro de Software</h3>
+                <img src={fotoSrc} alt="Foto do usuário" />
+
+                <h1 className="name-card-profile">{userData.nome}</h1>
+                <h2 className="title-card-profile">
+                    {tituloLimite(userData.titulo)}
+                </h2>
+                <h3 className="job-card-profile">{userData.cargo}</h3>
             </section>
         </Link>
-    )
-}
+    );
+};
 
-export default CardProfile
+export default CardProfile;
