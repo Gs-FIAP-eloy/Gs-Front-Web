@@ -9,6 +9,7 @@ const Auth = () => {
     const [senha, setSenha] = useState("");
     const [erro, setErro] = useState("");
     const [mostrarSenha, setMostrarSenha] = useState(false);
+
     const navigate = useNavigate();
 
 
@@ -33,7 +34,14 @@ const Auth = () => {
                 return setErro("Email ou senha incorretos.");
             }
 
-            localStorage.setItem("eloy_user", JSON.stringify(userFound));
+            const userFiltered = {
+                id: userFound.id,
+                nome: userFound.nome,
+                email: userFound.email
+            };
+
+            localStorage.setItem("eloy_user", JSON.stringify(userFiltered));
+
 
 
             navigate("/feed");
@@ -63,7 +71,7 @@ const Auth = () => {
                     <section className='ctn-input-auth'>
                         <label>Email</label>
                         <section className='input-auth'>
-                            <input 
+                            <input
                                 type="email"
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
@@ -75,13 +83,13 @@ const Auth = () => {
                     <section className='ctn-input-auth'>
                         <label>Senha <span>(6+ Caracteres)</span></label>
                         <section className='input-auth'>
-                            <input 
+                            <input
                                 type={mostrarSenha ? "text" : "password"}
                                 value={senha}
                                 onChange={(e) => setSenha(e.target.value)}
                             />
-                            <button 
-                                className='btn-right-input' 
+                            <button
+                                className='btn-right-input'
                                 type="button"
                                 onClick={() => setMostrarSenha(!mostrarSenha)}
                             >

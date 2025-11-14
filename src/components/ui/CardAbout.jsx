@@ -5,15 +5,25 @@ const CardAbout = () => {
     const [sobre, setSobre] = useState("");
 
     useEffect(() => {
-        const user = localStorage.getItem("eloy_user");
+        const userLocal = localStorage.getItem("eloy_user");
 
-        if (user) {
-            const usuarioLogado = JSON.parse(user);
+        if (!userLocal) return;
 
-            if (usuarioLogado.sobre) {
-                setSobre(usuarioLogado.resumo);
-            }
-        }
+        const usuarioLogado = JSON.parse(userLocal);
+
+        fetch("/db/users.json")
+            .then(res => res.json())
+            .then(data => {
+
+                const usuario = data.find(u => u.id === usuarioLogado.id);
+
+                if (usuario) {
+                    setSobre(usuario.resumo);
+                } else {
+                    console.warn("Usuário não encontrado no JSON");
+                }
+            })
+            .catch(err => console.error("Erro ao carregar JSON:", err));
     }, []);
 
     return (
@@ -22,6 +32,7 @@ const CardAbout = () => {
                 <h1>Sobre</h1>
                 <button><i className="fa-solid fa-pencil"></i></button>
             </section>
+
             <article className="about">
                 <p>{sobre}</p>
             </article>
