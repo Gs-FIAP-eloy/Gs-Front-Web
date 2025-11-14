@@ -18,7 +18,7 @@ const BannerProfile = () => {
           if (userData?.banner && userData.banner !== "") {
             setBanner(userData.banner);
           } else {
-            setBanner("src/assets/img/img-banner-default.png");
+            setBanner("assets/img/img-banner-default.png");
           }
         }
       })

@@ -31,11 +31,11 @@ const CardProfile = () => {
 
     const bannerSrc = userData.banner && userData.banner.trim() !== ""
         ? userData.banner
-        : "src/assets/img/img-banner-default.png";
+        : "assets/img/img-banner-default.png";
 
     const fotoSrc = userData.foto && userData.foto.trim() !== ""
         ? userData.foto
-        : "src/assets/img/img-profile-default.png";
+        : "assets/img/img-profile-default.png";
 
     return (
         <Link to='/profile' className="card-profile">
