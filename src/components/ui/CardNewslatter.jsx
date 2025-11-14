@@ -7,11 +7,9 @@ const CardNewslatter = () => {
     useEffect(() => {
         async function loadNews() {
             try {
-                const response = await fetch(
-                    `https://newsapi.org/v2/everything?q=mercado&language=pt&sortBy=publishedAt&pageSize=10&apiKey=${import.meta.env.VITE_NEWS_API_KEY}`
-                );
-
+                const response = await fetch("/api/news");
                 const data = await response.json();
+
 
                 if (data.articles) {
                     setNews(data.articles);
@@ -39,7 +37,7 @@ const CardNewslatter = () => {
             <section className="ctn-cards-news">
 
                 {news.map((n, index) => (
-                    <a 
+                    <a
                         key={index}
                         href={n.url}
                         target="_blank"
