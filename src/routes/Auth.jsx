@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react'
 import '../css/auth.css'
 import logo from '../assets/img/logo.png'
@@ -62,7 +62,9 @@ const Auth = () => {
     return (
         <section className='ctn-page-auth' onKeyDown={handleKeyPress}>
             <header className='header-page-auth'>
-                <img src={logo} />
+                <Link to='/welcome'>
+                    <img src={logo} />
+                </Link>
             </header>
 
             <section className='content-auth'>

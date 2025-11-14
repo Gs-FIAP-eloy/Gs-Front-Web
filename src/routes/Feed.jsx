@@ -5,8 +5,12 @@ import '../css/center.css'
 import '../css/aside-right.css'
 import CardAds from "../components/ui/CardAds"
 import CardNewslatter from "../components/ui/CardNewslatter"
+import useAuthRedirect from "../hook/useAuthRedirect"
 
 const Feed = () => {
+
+  useAuthRedirect();
+
   return (
     <section className="content">
       <aside className="left">

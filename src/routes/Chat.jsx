@@ -1,7 +1,11 @@
 import CardAds from "../components/ui/CardAds"
 import CardNewslatter from "../components/ui/CardNewslatter"
+import useAuthRedirect from "../hook/useAuthRedirect";
 
 const Chat = () => {
+
+  useAuthRedirect();
+
   return (
     <section className="content">
       <section className="ctn-content-chat">

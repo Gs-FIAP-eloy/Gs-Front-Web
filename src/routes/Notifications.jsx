@@ -3,8 +3,12 @@ import CardInfoProfile from "../components/ui/CardInfoProfile"
 import CardNewslatter from "../components/ui/CardNewslatter"
 import CardProfile from "../components/ui/CardProfile"
 import icon from '../assets/svg/icon-dark.svg'
+import useAuthRedirect from "../hook/useAuthRedirect"
 
 const Notifications = () => {
+
+  useAuthRedirect();
+
   return (
     <section className="content"> 
       <aside className="left">

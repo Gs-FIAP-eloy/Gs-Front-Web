@@ -12,8 +12,12 @@ import CardExperiences from '../components/ui/CardExperiences'
 import CardInterests from '../components/ui/CardInterests'
 import CardSkills from '../components/ui/CardSkills'
 import CardProjects from '../components/ui/CardProjects'
+import useAuthRedirect from '../hook/useAuthRedirect'
 
 const Profile = () => {
+
+  useAuthRedirect();
+
   return (
     <section className="content">
       <section className="ctn-content-profile">
