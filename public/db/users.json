@@ -91,249 +91,255 @@
     },
     {
         "id": 2,
-        "nome": "Maximino Sales",
+        "nome": "Samuel Monteiro",
         "genero": "Masculino",
-        "foto": "https://randomuser.me/api/portraits/men/44.jpg",
+        "foto": "https://media.licdn.com/dms/image/v2/D5603AQGODfaMD4tvQA/profile-displayphoto-shrink_400_400/B56ZcUfPFCGoAg-/0/1748395422545?e=1764806400&v=beta&t=zu-EKfnIxvW3CQDrqX8sB6amPheP5pUXdRVlh2SIvgo",
         "banner": "",
-        "titulo": "Apaixonado por Administrativo | Consultor de Transformação Digital",
-        "cargo": "Consultor de Transformação Digital",
-        "empresa": "FIAP",
-        "resumo": "Profissional com experiência na área de Administrativo e atuação como Consultor de Transformação Digital na FIAP. Foco em Java e inovação.",
+        "titulo" : "Software Engineer | Cyber | IA | Machine Learning | DevOps | Big Data | Blockchain | Web3 | Python | Kubernetes | Terraform | Grafana |",
+        "cargo": "Engenheiro de Software",
+        "empresa" : "FIAP",
+        "resumo": "",
         "estado": "São Paulo",
         "pais": "Brasil",
-        "area": "Administrativo",
-        "seguidores": 0,
-        "seguindo": 0,
+        "area": "Desenvolvimento",
+        "seguidores" : 0,
+        "seguindo" : 0,
         "competencias": [
-            "Java",
-            "Metodologias Ágeis",
-            "Liderança",
-            "Cloud Computing",
-            "Segurança Cibernética"
+
         ],
         "experiencias": [
             {
-                "empresa": "FIAP",
-                "tipo": "Tempo Integral",
-                "cargo": "Consultora de Carreira",
-                "inicio": "2020-01-01",
-                "fim": "Atual",
-                "local": "São Paulo, SP",
-                "descricao": "Responsável por..."
+                "empresa": "",
+                "tipo": "",
+                "cargo": "",
+                "inicio": "",
+                "fim": "",
+                "local": "",
+                "descricao": ""
             }
         ],
         "formacao": [
             {
-                "curso": "Pós-graduação em Tecnologia",
+                "curso": "Engenharia de Software",
                 "instituicao": "FIAP",
-                "ano": 2020
+                "ano": 2025
             }
         ],
-        "projetos": [],
-        "certificacoes": [],
+        "projetos": [
+            {
+                "titulo": "",
+                "link": "",
+                "descricao": ""
+            }
+        ],
+        "certificacoes": [
+            {
+                "curso" : "",
+                "instituicao" : "",
+                "duracao" : ""
+            }
+        ],
         "idiomas": [
             {
-                "idioma": "Português",
-                "nivel": "Nativo"
-            },
-            {
-                "idioma": "Inglês",
-                "nivel": "Avançado"
+                "idioma": "",
+                "nivel": ""
             }
         ],
         "areainteresses": [
-            "Tecnologia",
-            "Dados",
-            "Marketing",
-            "Administrativo"
+            
         ],
-        "email": "maximino.sales2506@fiap.com.br",
-        "senha": "250696fiap",
-        "dataNascimento": "1996-06-25",
-        "estrelas": 0
+        "email": "rm564391@fiap.com.br",
+        "senha": "290107fiap",
+        "dataNascimento": "2007-01-29"
     },
     {
         "id": 3,
-        "nome": "Argentino Almeida",
+        "nome": "Lucas Cortonezi",
         "genero": "Masculino",
-        "foto": "https://randomuser.me/api/portraits/men/89.jpg",
+        "foto": "https://avatars.githubusercontent.com/u/198768909?v=4",
         "banner": "",
-        "titulo": "Especialista em Segurança | Gerente de Projetos Ágeis na FIAP",
-        "cargo": "Gerente de Projetos Ágeis",
-        "empresa": "FIAP",
-        "resumo": "Profissional com experiência na área de Segurança e atuação como Gerente de Projetos Ágeis na FIAP. Foco em Java e inovação.",
+        "titulo" : "Estudante de Engenharia de Software na FIAP | React | Node | Tailwindcss | Phyton",
+        "cargo": "Engenheiro de Software",
+        "empresa" : "FIAP",
+        "resumo": "Sou estudante de Engenharia da Computação na FIAP, atualmente no 2º semestre, procurando adquirir experiência profissional na área, e melhorar minhas habilidades. Tenho buscado complementar minha formação com cursos extracurriculares. Estou em busca de uma oportunidade de estágio para colocar meus conhecimentos em prática e contribuir com o time, preferencialmente no período da tarde ou noite. Me considero esforçado, interessado e com muita vontade de aprender.",
         "estado": "São Paulo",
         "pais": "Brasil",
-        "area": "Segurança",
-        "seguidores": 0,
-        "seguindo": 0,
+        "area": "Desenvolvimento",
+        "seguidores" : 0,
+        "seguindo" : 0,
         "competencias": [
-            "Cloud Computing",
-            "Segurança Cibernética",
-            "Java"
+            
         ],
         "experiencias": [
             {
-                "empresa": "FIAP",
-                "tipo": "Tempo Integral",
-                "cargo": "Consultora de Carreira",
-                "inicio": "2020-01-01",
-                "fim": "Atual",
-                "local": "São Paulo, SP",
-                "descricao": "Responsável por..."
+                "empresa": "",
+                "tipo": "",
+                "cargo": "",
+                "inicio": "",
+                "fim": "",
+                "local": "",
+                "descricao": ""
             }
         ],
         "formacao": [
             {
-                "curso": "Pós-graduação em Tecnologia",
+                "curso": "Engenharia de Software",
                 "instituicao": "FIAP",
-                "ano": 2020
+                "ano": 2025
             }
         ],
-        "projetos": [],
-        "certificacoes": [],
+        "projetos": [
+            {
+                "titulo": "",
+                "link": "",
+                "descricao": ""
+            }
+        ],
+        "certificacoes": [
+            {
+                "curso" : "",
+                "instituicao" : "",
+                "duracao" : ""
+            }
+        ],
         "idiomas": [
             {
-                "idioma": "Português",
-                "nivel": "Nativo"
-            },
-            {
-                "idioma": "Inglês",
-                "nivel": "Avançado"
+                "idioma": "",
+                "nivel": ""
             }
         ],
         "areainteresses": [
-            "Acadêmico",
-            "Administrativo",
-            "Dados"
+            
         ],
-        "email": "argentino.almeida2409@fiap.com.br",
-        "senha": "240994fiap",
-        "dataNascimento": "1994-09-24",
-        "estrelas": 0
+        "email": "rm563271@fiap.com.br",
+        "senha": "250607fiap",
+        "dataNascimento": "2007-06-25"
     },
     {
         "id": 4,
-        "nome": "Naod Silveira",
+        "nome": "Guilherme de Araùjo",
         "genero": "Masculino",
-        "foto": "https://randomuser.me/api/portraits/men/60.jpg",
+        "foto": "https://media.licdn.com/dms/image/v2/D4E03AQFtkCAZ_d5qnA/profile-displayphoto-scale_400_400/B4EZee3LPLHwAk-/0/1750716955237?e=1764806400&v=beta&t=Glfjc2PoVHkAl3iQcsMUeYLEL4Rr0oAurFe4Z69k-OM",
         "banner": "",
-        "titulo": "Cientista de Dados | Foco em Gestão de Projetos",
-        "cargo": "Cientista de Dados",
-        "empresa": "FIAP",
-        "resumo": "Profissional com experiência na área de Segurança e atuação como Cientista de Dados na FIAP. Foco em Gestão de Projetos e inovação.",
+        "titulo" : "Software Engineer - FIAP | HTML | Tailwind CSS | JavaScript | Node.js | React | Python | C++ | SQL | Agile Methodologies",
+        "cargo": "Engenheiro de Software",
+        "empresa" : "FIAP",
+        "resumo": "Estudante de Engenharia de Software com foco em desenvolvimento, inteligência artificial e games. Possuo sólida proficiência em matemática e habilidades em JavaScript, CSS, HTML, Python, C++, React e conhecimento básico em SQL, aplicadas em projetos acadêmicos e desenvolvidas através de um forte espírito de trabalho em equipe. Com uma experiência de 6 meses nos Estados Unidos onde aperfeiçoei meu inglês, estou em busca de oportunidades para aplicar meus conhecimentos, continuar aprendendo e contribuir com soluções inovadoras em tecnologia.",
         "estado": "São Paulo",
         "pais": "Brasil",
-        "area": "Segurança",
-        "seguidores": 0,
-        "seguindo": 0,
+        "area": "Desenvolvimento",
+        "seguidores" : 0,
+        "seguindo" : 0,
         "competencias": [
-            "Comunicação",
-            "Cloud Computing",
-            "Segurança Cibernética",
-            "UX/UI"
+            
         ],
         "experiencias": [
             {
-                "empresa": "FIAP",
-                "tipo": "Tempo Integral",
-                "cargo": "Consultora de Carreira",
-                "inicio": "2020-01-01",
-                "fim": "Atual",
-                "local": "São Paulo, SP",
-                "descricao": "Responsável por..."
+                "empresa": "",
+                "tipo": "",
+                "cargo": "",
+                "inicio": "",
+                "fim": "",
+                "local": "",
+                "descricao": ""
             }
         ],
         "formacao": [
             {
-                "curso": "Pós-graduação em Tecnologia",
+                "curso": "Engenharia de Software",
                 "instituicao": "FIAP",
-                "ano": 2020
+                "ano": 2025
             }
         ],
-        "projetos": [],
-        "certificacoes": [],
+        "projetos": [
+            {
+                "titulo": "",
+                "link": "",
+                "descricao": ""
+            }
+        ],
+        "certificacoes": [
+            {
+                "curso" : "",
+                "instituicao" : "",
+                "duracao" : ""
+            }
+        ],
         "idiomas": [
             {
-                "idioma": "Português",
-                "nivel": "Nativo"
-            },
-            {
-                "idioma": "Inglês",
-                "nivel": "Avançado"
+                "idioma": "",
+                "nivel": ""
             }
         ],
         "areainteresses": [
-            "Design",
-            "Administrativo",
-            "Infraestrutura"
+            
         ],
-        "email": "naod.silveira1109@fiap.com.br",
-        "senha": "110977fiap",
-        "dataNascimento": "1977-09-11",
-        "estrelas": 0
+        "email": "rm561848@fiap.com.br",
+        "senha": "290905fiap",
+        "dataNascimento": "2005-09-29"
     },
     {
         "id": 5,
-        "nome": "Albano Pinto",
+        "nome": "Yan Barutti",
         "genero": "Masculino",
-        "foto": "https://randomuser.me/api/portraits/men/2.jpg",
+        "foto": "https://media.licdn.com/dms/image/v2/D4E03AQE3kGCzSZwfcQ/profile-displayphoto-scale_400_400/B4EZjKxWTiHEAg-/0/1755748591501?e=1764806400&v=beta&t=1uI9zwyEonl3CHLMG_mtY66yY-F2fjae3KfpUdga1Qo",
         "banner": "",
-        "titulo": "Especialista em Dados | Técnico de Laboratório de Hardware na FIAP",
-        "cargo": "Técnico de Laboratório de Hardware",
-        "empresa": "FIAP",
-        "resumo": "Profissional com experiência na área de Dados e atuação como Técnico de Laboratório de Hardware na FIAP. Foco em Comunicação e inovação.",
+        "titulo" : "Estudante de Engenharia de Software - FIAP | HTML | CSS | JS | Python",
+        "cargo": "Engenheiro de Software",
+        "empresa" : "FIAP",
+        "resumo": "",
         "estado": "São Paulo",
         "pais": "Brasil",
-        "area": "Dados",
-        "seguidores": 0,
-        "seguindo": 0,
+        "area": "Desenvolvimento",
+        "seguidores" : 0,
+        "seguindo" : 0,
         "competencias": [
-            "Cloud Computing",
-            "Análise de Dados",
-            "UX/UI",
-            "Segurança Cibernética"
+            
         ],
         "experiencias": [
             {
-                "empresa": "FIAP",
-                "tipo": "Tempo Integral",
-                "cargo": "Consultora de Carreira",
-                "inicio": "2020-01-01",
-                "fim": "Atual",
-                "local": "São Paulo, SP",
-                "descricao": "Responsável por..."
+                "empresa": "",
+                "tipo": "",
+                "cargo": "",
+                "inicio": "",
+                "fim": "",
+                "local": "",
+                "descricao": ""
             }
         ],
         "formacao": [
             {
-                "curso": "Pós-graduação em Tecnologia",
+                "curso": "Engenharia de Software",
                 "instituicao": "FIAP",
-                "ano": 2020
+                "ano": 2025
             }
         ],
-        "projetos": [],
-        "certificacoes": [],
+        "projetos": [
+            {
+                "titulo": "",
+                "link": "",
+                "descricao": ""
+            }
+        ],
+        "certificacoes": [
+            {
+                "curso" : "",
+                "instituicao" : "",
+                "duracao" : ""
+            }
+        ],
         "idiomas": [
             {
-                "idioma": "Português",
-                "nivel": "Nativo"
-            },
-            {
-                "idioma": "Inglês",
-                "nivel": "Avançado"
+                "idioma": "",
+                "nivel": ""
             }
         ],
         "areainteresses": [
-            "Acadêmico",
-            "Segurança",
-            "Administrativo",
-            "Design"
+            
         ],
-        "email": "albano.pinto1504@fiap.com.br",
-        "senha": "150499fiap",
-        "dataNascimento": "1999-04-15",
-        "estrelas": 0
+        "email": "rm566412@fiap.com.br",
+        "senha": "280906fiap",
+        "dataNascimento": "2006-09-28"
     },
     {
         "id": 6,
