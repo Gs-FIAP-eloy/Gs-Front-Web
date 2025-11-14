@@ -734,6 +734,10 @@
     gap: 20px;
 }
 
+.skills hr{
+    margin-top: 20px;
+}
+
 .skill h1 {
     margin-top: 5px;
     font-size: 1rem;
