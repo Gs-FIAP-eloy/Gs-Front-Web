@@ -4,10 +4,10 @@ const HeaderCard = ({ title, btnPlus }) => {
         <section className="header-card">
             <h1>{title}</h1>
             <section className="btns-header-card">
-                {btnPlus == 'true' && (
-                    <button><button><i className="fa-solid fa-plus"></i></button></button>
+                {btnPlus == true && (
+                    <button><i className="fa-solid fa-plus"></i></button>
                 )}
-                <button><button><i className="fa-solid fa-pencil"></i></button></button>
+                <button><i className="fa-solid fa-pencil"></i></button>
             </section>
         </section>
     )

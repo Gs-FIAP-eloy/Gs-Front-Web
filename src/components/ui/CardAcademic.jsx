@@ -5,8 +5,8 @@ const CardAcademic = () => {
             <section className="header-card">
                 <h1>Formação acadêmica</h1>
                 <section className="btns-header-card">
-                    <button><button><i className="fa-solid fa-plus"></i></button></button>
-                    <button><button><i className="fa-solid fa-pencil"></i></button></button>
+                    <button><i className="fa-solid fa-plus"></i></button>
+                    <button><i className="fa-solid fa-pencil"></i></button>
                 </section>
             </section>
             <section className="ctn-academics">

@@ -3,7 +3,7 @@ import HeaderCard from "./HeaderCard"
 const CardProjects = () => {
     return (
         <section className="ctn-card">
-            <HeaderCard title='Projetos' btnPlus='true' />
+            <HeaderCard title='Projetos' btnPlus />
             <section className="ctn-projects">
                 <article className="project">
                     <h1>Graham AI</h1>

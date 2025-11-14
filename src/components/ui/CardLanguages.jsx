@@ -5,8 +5,8 @@ const CardLanguages = () => {
             <section className="header-card">
                 <h1>Idiomas</h1>
                 <section className="btns-header-card">
-                    <button><button><i className="fa-solid fa-plus"></i></button></button>
-                    <button><button><i className="fa-solid fa-pencil"></i></button></button>
+                    <button><i className="fa-solid fa-plus"></i></button>
+                    <button><i className="fa-solid fa-pencil"></i></button>
                 </section>
             </section>
             <section className="ctn-languages">
