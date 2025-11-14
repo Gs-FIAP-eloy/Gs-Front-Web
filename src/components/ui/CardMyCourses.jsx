@@ -1,42 +1,53 @@
-import HeaderCard from "./HeaderCard"
+import { useEffect, useState } from "react";
+import HeaderCard from "./HeaderCard";
 
 const CardMyCourses = () => {
+
+    const [certificacoes, setCertificacoes] = useState([]);
+
+    useEffect(() => {
+        const user = localStorage.getItem("eloy_user");
+        if (!user) return;
+
+        const usuarioLogado = JSON.parse(user);
+
+        fetch("/db/users.json")
+            .then(res => res.json())
+            .then(data => {
+                if (Array.isArray(data)) {
+                    const userData = data.find(u => u.id === usuarioLogado.id);
+
+                    if (Array.isArray(userData?.certificacoes)) {
+                        setCertificacoes(userData.certificacoes);
+                    }
+                }
+            })
+            .catch(err => console.error("Erro ao carregar JSON:", err));
+    }, []);
+
     return (
         <section className="ctn-card">
             <HeaderCard title='Meus cursos' btnPlus />
+
             <section className="ctn-my-courses">
-                <article className="course">
-                    <h1>Front-End</h1>
-                    <h2>FIAP</h2>
-                    <h3>80 Horas</h3>
-                </article>
 
-                <hr />
+                {certificacoes.map((item, index) =>
+                    item?.curso && (
+                        <div key={index} className="courses">
+                            <article className="course">
+                                <h1>{item.curso}</h1>
+                                <h2>{item.instituicao}</h2>
+                                <h3>{item.duracao}</h3>
+                            </article>
 
-                <article className="course">
-                    <h1>Cyber sec.</h1>
-                    <h2>FIAP</h2>
-                    <h3>90 Horas</h3>
-                </article>
+                            {index < certificacoes.length - 1 && <hr />}
+                        </div>
+                    )
+                )}
 
-                <hr />
-
-                <article className="course">
-                    <h1>Python</h1>
-                    <h2>FIAP</h2>
-                    <h3>40 Horas</h3>
-                </article>
-
-                <hr />
-
-                <article className="course">
-                    <h1>AWS Certified Data Analytics</h1>
-                    <h2>FIAP</h2>
-                    <h3>180 Horas</h3>
-                </article>
             </section>
         </section>
-    )
-}
+    );
+};
 
-export default CardMyCourses
+export default CardMyCourses;

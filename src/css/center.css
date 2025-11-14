@@ -621,7 +621,11 @@
 .ctn-my-courses {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
+}
+
+.courses hr{
+    margin-top: 20px;
 }
 
 .course h1 {
@@ -673,7 +677,7 @@
 .ctn-languages {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
 }
 
 .languages hr{
@@ -695,7 +699,7 @@
 .ctn-experiences {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
 }
 
 .experience h1 {
@@ -734,7 +738,7 @@
 .ctn-skills {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
 }
 
 .skill h1 {
@@ -747,7 +751,7 @@
 .ctn-projects {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
 }
 
 .project h1 {

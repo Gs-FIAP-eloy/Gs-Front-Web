@@ -50,8 +50,17 @@
             }
         ],
         "certificacoes": [
-            "Python",
-            "Front-End"
+            {
+                "curso" : "Front-End",
+                "instituicao" : "FIAP",
+                "duracao" : "40 Horas"
+            },
+
+            {
+                "curso" : "Python",
+                "instituicao" : "FIAP",
+                "duracao" : "80 Horas"
+            }
         ],
         "idiomas": [
             {
