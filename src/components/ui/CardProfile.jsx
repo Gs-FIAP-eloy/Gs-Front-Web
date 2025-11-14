@@ -26,7 +26,7 @@ const CardProfile = () => {
 
     const tituloLimite = (text) => {
         if (!text) return "";
-        return text.length > 50 ? text.substring(0, 50) + "..." : text;
+        return text.length > 62 ? text.substring(0, 62) + "..." : text;
     };
 
     const bannerSrc = userData.banner && userData.banner.trim() !== ""

@@ -22,10 +22,14 @@ const ContentProfile = () => {
 
     if (!userData) return null;
 
+    const profileImg = userData.foto !== "" 
+        ? userData.foto 
+        : "src/assets/img/img-profile-default.png";
+
     return (
         <section className="content-profile">
             <article className="img-profile">
-                <img src={userData.foto} alt={userData.nome} />
+                <img src={profileImg} alt={userData.nome} />
             </article>
             <section className="content-info-profile">
                 <section className="left-content-profile">

@@ -395,7 +395,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 190px;
+    height: 200px;
+    overflow: hidden;
 }
 
 .banner-profile img {
@@ -405,7 +406,7 @@
 }
 
 .content-profile {
-    margin-top: -110px;
+    margin-top: -140px;
     padding: 25px;
 }
 
@@ -417,11 +418,12 @@
     display: flex;
     width: 170px;
     border-radius: 50%;
-    border: 5px solid var(--background-card);
+    border: 5.5px solid var(--background-card);
 }
 
 .content-info-profile {
     display: flex;
+    justify-content: space-between;
 }
 
 .user-name {

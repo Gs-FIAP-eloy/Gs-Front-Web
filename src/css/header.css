@@ -92,7 +92,7 @@ nav ul li a {
     align-items: center;
     width: 80px;
     padding: 20px 10px 10px 10px;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     gap: 5px;
     color: #8a8a8a;
     transition: var(--transition-2s);

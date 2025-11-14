@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 const BannerProfile = () => {
-
   const [banner, setBanner] = useState("");
 
   useEffect(() => {
@@ -16,8 +15,10 @@ const BannerProfile = () => {
         if (Array.isArray(data)) {
           const userData = data.find(u => u.id === usuarioLogado.id);
 
-          if (userData?.banner) {
+          if (userData?.banner && userData.banner !== "") {
             setBanner(userData.banner);
+          } else {
+            setBanner("src/assets/img/img-banner-default.png");
           }
         }
       })
@@ -26,7 +27,7 @@ const BannerProfile = () => {
 
   return (
     <section className="banner-profile">
-      <img src={banner} />
+      <img src={banner} alt="Banner do usuário" />
     </section>
   );
 };

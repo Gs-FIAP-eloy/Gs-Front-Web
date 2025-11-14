@@ -54,16 +54,16 @@
 }
 
 .user-card-profile h2{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 300;
-    color: #ababab;
+    color: #969696;
     cursor: pointer;
 }
 
 .user-card-profile h3{
     margin-top: 10px;
-    font-size: 0.9rem;
-    font-weight: 500;
+    font-size: 0.8rem;
+    font-weight: 400;
     cursor: pointer;
     color: #dcdcdc;
 }
@@ -83,8 +83,8 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    font-size: 0.9rem;
-    font-weight: 500;
+    font-size: 0.85rem;
+    font-weight: 400;
     color: #cdcdcd;
     cursor: pointer;
 }
