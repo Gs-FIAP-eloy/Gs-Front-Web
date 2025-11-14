@@ -21,11 +21,13 @@
         ],
         "experiencias": [
             {
-                "empresa": "FIAP",
-                "cargo": "Engenheiro de Software",
-                "inicio": "2025",
-                "fim": "atual",
-                "descricao": "Atuação no setor de desenvolvimento web."
+                "empresa": "",
+                "tipo": "",
+                "cargo": "",
+                "inicio": "",
+                "fim": "",
+                "local": "",
+                "descricao": ""
             }
         ],
         "formacao": [

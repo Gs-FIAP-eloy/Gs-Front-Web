@@ -720,6 +720,13 @@
     color: #999999;
 }
 
+.experience p {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: var(--light-color);
+}
+
 .ctn-skills {
     display: flex;
     flex-direction: column;

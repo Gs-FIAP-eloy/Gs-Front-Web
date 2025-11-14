@@ -1,29 +1,65 @@
-import HeaderCard from "./HeaderCard"
+import { useEffect, useState } from "react";
+import HeaderCard from "./HeaderCard";
 
 const CardExperiences = () => {
+
+    const [experiencias, setExperiencias] = useState([]);
+
+    useEffect(() => {
+        const user = localStorage.getItem("eloy_user");
+        if (!user) return;
+
+        const usuarioLogado = JSON.parse(user);
+
+        fetch("/db/users.json")
+            .then(res => res.json())
+            .then(data => {
+                if (Array.isArray(data)) {
+                    const userData = data.find(u => u.id === usuarioLogado.id);
+
+                    if (Array.isArray(userData?.experiencias)) {
+                        setExperiencias(userData.experiencias);
+                    }
+                }
+            })
+            .catch(err => console.error("Erro ao carregar JSON:", err));
+    }, []);
+
+    const hasContent = (obj) => {
+        if (!obj) return false;
+
+        return Object.values(obj).some(value => {
+            if (typeof value === "string" && value.trim() !== "") return true;
+
+            if (typeof value === "number") return true;
+
+            return false;
+        });
+    };
+
     return (
         <section className="ctn-card">
             <HeaderCard title='Experiencias' btnPlus />
+
             <section className="ctn-experiences">
-                <article className="experience">
-                    <h1>Founder & CEO</h1>
-                    <h2>Graham AI • Tempo integral</h2>
-                    <h3>Jul de 2025 - Atual </h3>
-                    <h4>São Paulo, Brasil</h4>
-                </article>
+                {experiencias.map((item, index) => (
+                    hasContent(item) && (
+                        <div key={index}>
+                            <article className="experience">
+                                <h1>{item.cargo}</h1>
+                                <h2>{item.empresa} • {item.tipo}</h2>
+                                <h3>{item.inicio} - {item.fim}</h3>
+                                <h4>{item.local}</h4>
+                                <p>{item.descricao}</p>
+                            </article>
 
-                <hr />
-
-                <article className="experience">
-                    <h1>Founder</h1>
-                    <h2>ZYNE • Tempo integral</h2>
-                    <h3>Jul de 2025 - Atual </h3>
-                    <h4>São Paulo, Brasil</h4>
-                </article>
-
+                            {index < experiencias.length - 1 && <hr />}
+                        </div>
+                    )
+                ))}
             </section>
         </section>
-    )
-}
+    );
+};
 
-export default CardExperiences
+export default CardExperiences;
