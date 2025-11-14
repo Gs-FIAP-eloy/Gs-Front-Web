@@ -1,56 +1,61 @@
+import { useEffect, useState } from "react";
 
 const CardNewslatter = () => {
+
+    const [news, setNews] = useState([]);
+
+    useEffect(() => {
+        async function loadNews() {
+            try {
+                const response = await fetch(
+                    `https://newsapi.org/v2/everything?q=mercado&language=pt&sortBy=publishedAt&pageSize=10&apiKey=${import.meta.env.VITE_NEWS_API_KEY}`
+                );
+
+                const data = await response.json();
+
+                if (data.articles) {
+                    setNews(data.articles);
+                }
+            } catch (error) {
+                console.error("Erro ao buscar notícias:", error);
+            }
+        }
+
+        loadNews();
+    }, []);
+
+    const limitTitle = (title) => {
+        if (!title) return "";
+        return title.length > 25 ? title.slice(0, 25) + "..." : title;
+    };
+
     return (
         <article className="newslatter">
             <section className="header-newslatter">
                 <h1>eloy Notícias</h1>
                 <button><i className="fa-solid fa-info"></i></button>
             </section>
+
             <section className="ctn-cards-news">
-                <a href="" target="_blank" className="card-news">
-                    <h1>Começa a COP30</h1>
-                    <section className="sub-card-news">
-                        <h2>Há 1h • Meio ambiente</h2>
-                    </section>
-                </a>
 
-                <a href="" target="_blank" className="card-news">
-                    <h1>mega voz, sem voz</h1>
-                    <section className="sub-card-news">
-                        <h2>Há 9h • Notícia</h2>
-                    </section>
-                </a>
+                {news.map((n, index) => (
+                    <a 
+                        key={index}
+                        href={n.url}
+                        target="_blank"
+                        className="card-news"
+                    >
+                        <h1>{limitTitle(n.title)}</h1>
 
-                <a href="" target="_blank" className="card-news">
-                    <h1>Samuel se assume gay</h1>
-                    <section className="sub-card-news">
-                        <h2>Há 10h • Notícia</h2>
-                    </section>
-                </a>
+                        <section className="sub-card-news">
+                            <h2>Há {new Date(n.publishedAt).toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" })} • {n.source?.name}</h2>
+                        </section>
+                    </a>
+                ))}
 
-                <a href="" target="_blank" className="card-news">
-                    <h1>vms ganhar a G.s</h1>
-                    <section className="sub-card-news">
-                        <h2>Há 18h • Fato</h2>
-                    </section>
-                </a>
-
-                <a href="" target="_blank" className="card-news">
-                    <h1>conte ate 10</h1>
-                    <section className="sub-card-news">
-                        <h2>Há 23h • Tecnologia</h2>
-                    </section>
-                </a>
-
-                <a href="" target="_blank" className="card-news">
-                    <h1>pelo no cu</h1>
-                    <section className="sub-card-news">
-                        <h2>Há 1d • Tecnologia</h2>
-                    </section>
-                </a>
             </section>
         </article>
-    )
+    );
 }
 
-export default CardNewslatter
+export default CardNewslatter;
