@@ -1,23 +1,42 @@
-import HeaderCard from "./HeaderCard"
+import { useEffect, useState } from "react";
+import HeaderCard from "./HeaderCard";
 
 const CardInterests = () => {
+
+  const [interesses, setInteresses] = useState([]);
+
+  useEffect(() => {
+    const user = localStorage.getItem("eloy_user");
+    if (!user) return;
+
+    const usuarioLogado = JSON.parse(user);
+
+    fetch("/db/users.json")
+      .then(res => res.json())
+      .then(data => {
+        if (Array.isArray(data)) {
+          const userData = data.find(u => u.id === usuarioLogado.id);
+
+          if (userData && userData.areainteresses) {
+            setInteresses(userData.areainteresses);
+          }
+        }
+      })
+      .catch(err => console.error("Erro ao carregar interesses:", err));
+  }, []);
+
   return (
     <section className="ctn-card">
       <HeaderCard title='Interesses' />
       <section className="ctn-interests">
-        <p className="interests">IA</p>
-        <p className="interests">Desenvolvimento</p>
-        <p className="interests">Back-End</p>
-        <p className="interests">Front-End</p>
-        <p className="interests">Web</p>
-        <p className="interests">Security</p>
-        <p className="interests">Mobile</p>
-        <p className="interests">Web</p>
-        <p className="interests">Security</p>
-        <p className="interests">Mobile</p>
+
+        {interesses.map((item, index) => (
+          <p key={index} className="interests">{item}</p>
+        ))}
+
       </section>
     </section>
-  )
-}
+  );
+};
 
-export default CardInterests
+export default CardInterests;
