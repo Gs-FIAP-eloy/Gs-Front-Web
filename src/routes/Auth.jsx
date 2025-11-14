@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import { useState } from 'react'
 import '../css/auth.css'
 import logo from '../assets/img/logo.png'
@@ -8,6 +9,8 @@ const Auth = () => {
     const [senha, setSenha] = useState("");
     const [erro, setErro] = useState("");
     const [mostrarSenha, setMostrarSenha] = useState(false);
+    const navigate = useNavigate();
+
 
     async function handleLogin() {
 
@@ -33,7 +36,8 @@ const Auth = () => {
             localStorage.setItem("eloy_user", JSON.stringify(userFound));
 
 
-            window.location.href = "/feed";
+            navigate("/feed");
+
 
         } catch (error) {
             console.error(error);
