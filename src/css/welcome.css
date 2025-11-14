@@ -75,6 +75,10 @@
     font-weight: 500;
 }
 
+.content-left-welcome a:hover{
+    text-decoration: underline;
+}
+
 .content-left-welcome h1{
     margin-bottom: 15px;
     width: 550px;

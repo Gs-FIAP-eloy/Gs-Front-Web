@@ -13,6 +13,7 @@ import Notifications from "./routes/Notifications"
 import Profile from "./routes/Profile"
 import Footer from "./components/Footer"
 import Devs from "./routes/Devs"
+import Auth from "./routes/Auth"
 function App() {
 
   ChangeIcon();
@@ -23,6 +24,7 @@ function App() {
       <ChangeTitle />
       <Routes>
         <Route path="/welcome" element={<Welcome />} />
+        <Route path="/auth" element={<Auth />} />
         <Route path="*" element={<Error />} />
         <Route path="/" element={<Navigate to="/feed" replace />} />
         <Route path="/feed" element={<Feed />} />
