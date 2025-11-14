@@ -7,7 +7,7 @@ const CardAds = () => {
       <section className="content-ad">
         <h1>Graham Ai v1.3</h1>
         <h2>Nova versão do Graham AI ja disponivel. De Graça! Clique em Saiba mais e descubra o poder de estar no controle.</h2>
-        <Link>Saiba mais</Link>
+        <Link to='https://graham-ai-page.vercel.app/' target="_blank">Saiba mais</Link>
       </section>
     </article>
   )
