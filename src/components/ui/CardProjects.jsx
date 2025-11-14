@@ -1,31 +1,57 @@
-import HeaderCard from "./HeaderCard"
+import { useEffect, useState } from "react";
+import HeaderCard from "./HeaderCard";
 
 const CardProjects = () => {
+
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+        const user = localStorage.getItem("eloy_user");
+        if (!user) return;
+
+        const usuarioLogado = JSON.parse(user);
+
+        fetch("/db/users.json")
+            .then(res => res.json())
+            .then(data => {
+                if (Array.isArray(data)) {
+                    const userData = data.find(u => u.id === usuarioLogado.id);
+
+                    if (Array.isArray(userData?.projetos)) {
+                        setProjects(userData.projetos);
+                    }
+                }
+            })
+            .catch(err => console.error("Erro ao carregar JSON:", err));
+    }, []);
+
     return (
         <section className="ctn-card">
             <HeaderCard title='Projetos' btnPlus />
+
             <section className="ctn-projects">
-                <article className="project">
-                    <h1>Graham AI</h1>
-                    <a href="" target="_blank">graham.ai</a>
-                    <p>Plataforma de IA open-source para interação contextual em tempo real,
-                        utilizando React (frontend) e Node.js (backend). Integra NLP avançado via DeepSeek AI,
-                        demonstrando proficiência em desenvolvimento full-stack e inovação na interação humanoIA.</p>
-                </article>
 
-                <hr />
+                {projects.map((item, index) =>
+                    item?.titulo && (
+                        <div key={index} className="projects">
+                            <article className="project">
+                                <h1>{item.titulo}</h1>
+                                {item.link && (
+                                    <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                        {item.link}
+                                    </a>
+                                )}
+                                <p>{item.descricao}</p>
+                            </article>
 
-                <article className="project">
-                    <h1>CvHub</h1>
-                    <a href="" target="_blank">cvhub.com</a>
-                    <p>Gera currículos otimizados para ATS a partir de dados do GitHub. Utiliza
-                        integração de APIs e automação para criar perfis profissionais, conectando tecnologia e
-                        empregabilidade.</p>
-                </article>
+                            {index < projects.length - 1 && <hr />}
+                        </div>
+                    )
+                )}
 
             </section>
         </section>
-    )
-}
+    );
+};
 
-export default CardProjects
+export default CardProjects;
