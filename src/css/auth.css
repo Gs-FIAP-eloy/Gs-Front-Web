@@ -75,6 +75,7 @@
 }
 
 .input-auth .btn-right-input:hover{
+    color: var(--light-color);
     background: transparent;
 }
 
@@ -94,7 +95,6 @@
     font-weight: 500;
     color: #004b96;
 }
-
 
 .ctn-auth a:hover{
     text-decoration: underline;
@@ -123,8 +123,9 @@
     cursor: pointer;
 }
 
-.ctn-auth button:hover{
+.ctn-auth .active:hover{
     background: #004b96;
+    color: var(--light-color);
 }
 
 .line-auth{
@@ -155,9 +156,18 @@
     gap: 7px;
 }
 
+.ctn-auth button:hover{
+    background: var(--light-color);
+    color: var(--dark-color);
+}
+
 .ctn-auth h2{
     margin-top: 30px;
     text-align: center;
     font-size: 0.85rem;
     font-weight: 300;
+}
+
+.ctn-auth .msg-erro{
+    color: #ae3939;
 }
