@@ -30,15 +30,10 @@ const Auth = () => {
                 return setErro("Email ou senha incorretos.");
             }
 
-            localStorage.setItem("eloy_user", JSON.stringify({
-                id: userFound.id,
-                nome: userFound.nome,
-                email: userFound.email,
-                cargo: userFound.cargo,
-                empresa: userFound.empresa,
-            }));
+            localStorage.setItem("eloy_user", JSON.stringify(userFound));
 
-            window.location.href = "/home";
+
+            window.location.href = "/feed";
 
         } catch (error) {
             console.error(error);
