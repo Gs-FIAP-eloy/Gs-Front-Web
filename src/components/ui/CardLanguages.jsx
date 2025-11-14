@@ -1,29 +1,60 @@
+import { useEffect, useState } from "react";
+import HeaderCard from "./HeaderCard";
 
 const CardLanguages = () => {
+
+    const [idiomas, setIdiomas] = useState([]);
+
+    useEffect(() => {
+        const user = localStorage.getItem("eloy_user");
+        if (!user) return;
+
+        const usuarioLogado = JSON.parse(user);
+
+        fetch("/db/users.json")
+            .then(res => res.json())
+            .then(data => {
+                if (Array.isArray(data)) {
+                    const userData = data.find(u => u.id === usuarioLogado.id);
+
+                    if (Array.isArray(userData?.idiomas)) {
+                        setIdiomas(userData.idiomas);
+                    }
+                }
+            })
+            .catch(err => console.error("Erro ao carregar JSON:", err));
+    }, []);
+
+    const hasContent = (obj) => {
+        if (!obj) return false;
+
+        return Object.values(obj).some(value => {
+            if (typeof value === "string" && value.trim() !== "") return true;
+            if (typeof value === "number") return true;
+            return false;
+        });
+    };
+
     return (
         <section className="ctn-card">
-            <section className="header-card">
-                <h1>Idiomas</h1>
-                <section className="btns-header-card">
-                    <button><i className="fa-solid fa-plus"></i></button>
-                    <button><i className="fa-solid fa-pencil"></i></button>
-                </section>
-            </section>
+            <HeaderCard title='Idiomas' btnPlus/>
             <section className="ctn-languages">
-                <article className="language">
-                    <h1>Português</h1>
-                    <h2>Nativo</h2>
-                </article>
+                {idiomas.map((item, index) =>
+                    hasContent(item) && (
+                        <div key={index} className="languages">
+                            <article className="language">
+                                <h1>{item.idioma}</h1>
+                                <h2>{item.nivel}</h2>
+                            </article>
 
-                <hr />
-
-                <article className="language">
-                    <h1>Ingles</h1>
-                    <h2>Intermediário</h2>
-                </article>
+                            {index < idiomas.length - 1 && <hr />}
+                        </div>
+                    )
+                )}
             </section>
-        </section>
-    )
-}
 
-export default CardLanguages
+        </section>
+    );
+};
+
+export default CardLanguages;

@@ -676,6 +676,10 @@
     gap: 25px;
 }
 
+.languages hr{
+    margin-top: 20px;
+}
+
 .language h1 {
     font-size: 1.1rem;
     font-weight: 500;
