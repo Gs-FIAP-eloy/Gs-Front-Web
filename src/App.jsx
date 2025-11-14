@@ -4,6 +4,7 @@ import ChangeTitle from './hook/ChangeTitle'
 import Header from "./components/Header"
 import Icon from "./components/Icon"
 
+import Welcome from "./routes/Welcome"
 import Error from "./routes/Error"
 import Feed from "./routes/Feed"
 import Chat from "./routes/Chat"
@@ -21,6 +22,7 @@ function App() {
       <Header />
       <ChangeTitle />
       <Routes>
+        <Route path="/welcome" element={<Welcome />} />
         <Route path="*" element={<Error />} />
         <Route path="/" element={<Navigate to="/feed" replace />} />
         <Route path="/feed" element={<Feed />} />

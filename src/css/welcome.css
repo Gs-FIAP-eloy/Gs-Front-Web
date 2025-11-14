@@ -1,0 +1,141 @@
+.ctn-page-welcome{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: var(--background);
+    z-index: 20;
+}
+
+.header-page-welcome{
+    background: var(--background);
+    border: none;
+    padding: 17px;
+    gap: 940px;
+}
+
+.header-page-welcome img{
+    display: flex;
+    width: 100px;
+}
+
+.btns-header-welcome{
+    display: flex;
+    gap: 20px;
+}
+
+.btns-header-welcome button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1px solid var(--primary-color);
+    background: transparent;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.btns-header-welcome button:hover{
+    color: #004b96;
+    border-color: #004b96;
+}
+
+.btns-header-welcome .active{
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.btns-header-welcome .active:hover{
+    border-color: #004b96;
+    background: #004b96;
+    color: #fff;
+}
+
+.content-welcome{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 90px 20px 0px 70px;
+    gap: 130px;
+    overflow: hidden;
+}
+
+.content-left-welcome{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-left-welcome a{
+    color: #004b96;
+    font-weight: 500;
+}
+
+.content-left-welcome h1{
+    margin-bottom: 15px;
+    width: 550px;
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 73px;
+    letter-spacing: 1px;
+}
+
+.content-left-welcome p{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 300;
+    width: 450px;
+    color: #969696;
+}
+
+.content-left-welcome button{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 470px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid var(--light-color);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--light-color);
+    background: transparent;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.content-left-welcome button:hover{
+    background: var(--light-color);
+    color: var(--dark-color);
+}
+
+.content-left-welcome h2{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 15px;
+    display: flex;
+    max-width: fit-content;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid var(--light-color);
+    color: var(--light-color);
+    gap: 5px;
+    cursor: pointer;
+}
+
+.content-left-welcome h2:hover{
+    background: var(--light-color);
+    color: var(--dark-color);
+    font-weight: 500;
+}
+
+.img-right-welcome img{
+    display: flex;
+    width: 550px;
+}
