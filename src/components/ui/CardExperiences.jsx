@@ -39,7 +39,7 @@ const CardExperiences = () => {
 
     return (
         <section className="ctn-card">
-            <HeaderCard title='Experiencias' btnPlus />
+            <HeaderCard title='Experiencias' btnPlus to='experiences' />
 
             <section className="ctn-experiences">
                 {experiencias.map((item, index) => (

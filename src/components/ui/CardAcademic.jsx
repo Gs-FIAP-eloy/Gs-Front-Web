@@ -27,7 +27,7 @@ const CardAcademic = () => {
 
     return (
         <section className="ctn-card">
-            <HeaderCard title='Formação Acadêmica' btnPlus />
+            <HeaderCard title='Formação Acadêmica' btnPlus to='academic' />
 
             <section className="ctn-academics">
                 {formacao.map((item, index) => (

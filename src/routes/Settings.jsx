@@ -1,10 +1,13 @@
 import '../css/setting.css'
+import '../css/content-settings.css'
 import AsideSettings from '../components/ui/AsideSettings'
 import HeaderSettings from '../components/ui/HeaderSettings'
-import Introduction from '../components/ui/Introduction'
 import { Outlet } from 'react-router-dom'
+import useAuthRedirect from '../hook/useAuthRedirect'
 
 const Settings = () => {
+
+  useAuthRedirect();
 
   return (
     <section className='content'>

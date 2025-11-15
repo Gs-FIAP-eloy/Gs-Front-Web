@@ -27,7 +27,7 @@ const CardInterests = () => {
 
   return (
     <section className="ctn-card">
-      <HeaderCard title='Interesses' />
+      <HeaderCard title='Interesses' to='interests' />
       <section className="ctn-interests">
 
         {interesses.map((item, index) => (

@@ -38,7 +38,18 @@ function App() {
 
         <Route path="/settings" element={<Settings />} >
           <Route path="introduction" element={<Introduction />} />
-          <Route path="introduction" element={<Introduction />} />
+          <Route path="interests" element={<Introduction />} />
+          <Route path="about" element={<Introduction />} />
+          <Route path="Experiences" element={<Introduction />} />
+          <Route path="academic" element={<Introduction />} />
+          <Route path="projects" element={<Introduction />} />
+          <Route path="courses" element={<Introduction />} />
+          <Route path="languages" element={<Introduction />} />
+          <Route path="skills" element={<Introduction />} />
+          <Route path="appearance" element={<Introduction />} />
+          <Route path="accessibility" element={<Introduction />} />
+          <Route path="terms and Privacy" element={<Introduction />} />
+          <Route path="support" element={<Introduction />} />
         </Route>
 
       </Routes>

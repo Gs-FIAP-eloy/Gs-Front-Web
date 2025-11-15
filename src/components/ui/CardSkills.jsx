@@ -26,7 +26,7 @@ const CardSkills = () => {
 
     return (
         <section className="ctn-card">
-            <HeaderCard title='Competências' btnPlus />
+            <HeaderCard title='Competências' btnPlus to='skills' />
 
             <section className="ctn-skills">
                 {skills.length > 0 && skills.map((skill, index) =>

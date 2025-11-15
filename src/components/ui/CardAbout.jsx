@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import HeaderCard from "./HeaderCard";
 
 const CardAbout = () => {
 
@@ -28,10 +29,7 @@ const CardAbout = () => {
 
     return (
         <section className="ctn-about">
-            <section className="header-card-about">
-                <h1>Sobre</h1>
-                <button><i className="fa-solid fa-pencil"></i></button>
-            </section>
+            <HeaderCard title='Sobre' to='about'/>
 
             <article className="about">
                 <p>{sobre}</p>

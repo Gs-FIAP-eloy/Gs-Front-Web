@@ -37,7 +37,7 @@ const CardLanguages = () => {
 
     return (
         <section className="ctn-card">
-            <HeaderCard title='Idiomas' btnPlus/>
+            <HeaderCard title='Idiomas' btnPlus to='languages' />
             <section className="ctn-languages">
                 {idiomas.map((item, index) =>
                     hasContent(item) && (

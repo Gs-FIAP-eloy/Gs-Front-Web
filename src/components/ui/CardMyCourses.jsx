@@ -27,7 +27,7 @@ const CardMyCourses = () => {
 
     return (
         <section className="ctn-card">
-            <HeaderCard title='Meus cursos' btnPlus />
+            <HeaderCard title='Meus cursos' btnPlus to='courses' />
 
             <section className="ctn-my-courses">
 

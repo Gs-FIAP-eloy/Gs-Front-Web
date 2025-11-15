@@ -602,15 +602,25 @@
 
 .btns-header-card {
     display: flex;
-    gap: 25px;
+    gap: 15px;
 }
 
 .btns-header-card button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
     font-size: 0.9rem;
     border: none;
+    border-radius: 50%;
     background: transparent;
     color: #b3b3b3;
     cursor: pointer;
+}
+
+.btns-header-card button:hover{
+    background: #131313;
 }
 
 .ctn-my-courses {
