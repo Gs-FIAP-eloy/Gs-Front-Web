@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const ContentProfile = () => {
     const [userData, setUserData] = useState(null);
+
+    const navigate = useNavigate();
 
     useEffect(() => {
         const user = localStorage.getItem("eloy_user");
@@ -55,7 +58,7 @@ const ContentProfile = () => {
             </section>
 
             <section className="btn-content-profile">
-                <button className="active">Editar perfil</button>
+                <button onClick={() => navigate("/settings/introduction")} className="active">Editar perfil</button>
                 <button>Compartilhar perfil</button>
             </section>
         </section>

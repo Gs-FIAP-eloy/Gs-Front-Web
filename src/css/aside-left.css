@@ -18,15 +18,15 @@
 
 .banner-card-profile{
     display: flex;
-    align-items: center;
     justify-content: center;
     height: 70px;
+    overflow: hidden;
 }
 
 .banner-card-profile img{
     display: flex;
     width: fit-content;
-    height: 100%;
+    height: 85px;
     cursor: pointer;
 }
 

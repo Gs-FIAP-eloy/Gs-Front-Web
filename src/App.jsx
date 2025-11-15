@@ -14,6 +14,8 @@ import Profile from "./routes/Profile"
 import Footer from "./components/Footer"
 import Devs from "./routes/Devs"
 import Auth from "./routes/Auth"
+import Settings from "./routes/Settings"
+import Introduction from "./components/ui/Introduction"
 function App() {
 
   ChangeIcon();
@@ -33,6 +35,12 @@ function App() {
         <Route path="/notifications" element={<Notifications />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/developers" element={<Devs />} />
+
+        <Route path="/settings" element={<Settings />} >
+          <Route path="introduction" element={<Introduction />} />
+          <Route path="introduction" element={<Introduction />} />
+        </Route>
+
       </Routes>
       <Icon />
       <Footer />
