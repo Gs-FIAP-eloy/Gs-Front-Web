@@ -251,7 +251,6 @@
     border-radius: var(--border);
 }
 
-
 .interests p{
     display: flex;
     padding: 3px 15px;
@@ -260,4 +259,31 @@
     font-size: 0.85rem;
     color: var(--light-color);
     background: #121212;
+}
+
+.change-about{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.change-about label{
+    font-size: 1rem;
+}
+
+.change-about textarea{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    padding: 5px 8px;
+    outline: none;
+    border: none;
+    resize: none;
+    border-radius: 3px;
+    background: #151515;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--light-color);
+    line-height: 17px;
 }
