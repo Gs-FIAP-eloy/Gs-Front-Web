@@ -41,6 +41,16 @@
     color: #969696;
 }
 
+.content-change h1{
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.content-change hr{
+    border: 1px solid var(--border-color);
+}
+
 .change-img-profile {
     display: flex;
     gap: 25px;
@@ -286,4 +296,57 @@
     font-weight: 400;
     color: var(--light-color);
     line-height: 17px;
+}
+
+.ctn-change-experiences{
+    display: flex;
+    flex-direction: column;
+}
+
+.ctn-add-experiences{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ctn-add-experiences label{
+    margin-top: 7px;
+    font-size: 1rem;
+}
+
+.ctn-add-experiences input{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding: 5px 8px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: #151515;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--light-color);
+}
+
+.ctn-add-experiences textarea{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    width: 850px;
+    height: 200px;
+    padding: 5px 8px;
+    outline: none;
+    border: none;
+    resize: none;
+    border-radius: 3px;
+    background: #151515;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--light-color);
+    line-height: 17px;
+}
+
+.ctn-my-experiences hr{
+    margin: 20px 0;
 }
