@@ -23,6 +23,7 @@ import Academic from "./components/ui/Academic"
 import Projects from "./components/ui/Projects"
 import Courses from "./components/ui/Courses"
 import Languages from "./components/ui/Languages"
+import Skills from "./components/ui/Skills"
 function App() {
 
   ChangeIcon();
@@ -52,7 +53,7 @@ function App() {
           <Route path="projects" element={<Projects />} />
           <Route path="courses" element={<Courses />} />
           <Route path="languages" element={<Languages />} />
-          <Route path="skills" element={<Introduction />} />
+          <Route path="skills" element={<Skills />} />
           <Route path="appearance" element={<Introduction />} />
           <Route path="accessibility" element={<Introduction />} />
           <Route path="terms and Privacy" element={<Introduction />} />

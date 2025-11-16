@@ -34,7 +34,7 @@ const Interests = () => {
 
         <article className="add-interests">
           <label>Adicionar Interesses</label>
-          <input type="text" placeholder="ex: comunicação" />
+          <input type="text" placeholder="ex: Desenvolvimento mobile" />
         </article>
 
         <section className="interests">
