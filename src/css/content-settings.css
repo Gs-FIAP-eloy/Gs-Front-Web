@@ -354,3 +354,12 @@
 .ctn-my-academics hr{
     margin: 20px 0;
 }
+
+.my-projects hr{
+    margin: 20px 0;
+}
+
+.my-projects p{
+    font-size: 0.85rem;
+    color: #bfbfbf;
+}

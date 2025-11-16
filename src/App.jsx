@@ -20,6 +20,7 @@ import Interests from "./components/ui/Interests"
 import About from "./components/ui/About"
 import Experiences from "./components/ui/Experiences"
 import Academic from "./components/ui/Academic"
+import Projects from "./components/ui/Projects"
 function App() {
 
   ChangeIcon();
@@ -46,7 +47,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="Experiences" element={<Experiences />} />
           <Route path="academic" element={<Academic />} />
-          <Route path="projects" element={<Introduction />} />
+          <Route path="projects" element={<Projects />} />
           <Route path="courses" element={<Introduction />} />
           <Route path="languages" element={<Introduction />} />
           <Route path="skills" element={<Introduction />} />
