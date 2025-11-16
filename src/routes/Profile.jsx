@@ -22,17 +22,17 @@ const Profile = () => {
     <section className="content">
       <section className="ctn-content-profile">
         <article className='card-content-profile'>
-          <BannerProfile />
-          <ContentProfile />
+          <BannerProfile local='eloy_user'/>
+          <ContentProfile local='eloy_user'/>
         </article>
-        <CardInterests />
-        <CardAbout />
-        <CardExperiences />
-        <CardAcademic />
-        <CardProjects />
-        <CardMyCourses />
-        <CardLanguages />
-        <CardSkills />
+        <CardInterests local='eloy_user'/>
+        <CardAbout local='eloy_user'/>
+        <CardExperiences local='eloy_user'/>
+        <CardAcademic local='eloy_user'/>
+        <CardProjects local='eloy_user'/>
+        <CardMyCourses local='eloy_user'/>
+        <CardLanguages local='eloy_user'/>
+        <CardSkills local='eloy_user'/>
       </section>
       <aside className="right">
         <CardNewslatter />

@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import HeaderCard from "./HeaderCard";
 
-const CardLanguages = () => {
+const CardLanguages = ({local}) => {
 
     const [idiomas, setIdiomas] = useState([]);
 
     useEffect(() => {
-        const user = localStorage.getItem("eloy_user");
+        const user = localStorage.getItem(local);
         if (!user) return;
 
         const usuarioLogado = JSON.parse(user);
@@ -23,7 +23,7 @@ const CardLanguages = () => {
                 }
             })
             .catch(err => console.error("Erro ao carregar JSON:", err));
-    }, []);
+    });
 
     const hasContent = (obj) => {
         if (!obj) return false;
@@ -37,7 +37,7 @@ const CardLanguages = () => {
 
     return (
         <section className="ctn-card">
-            <HeaderCard title='Idiomas' btnPlus to='languages' />
+            <HeaderCard title='Idiomas' btnPlus to='languages' adm={local === "eloy_user"} />
             <section className="ctn-languages">
                 {idiomas.map((item, index) =>
                     hasContent(item) && (

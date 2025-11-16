@@ -24,6 +24,7 @@ import Projects from "./components/ui/Projects"
 import Courses from "./components/ui/Courses"
 import Languages from "./components/ui/Languages"
 import Skills from "./components/ui/Skills"
+import User from "./routes/User"
 function App() {
 
   ChangeIcon();
@@ -43,6 +44,7 @@ function App() {
         <Route path="/notifications" element={<Notifications />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/developers" element={<Devs />} />
+        <Route path="/user/:id" element={<User />} />
 
         <Route path="/settings" element={<Settings />} >
           <Route path="introduction" element={<Introduction />} />

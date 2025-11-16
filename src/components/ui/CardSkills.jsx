@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import HeaderCard from "./HeaderCard";
 
-const CardSkills = () => {
+const CardSkills = ({local}) => {
     const [skills, setSkills] = useState([]);
 
     useEffect(() => {
-        const user = localStorage.getItem("eloy_user");
+        const user = localStorage.getItem(local);
         if (!user) return;
 
         const usuarioLogado = JSON.parse(user);
@@ -22,11 +22,11 @@ const CardSkills = () => {
                 }
             })
             .catch(err => console.error("Erro ao carregar JSON:", err));
-    }, []);
+    });
 
     return (
         <section className="ctn-card">
-            <HeaderCard title='Competências' btnPlus to='skills' />
+            <HeaderCard title='Competências' btnPlus to='skills' adm={local === "eloy_user"} />
 
             <section className="ctn-skills">
                 {skills.length > 0 && skills.map((skill, index) =>

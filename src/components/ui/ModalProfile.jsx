@@ -43,7 +43,7 @@ const ModalProfile = ({ open, setOpen }) => {
         <article
             className="modal-profile"
             onMouseLeave={() => {
-                setTimeout(() => setOpen(false), 100);
+                setTimeout(() => setOpen(false), 150);
             }}
         >
             <NavLink to="/profile" className="ctn-content-modal-profile">

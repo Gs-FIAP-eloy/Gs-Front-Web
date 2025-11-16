@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import HeaderCard from "./HeaderCard";
 
-const CardInterests = () => {
+const CardInterests = ({local}) => {
 
   const [interesses, setInteresses] = useState([]);
 
   useEffect(() => {
-    const user = localStorage.getItem("eloy_user");
+    const user = localStorage.getItem(local);
     if (!user) return;
 
     const usuarioLogado = JSON.parse(user);
@@ -23,11 +23,11 @@ const CardInterests = () => {
         }
       })
       .catch(err => console.error("Erro ao carregar interesses:", err));
-  }, []);
+  });
 
   return (
     <section className="ctn-card">
-      <HeaderCard title='Interesses' to='interests' />
+      <HeaderCard title='Interesses' to='interests' adm={local === "eloy_user"} />
       <section className="my-interests">
 
         {interesses.map((item, index) => (

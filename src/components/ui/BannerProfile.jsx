@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 
-const BannerProfile = () => {
-  const [banner, setBanner] = useState("");
+const BannerProfile = ({ local }) => {
+  const [banner, setBanner] = useState(null);
 
   useEffect(() => {
-    const user = localStorage.getItem("eloy_user");
+    const user = localStorage.getItem(local);
     if (!user) return;
 
     const usuarioLogado = JSON.parse(user);
@@ -15,19 +15,22 @@ const BannerProfile = () => {
         if (Array.isArray(data)) {
           const userData = data.find(u => u.id === usuarioLogado.id);
 
-          if (userData?.banner && userData.banner !== "") {
-            setBanner(userData.banner);
-          } else {
-            setBanner("assets/img/img-banner-default.png");
-          }
+          const bannerImg =
+            userData?.banner && userData.banner.trim() !== ""
+              ? userData.banner
+              : "/assets/img/img-banner-default.png";
+
+          setBanner(bannerImg);
         }
       })
       .catch(err => console.error("Erro ao carregar JSON:", err));
-  }, []);
+  }, [local]);
 
   return (
     <section className="banner-profile">
-      <img src={banner} alt="Banner do usuário" />
+      {banner && (
+        <img src={banner} alt="Banner do usuário" />
+      )}
     </section>
   );
 };

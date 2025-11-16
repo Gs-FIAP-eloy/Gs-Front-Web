@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const ContentProfile = () => {
+const ContentProfile = ({local}) => {
     const [userData, setUserData] = useState(null);
 
     const navigate = useNavigate();
 
     useEffect(() => {
-        const user = localStorage.getItem("eloy_user");
+        const user = localStorage.getItem(local);
         if (!user) return;
 
         const usuarioLogado = JSON.parse(user);
@@ -32,7 +32,7 @@ const ContentProfile = () => {
                 }
             })
             .catch(err => console.error("Erro ao carregar JSON:", err));
-    }, []);
+    },);
 
     if (!userData) return null;
 

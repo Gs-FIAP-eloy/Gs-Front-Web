@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import HeaderContentSettings from "./HeaderContentSettings";
 
-const Academic = () => {
+const Academic = ({local}) => {
 
     const [academics, setAcademics] = useState([]);
 
     useEffect(() => {
-        const storageUser = localStorage.getItem("eloy_user");
+        const storageUser = localStorage.getItem(local);
         if (!storageUser) return;
 
         const userLogged = JSON.parse(storageUser);
@@ -19,7 +19,7 @@ const Academic = () => {
                     setAcademics(user.formacao);
                 }
             });
-    }, []);
+    });
 
     const validAcademics = academics.filter(ac =>
         Object.values(ac).some(v => v && v.toString().trim() !== "")

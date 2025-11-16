@@ -13,22 +13,13 @@
         "pais": "Brasil",
         "area": "Desenvolvimento",
         "seguidores" : [
-            {
-                "user" : "smk_dmz"
-            }
+            
         ],
         "seguindo" : [
-            {
-                "user" : "smk_dmz"
-            }
+            
         ],
         "estrelas" : [
-            {
-                "user" : "leeosilvp"
-            },
-            {
-                "user" : "smk_dmz"
-            }
+            
         ],
         "competencias": [
             "Resolução de Problemas",
@@ -232,7 +223,7 @@
         "aniversario": "2007-06-25"
     },
     {
-        "id": 4,
+        "id": "gui_araujo",
         "nome": "Guilherme de Araùjo",
         "genero": "Masculino",
         "foto": "https://media.licdn.com/dms/image/v2/D4E03AQFtkCAZ_d5qnA/profile-displayphoto-scale_400_400/B4EZee3LPLHwAk-/0/1750716955237?e=1764806400&v=beta&t=Glfjc2PoVHkAl3iQcsMUeYLEL4Rr0oAurFe4Z69k-OM",

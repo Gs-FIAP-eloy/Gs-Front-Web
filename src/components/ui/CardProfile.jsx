@@ -20,7 +20,7 @@ const CardProfile = () => {
                 }
             })
             .catch(err => console.error("Erro ao carregar JSON:", err));
-    }, []);
+    });
 
     if (!userData) return null;
 

@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import HeaderCard from "./HeaderCard";
 
-const CardAcademic = () => {
+const CardAcademic = ({local}) => {
 
     const [formacao, setFormacao] = useState([]);
 
     useEffect(() => {
-        const user = localStorage.getItem("eloy_user");
+        const user = localStorage.getItem(local);
         if (!user) return;
 
         const usuarioLogado = JSON.parse(user);
@@ -23,11 +23,11 @@ const CardAcademic = () => {
                 }
             })
             .catch(err => console.error("Erro ao carregar JSON:", err));
-    }, []);
+    });
 
     return (
         <section className="ctn-card">
-            <HeaderCard title='Formação Acadêmica' btnPlus to='academic' />
+            <HeaderCard title='Formação Acadêmica' btnPlus to='academic' adm={local === "eloy_user"} />
 
             <section className="ctn-academics">
                 {formacao.map((item, index) => (

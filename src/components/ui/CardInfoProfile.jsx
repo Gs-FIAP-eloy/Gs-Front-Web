@@ -36,7 +36,7 @@ const CardInfoProfile = () => {
         }
       })
       .catch(err => console.error("Erro ao carregar dados:", err));
-  }, []);
+  });
 
   return (
     <article className="card-info-profile">

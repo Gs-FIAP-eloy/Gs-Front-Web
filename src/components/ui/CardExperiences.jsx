@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import HeaderCard from "./HeaderCard";
 
-const CardExperiences = () => {
+const CardExperiences = ({local}) => {
 
     const [experiencias, setExperiencias] = useState([]);
 
     useEffect(() => {
-        const user = localStorage.getItem("eloy_user");
+        const user = localStorage.getItem(local);
         if (!user) return;
 
         const usuarioLogado = JSON.parse(user);
@@ -23,7 +23,7 @@ const CardExperiences = () => {
                 }
             })
             .catch(err => console.error("Erro ao carregar JSON:", err));
-    }, []);
+    });
 
     const hasContent = (obj) => {
         if (!obj) return false;
@@ -39,7 +39,7 @@ const CardExperiences = () => {
 
     return (
         <section className="ctn-card">
-            <HeaderCard title='Experiencias' btnPlus to='experiences' />
+            <HeaderCard title='Experiencias' btnPlus to='experiences' adm={local === "eloy_user"} />
 
             <section className="ctn-experiences">
                 {experiencias.map((item, index) => (

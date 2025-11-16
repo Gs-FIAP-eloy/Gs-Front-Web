@@ -145,14 +145,11 @@ const Header = () => {
                         <NavLink
                             to="/profile"
                             className={({ isActive }) => isActive ? "active" : ""}
-                            onClick={() => {
-                                setOpenProfileModal(true);
-                            }}
 
                             onMouseEnter={() => {
                                 hoverTimer.current = setTimeout(() => {
                                     setOpenProfileModal(true);
-                                }, 250);
+                                }, 650);
                             }}
 
                             onMouseLeave={() => {

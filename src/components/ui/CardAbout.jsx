@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import HeaderCard from "./HeaderCard";
 
-const CardAbout = () => {
+const CardAbout = ({local}) => {
 
     const [sobre, setSobre] = useState("");
 
     useEffect(() => {
-        const userLocal = localStorage.getItem("eloy_user");
+        const userLocal = localStorage.getItem(local);
 
         if (!userLocal) return;
 
@@ -25,11 +25,11 @@ const CardAbout = () => {
                 }
             })
             .catch(err => console.error("Erro ao carregar JSON:", err));
-    }, []);
+    });
 
     return (
         <section className="ctn-about">
-            <HeaderCard title='Sobre' to='about'/>
+            <HeaderCard title='Sobre' to='about' adm={local === "eloy_user"} />
 
             <article className="about">
                 <p>{sobre}</p>
