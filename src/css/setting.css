@@ -6,8 +6,8 @@
     border: 1px solid var(--border-color);
     border-radius: var(--border);
     box-shadow: 0px 0px 10px 0px #0000005a;
+    overflow: hidden;
 }
-
 
 .header-settings{
     display: flex;
@@ -97,4 +97,10 @@
 .aside-settings .active{
     border-color: var(--primary-color);
     color: var(--light-color);
+}
+
+.content-settings{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
