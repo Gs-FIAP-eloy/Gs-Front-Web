@@ -136,7 +136,7 @@ nav ul li .active {
 .modal-profile{
     position: fixed;
     top: 65px;
-    margin-right: -960px;
+    margin-right: -970px;
     display: flex;
     flex-direction: column;
     border: 1px solid var(--border-color);

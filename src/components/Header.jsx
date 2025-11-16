@@ -15,6 +15,7 @@ const Header = () => {
 
     const [openProfileModal, setOpenProfileModal] = useState(false);
 
+    const hoverTimer = useRef(null);
 
     useEffect(() => {
         const notificationSeen = localStorage.getItem('notificationSeen') === 'true'
@@ -143,10 +144,19 @@ const Header = () => {
                     <li>
                         <NavLink
                             to="/profile"
-                            className={({ isActive }) => isActive ? 'active' : ''}
-                            onClick={(e) => {
-                                e.preventDefault();
+                            className={({ isActive }) => isActive ? "active" : ""}
+                            onClick={() => {
                                 setOpenProfileModal(true);
+                            }}
+
+                            onMouseEnter={() => {
+                                hoverTimer.current = setTimeout(() => {
+                                    setOpenProfileModal(true);
+                                }, 250);
+                            }}
+
+                            onMouseLeave={() => {
+                                clearTimeout(hoverTimer.current);
                             }}
                         >
                             <i className="fa-solid fa-circle-user"></i> <p>Eu</p>
