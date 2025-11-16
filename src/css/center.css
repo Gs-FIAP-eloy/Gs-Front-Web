@@ -520,13 +520,13 @@
     border-color: #0d5195;
 }
 
-.ctn-interests {
+.my-interests {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.ctn-interests p {
+.my-interests p {
     display: flex;
     padding: 3px 15px;
     border: 1px solid var(--border-color);

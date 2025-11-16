@@ -28,10 +28,10 @@ const CardInterests = () => {
   return (
     <section className="ctn-card">
       <HeaderCard title='Interesses' to='interests' />
-      <section className="ctn-interests">
+      <section className="my-interests">
 
         {interesses.map((item, index) => (
-          <p key={index} className="interests">{item}</p>
+          <p key={index}>{item}</p>
         ))}
 
       </section>

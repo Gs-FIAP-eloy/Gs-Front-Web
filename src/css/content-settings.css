@@ -35,6 +35,12 @@
     background: #151515;
 }
 
+.content-change p{
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: #969696;
+}
+
 .change-img-profile {
     display: flex;
     gap: 25px;
@@ -186,11 +192,6 @@
 .change-birthday {
     display: flex;
     flex-direction: column;
-}
-
-.change-birthday {
-    display: flex;
-    flex-direction: column;
     gap: 5px;
 }
 
@@ -210,4 +211,53 @@
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--light-color);
+}
+
+.ctn-interests{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-interests{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.add-interests label{
+    font-size: 1rem;
+}
+
+.add-interests input{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 5px 8px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: #151515;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--light-color);
+}
+
+.interests{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 10px;
+    background: #0f0f0f;
+    border-radius: var(--border);
+}
+
+
+.interests p{
+    display: flex;
+    padding: 3px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 50px;
+    font-size: 0.85rem;
+    color: var(--light-color);
+    background: #121212;
 }
