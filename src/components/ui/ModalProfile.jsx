@@ -1,31 +1,74 @@
 import { NavLink } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 const ModalProfile = ({ open, setOpen }) => {
-    if (!open) return null;
+    const [userData, setUserData] = useState(null);
+
+    useEffect(() => {
+        const user = localStorage.getItem("eloy_user");
+        if (!user) return;
+
+        const usuarioLogado = JSON.parse(user);
+
+        fetch("/db/users.json")
+            .then(res => res.json())
+            .then(data => {
+                if (Array.isArray(data)) {
+                    const foundUser = data.find(u => u.id === usuarioLogado.id);
+                    if (foundUser) setUserData(foundUser);
+                }
+            })
+            .catch(err => console.error("Erro ao carregar JSON:", err));
+    }, []);
+
+    if (!open || !userData) return null;
+
+    const fotoSrc =
+        userData.foto && userData.foto.trim() !== ""
+            ? userData.foto
+            : "assets/img/img-profile-default.png";
+
+    const bannerSrc =
+        userData.banner && userData.banner.trim() !== ""
+            ? userData.banner
+            : "assets/img/img-banner-default.png";
+
+    const tituloLimitado = userData.titulo
+        ? userData.titulo.length > 60
+            ? userData.titulo.substring(0, 60) + "..."
+            : userData.titulo
+        : "";
 
     return (
-        <article className="modal-profile" onMouseLeave={() => { setTimeout(() => setOpen(false), 100) }}>
-            <NavLink to='/profile' className="ctn-content-modal-profile">
-                <img src="https://media.licdn.com/dms/image/v2/D4D16AQGjobWVHrk20Q/profile-displaybackgroundimage-shrink_350_1400/B4DZoj8pleGQAY-/0/1761539704579?e=1764806400&v=beta&t=_9z1jyaKKLFbWWhS4xIWs9RUAUcfJZVvN2EWClmaQbI" />
+        <article
+            className="modal-profile"
+            onMouseLeave={() => {
+                setTimeout(() => setOpen(false), 100);
+            }}
+        >
+            <NavLink to="/profile" className="ctn-content-modal-profile">
+                <img src={bannerSrc} alt="Banner do usuário" />
+
                 <section className="content-modal-profile">
                     <div className="img-user-modal">
-                        <img src="https://avatars.githubusercontent.com/u/182553526?v=4" />
+                        <img src={fotoSrc} alt={userData.nome} />
                     </div>
-                    <h1>Leonardo Silva</h1>
-                    <h2>Software Engineer | Back-end Developer | Python | Java</h2>
-                    <p>Engenheiro de software</p>
+
+                    <h1>{userData.nome}</h1>
+                    <h2>{tituloLimitado}</h2>
+                    <p>{userData.cargo}</p>
                 </section>
             </NavLink>
 
             <hr />
 
             <section className="btns-modal-profile">
-                <NavLink to='/profile'>Meu perfil</NavLink>
-                <NavLink to='/settings/appearance'>Configurações</NavLink>
+                <NavLink to="/profile">Meu perfil</NavLink>
+                <NavLink to="/settings/appearance">Configurações</NavLink>
             </section>
 
         </article>
-    )
-}
+    );
+};
 
-export default ModalProfile
+export default ModalProfile;
