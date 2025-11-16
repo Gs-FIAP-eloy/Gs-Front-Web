@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": "leeosilvp",
         "nome": "Leonardo Silva",
         "genero": "Masculino",
         "foto": "https://avatars.githubusercontent.com/u/182553526?v=4",
@@ -12,8 +12,24 @@
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
-        "seguidores" : 0,
-        "seguindo" : 0,
+        "seguidores" : [
+            {
+                "user" : "smk_dmz"
+            }
+        ],
+        "seguindo" : [
+            {
+                "user" : "smk_dmz"
+            }
+        ],
+        "estrelas" : [
+            {
+                "user" : "leeosilvp"
+            },
+            {
+                "user" : "smk_dmz"
+            }
+        ],
         "competencias": [
             "Resolução de Problemas",
             "Criatividade",
@@ -90,7 +106,7 @@
         "aniversario": "2007-02-06"
     },
     {
-        "id": 2,
+        "id": "smk_dmz",
         "nome": "Samuel Monteiro",
         "genero": "Masculino",
         "foto": "https://media.licdn.com/dms/image/v2/D5603AQGODfaMD4tvQA/profile-displayphoto-shrink_400_400/B56ZcUfPFCGoAg-/0/1748395422545?e=1764806400&v=beta&t=zu-EKfnIxvW3CQDrqX8sB6amPheP5pUXdRVlh2SIvgo",

@@ -17,7 +17,18 @@ const ContentProfile = () => {
             .then(data => {
                 if (Array.isArray(data)) {
                     const foundUser = data.find(u => u.id === usuarioLogado.id);
-                    if (foundUser) setUserData(foundUser);
+
+                    if (foundUser) {
+                        setUserData({
+                            ...foundUser,
+                            seguidores: Array.isArray(foundUser.seguidores)
+                                ? foundUser.seguidores.length
+                                : 0,
+                            seguindo: Array.isArray(foundUser.seguindo)
+                                ? foundUser.seguindo.length
+                                : 0
+                        });
+                    }
                 }
             })
             .catch(err => console.error("Erro ao carregar JSON:", err));
@@ -34,11 +45,14 @@ const ContentProfile = () => {
             <article className="img-profile">
                 <img src={profileImg} alt={userData.nome} />
             </article>
+
             <section className="content-info-profile">
                 <section className="left-content-profile">
+
                     <h1 className="user-name">{userData.nome}</h1>
                     <h1 className="title-profile">{userData.titulo}</h1>
                     <h1 className="location">{userData.estado} • {userData.pais}</h1>
+
                     <section className="following-followers">
                         <h1>{userData.seguidores} seguidores</h1>
                         <h1>•</h1>
@@ -48,7 +62,10 @@ const ContentProfile = () => {
 
                 <section className="right-content-profile">
                     <a href="https://www.fiap.com.br/" target="_blank" className="card-job">
-                        <img src='https://avatars.githubusercontent.com/u/79948663?s=200&v=4' alt={userData.empresa} />
+                        <img 
+                            src="https://avatars.githubusercontent.com/u/79948663?s=200&v=4" 
+                            alt={userData.empresa} 
+                        />
                         <section className="position-company">
                             <h1>{userData.empresa}</h1>
                             <h2>{userData.cargo}</h2>
@@ -58,7 +75,9 @@ const ContentProfile = () => {
             </section>
 
             <section className="btn-content-profile">
-                <button onClick={() => navigate("/settings/introduction")} className="active">Editar perfil</button>
+                <button onClick={() => navigate("/settings/introduction")} className="active">
+                    Editar perfil
+                </button>
                 <button>Compartilhar perfil</button>
             </section>
         </section>
