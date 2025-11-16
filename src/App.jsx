@@ -18,6 +18,7 @@ import Settings from "./routes/Settings"
 import Introduction from "./components/ui/Introduction"
 import Interests from "./components/ui/Interests"
 import About from "./components/ui/About"
+import Experiences from "./components/ui/Experiences"
 function App() {
 
   ChangeIcon();
@@ -42,7 +43,7 @@ function App() {
           <Route path="introduction" element={<Introduction />} />
           <Route path="interests" element={<Interests />} />
           <Route path="about" element={<About />} />
-          <Route path="Experiences" element={<Introduction />} />
+          <Route path="Experiences" element={<Experiences />} />
           <Route path="academic" element={<Introduction />} />
           <Route path="projects" element={<Introduction />} />
           <Route path="courses" element={<Introduction />} />

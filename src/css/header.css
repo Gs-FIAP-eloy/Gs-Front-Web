@@ -132,3 +132,89 @@ nav ul li .active {
     background: red;
     border-radius: 50%;
 }
+
+.modal-profile{
+    position: fixed;
+    top: 65px;
+    margin-right: -960px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border);
+    background: var(--background-card);
+    width: 220px;
+    height: 270px;
+    box-shadow: 0px 0px 10px 0px #00000060;
+    overflow: hidden;
+}
+
+.ctn-content-modal-profile{
+    display: flex;
+    flex-direction: column;
+    color: var(--light-color);
+}
+
+.ctn-content-modal-profile img{
+    display: flex;
+    width: 100%;
+}
+
+.content-modal-profile{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.img-user-modal{
+    margin-top: -35px;
+}
+
+.img-user-modal img{
+    display: flex;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid var(--background-card);
+}
+
+.content-modal-profile h1{
+    margin-top: 4px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.content-modal-profile h2{
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: #969696;
+}
+
+.content-modal-profile p{
+    margin-top: 7px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--light-color);
+}
+
+.modal-profile hr{
+    margin: 5px auto;
+    width: 90%;
+    border: 1px solid var(--border-color);
+}
+
+.btns-modal-profile{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 3px;
+}
+
+.btns-modal-profile a{
+    display: flex;
+    width: fit-content;
+    font-size: 0.85rem;
+    color: var(--light-color);
+}
+
+.btns-modal-profile a:hover{
+    text-decoration: underline;
+}

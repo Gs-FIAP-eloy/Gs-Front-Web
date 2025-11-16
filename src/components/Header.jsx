@@ -2,6 +2,7 @@ import { NavLink, useLocation } from 'react-router-dom'
 import { useEffect, useRef, useState } from 'react'
 import '../css/header.css'
 import logo from '../assets/svg/logo-light.svg'
+import ModalProfile from './ui/ModalProfile'
 
 const Header = () => {
 
@@ -11,6 +12,9 @@ const Header = () => {
     const ticking = useRef(false)
     const headerRef = useRef(null)
     const location = useLocation()
+
+    const [openProfileModal, setOpenProfileModal] = useState(false);
+
 
     useEffect(() => {
         const notificationSeen = localStorage.getItem('notificationSeen') === 'true'
@@ -71,6 +75,25 @@ const Header = () => {
     const handleNotificationClick = () => {
     }
 
+    useEffect(() => {
+        const closeModal = () => setOpenProfileModal(false);
+
+        const handleClickOutside = (e) => {
+            if (!document.querySelector(".modal-profile")?.contains(e.target)) {
+                closeModal();
+            }
+        };
+
+        window.addEventListener("scroll", closeModal);
+        window.addEventListener("mousedown", handleClickOutside);
+
+        return () => {
+            window.removeEventListener("scroll", closeModal);
+            window.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, []);
+
+
     return (
         <header ref={headerRef} className={`main-header ${hidden ? 'hidden' : ''}`}>
             <section className="ctn-left-header">
@@ -108,9 +131,9 @@ const Header = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink 
-                            to="/notifications" 
-                            className={({ isActive }) => isActive ? 'active' : ''} 
+                        <NavLink
+                            to="/notifications"
+                            className={({ isActive }) => isActive ? 'active' : ''}
                             onClick={handleNotificationClick}
                         >
                             <i className="fa-solid fa-bell"></i> <p>Notificações</p>
@@ -118,12 +141,21 @@ const Header = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/profile" className={({ isActive }) => isActive ? 'active' : ''}>
+                        <NavLink
+                            to="/profile"
+                            className={({ isActive }) => isActive ? 'active' : ''}
+                            onClick={(e) => {
+                                e.preventDefault();
+                                setOpenProfileModal(true);
+                            }}
+                        >
                             <i className="fa-solid fa-circle-user"></i> <p>Eu</p>
                         </NavLink>
                     </li>
                 </ul>
             </nav>
+
+            <ModalProfile open={openProfileModal} setOpen={setOpenProfileModal} />
         </header>
     )
 }
