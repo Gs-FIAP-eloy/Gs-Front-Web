@@ -363,3 +363,7 @@
     font-size: 0.85rem;
     color: #bfbfbf;
 }
+
+.my-courses hr{
+    margin: 20px 0;
+}
