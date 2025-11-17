@@ -572,9 +572,9 @@
     },
     {
         "id": "darcio_mendes",
-        "nome": "Dárcio Mendes",
+        "nome": "Márcio Mendes",
         "genero": "Masculino",
-        "foto": "https://randomuser.me/api/portraits/men/33.jpg",
+        "foto": "",
         "banner": "",
         "titulo": "Analista de Infraestrutura | Foco em UX/UI",
         "cargo": "Analista de Infraestrutura",

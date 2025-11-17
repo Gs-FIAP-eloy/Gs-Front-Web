@@ -155,7 +155,7 @@ const Search = () => {
                 onClick={() => openProfile(user.id)}
               >
                 <section className='info-user'>
-                  <img src={user.foto || "assets/default-avatar.png"} />
+                  <img src={user.foto || "assets/img/img-profile-default.png"} />
                   <div className="content-info-user">
                     <h2>{user.nome}</h2>
                     <h3>{limitText(user.titulo || user.area)}</h3>
