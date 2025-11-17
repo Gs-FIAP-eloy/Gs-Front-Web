@@ -222,7 +222,7 @@
         "seguidores": [],
         "seguindo": [],
         "estrelas": [],
-        "competencias": [],
+        "competencias": ["todas"],
         "experiencias": [
             {
                 "empresa": "",
@@ -243,32 +243,32 @@
         ],
         "projetos": [
             {
-                "titulo": "",
-                "link": "",
-                "descricao": ""
+                "titulo": "meu portifólio",
+                "link": "https://lucastoledo.vercel.app",
+                "descricao": "meu portifolio profissional com todos meus certificados e projetos"
             }
         ],
         "certificacoes": [
             {
-                "curso": "",
-                "instituicao": "",
-                "duracao": ""
+                "curso": "Deus das IA's",
+                "instituicao": "UniNoia",
+                "duracao": "1 minuto"
             }
         ],
         "idiomas": [
             {
-                "idioma": "",
-                "nivel": ""
+                "idioma": "Ingles",
+                "nivel": "Avançado"
             }
         ],
-        "areainteresses": [],
+        "areainteresses": ["Agentes de AI", "Desenvolvimento de Software", "Inovação Tecnológica"],
         "email": "rm563271@fiap.com.br",
         "senha": "250607fiap",
         "aniversario": "2007-06-25",
         "posts": [
             {
                 "id": 1,
-                "conteudo": "Aprender React não é só decorar hooks e componentes. É encarar a bagunça da real aplicação, erros inesperados e refatorações que parecem loop infinito. Só quem codou sabe: teoria é pouco, o jogo é sujo. Quem mais já se perdeu no próprio código? #DevRealTalk #ReactNaVeia #CodarÉSofrer",
+                "conteudo": "A inteligência artificial está transformando o cotidiano dos desenvolvedores, automatizando tarefas repetitivas, auxiliando na detecção de bugs e otimizando processos de desenvolvimento. Ferramentas baseadas em IA permitem que os devs foquem em soluções criativas e estratégicas, elevando a produtividade e a inovação. #IA #DesenvolvimentoDeSoftware #Inovação",
                 "dataTime": "2025-11-17T14:43:00Z",
                 "likes": [],
                 "comentarios": [],
@@ -276,7 +276,7 @@
             },
             {
                 "id": 2,
-                "conteudo": "Falar “domino React” no 2º semestre soa pretensioso? Pra mim, é sobre enfrentar o medo de errar em público e codar até o cérebro fritar. Aprender é suar a camisa, não decorar docs. Quem mais sente essa pressão de “parecer pronto” antes da hora? #DevDeVerdade #ReactNaVeia #ErroÉCaminho",
+                "conteudo": "A gentes de ia estão revolucionando o desenvolvimento de software ao automatizar tarefas complexas, melhorar a eficiência e permitir soluções inovadoras. Com agentes de IA, desenvolvedores podem criar aplicações mais inteligentes e responsivas, elevando o padrão da indústria. #AgentesDeIA #DesenvolvimentoDeSoftware #InovaçãoTecnológica",
                 "dataTime": "2025-11-16T18:33:00Z",
                 "likes": [],
                 "comentarios": [],
@@ -284,7 +284,7 @@
             },
             {
                 "id": 6,
-                "conteudo": "Por que insistimos que dominar múltiplas linguagens antes do estágio é regra? Estou no 2º semestre, focado em React e Node, mas sinto que a pressa mata a profundidade. Qual vale mais: ser generalista de superfície ou especialista em essência? Quero ouvir vocês. #EstágioReal #FocoProfundo #DevComPropósito",
+                "conteudo": "Agent Task, nova funcionalidade do ChatGPT, permite que agentes de IA executem tarefas complexas de forma autônoma, facilitando o desenvolvimento de software e aumentando a produtividade dos desenvolvedores. #AgentTask #ChatGPT #DesenvolvimentoDeSoftware",
                 "dataTime": "2025-11-11T07:56:00Z",
                 "likes": [],
                 "comentarios": [],
