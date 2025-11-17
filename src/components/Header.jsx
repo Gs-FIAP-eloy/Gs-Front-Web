@@ -1,8 +1,9 @@
 import { NavLink, useLocation } from 'react-router-dom'
 import { useEffect, useRef, useState } from 'react'
-import '../css/header.css'
 import logo from '../assets/svg/logo-light.svg'
 import ModalProfile from './ui/ModalProfile'
+import Search from './Search'
+import '../css/header.css'
 
 const Header = () => {
 
@@ -15,7 +16,11 @@ const Header = () => {
 
     const [openProfileModal, setOpenProfileModal] = useState(false);
 
+    const [openSearch, setOpenSearch] = useState(false);
+
     const hoverTimer = useRef(null);
+
+    const handleNotificationClick = () => { };
 
     useEffect(() => {
         const notificationSeen = localStorage.getItem('notificationSeen') === 'true'
@@ -73,9 +78,6 @@ const Header = () => {
         return () => window.removeEventListener('scroll', onScroll)
     }, [])
 
-    const handleNotificationClick = () => {
-    }
-
     useEffect(() => {
         const closeModal = () => setOpenProfileModal(false);
 
@@ -94,9 +96,51 @@ const Header = () => {
         };
     }, []);
 
+    useEffect(() => {
+        if (!openSearch) return;
+
+        const close = () => setOpenSearch(false);
+
+        const isInsideModal = (target) => {
+            const modal = document.querySelector(".ctn-search");
+            return modal && modal.contains(target);
+        };
+
+        // Fecha ao clicar fora
+        const handleClickOutside = (e) => {
+            if (!isInsideModal(e.target)) close();
+        };
+
+        // Fecha ao scrolar a página, mas NÃO dentro do modal
+        const handleScroll = (e) => {
+            if (!isInsideModal(e.target)) close();
+        };
+
+        const handleWheel = (e) => {
+            if (!isInsideModal(e.target)) close();
+        };
+
+        const handleTouch = (e) => {
+            if (!isInsideModal(e.target)) close();
+        };
+
+        window.addEventListener("mousedown", handleClickOutside);
+        window.addEventListener("scroll", handleScroll, { passive: true });
+        window.addEventListener("wheel", handleWheel, { passive: true });
+        window.addEventListener("touchmove", handleTouch, { passive: true });
+
+        return () => {
+            window.removeEventListener("mousedown", handleClickOutside);
+            window.removeEventListener("scroll", handleScroll);
+            window.removeEventListener("wheel", handleWheel);
+            window.removeEventListener("touchmove", handleTouch);
+        };
+    }, [openSearch]);
+
 
     return (
         <header ref={headerRef} className={`main-header ${hidden ? 'hidden' : ''}`}>
+
             <section className="ctn-left-header">
                 <article className="logo">
                     <img src={logo} alt="logo eloy" />
@@ -108,7 +152,7 @@ const Header = () => {
                 </section>
             </section>
 
-            <button className='btn-to-search'>
+            <button className='btn-to-search' onClick={() => setOpenSearch(true)}>
                 <i className='fa-solid fa-search'></i>
                 <h1>Aperte <span>Ctrl + p</span> para pesquisar</h1>
             </button>
@@ -149,7 +193,7 @@ const Header = () => {
                             onMouseEnter={() => {
                                 hoverTimer.current = setTimeout(() => {
                                     setOpenProfileModal(true);
-                                }, 650);
+                                }, 850);
                             }}
 
                             onMouseLeave={() => {
@@ -162,6 +206,7 @@ const Header = () => {
                 </ul>
             </nav>
 
+            {openSearch && <Search close={() => setOpenSearch(false)} />}
             <ModalProfile open={openProfileModal} setOpen={setOpenProfileModal} />
         </header>
     )
