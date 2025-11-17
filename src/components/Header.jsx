@@ -193,7 +193,7 @@ const Header = () => {
                             onMouseEnter={() => {
                                 hoverTimer.current = setTimeout(() => {
                                     setOpenProfileModal(true);
-                                }, 850);
+                                }, 650);
                             }}
 
                             onMouseLeave={() => {

@@ -218,3 +218,10 @@ nav ul li .active {
 .btns-modal-profile a:hover{
     text-decoration: underline;
 }
+
+.btns-modal-profile .log-out{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #d73737;
+}

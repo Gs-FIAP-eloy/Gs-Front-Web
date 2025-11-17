@@ -65,6 +65,7 @@ const ModalProfile = ({ open, setOpen }) => {
             <section className="btns-modal-profile">
                 <NavLink to="/profile">Meu perfil</NavLink>
                 <NavLink to="/settings/appearance">Configurações</NavLink>
+                <NavLink className="log-out" to="/welcome"><i className="fa-solid fa-arrow-right-from-bracket"></i>Sair</NavLink>
             </section>
 
         </article>
