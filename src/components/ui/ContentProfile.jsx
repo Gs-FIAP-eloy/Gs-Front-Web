@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const ContentProfile = ({local}) => {
+const ContentProfile = ({ local }) => {
     const [userData, setUserData] = useState(null);
 
     const navigate = useNavigate();
@@ -36,8 +36,8 @@ const ContentProfile = ({local}) => {
 
     if (!userData) return null;
 
-    const profileImg = userData.foto !== "" 
-        ? userData.foto 
+    const profileImg = userData.foto !== ""
+        ? userData.foto
         : "src/assets/img/img-profile-default.png";
 
     return (
@@ -62,9 +62,9 @@ const ContentProfile = ({local}) => {
 
                 <section className="right-content-profile">
                     <a href="https://www.fiap.com.br/" target="_blank" className="card-job">
-                        <img 
-                            src="https://avatars.githubusercontent.com/u/79948663?s=200&v=4" 
-                            alt={userData.empresa} 
+                        <img
+                            src="https://avatars.githubusercontent.com/u/79948663?s=200&v=4"
+                            alt={userData.empresa}
                         />
                         <section className="position-company">
                             <h1>{userData.empresa}</h1>
@@ -75,11 +75,26 @@ const ContentProfile = ({local}) => {
             </section>
 
             <section className="btn-content-profile">
-                <button onClick={() => navigate("/settings/introduction")} className="active">
-                    Editar perfil
-                </button>
-                <button>Compartilhar perfil</button>
+                {local === "current_profile_id" ? (
+                    <>
+                        <button className="active">Seguir</button>
+                        <button>Recomendar profissional</button>
+                        <button onClick={() => navigate('/chat')}>Enviar mensagem</button>
+                    </>
+                ) : (
+                    <>
+                        <button
+                            onClick={() => navigate("/settings/introduction")}
+                            className="active"
+                        >
+                            Editar perfil
+                        </button>
+
+                        <button>Compartilhar perfil</button>
+                    </>
+                )}
             </section>
+
         </section>
     );
 };

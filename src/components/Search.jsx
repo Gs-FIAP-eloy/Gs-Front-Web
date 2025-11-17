@@ -75,7 +75,7 @@ const Search = () => {
             return { ...u, score };
           })
           .sort((a, b) => b.score - a.score)
-          .slice(0, 10);
+          .slice(0, 20);
 
         setSuggested(ranked);
 
