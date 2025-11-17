@@ -109,8 +109,15 @@
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
-        "seguidores" : 0,
-        "seguindo" : 0,
+        "seguidores" : [
+            
+        ],
+        "seguindo" : [
+            
+        ],
+        "estrelas" : [
+            
+        ],
         "competencias": [
 
         ],
@@ -160,7 +167,7 @@
         "aniversario": "2007-01-29"
     },
     {
-        "id": 3,
+        "id": "alem4ao",
         "nome": "Lucas Cortonezi",
         "genero": "Masculino",
         "foto": "https://avatars.githubusercontent.com/u/198768909?v=4",
@@ -172,8 +179,15 @@
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
-        "seguidores" : 0,
-        "seguindo" : 0,
+        "seguidores" : [
+            
+        ],
+        "seguindo" : [
+            
+        ],
+        "estrelas" : [
+            
+        ],
         "competencias": [
             
         ],
@@ -235,8 +249,15 @@
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
-        "seguidores" : 0,
-        "seguindo" : 0,
+        "seguidores" : [
+            
+        ],
+        "seguindo" : [
+            
+        ],
+        "estrelas" : [
+            
+        ],
         "competencias": [
             
         ],
@@ -286,7 +307,7 @@
         "aniversario": "2005-09-29"
     },
     {
-        "id": 5,
+        "id": "yanbreno",
         "nome": "Yan Barutti",
         "genero": "Masculino",
         "foto": "https://media.licdn.com/dms/image/v2/D4E03AQE3kGCzSZwfcQ/profile-displayphoto-scale_400_400/B4EZjKxWTiHEAg-/0/1755748591501?e=1764806400&v=beta&t=1uI9zwyEonl3CHLMG_mtY66yY-F2fjae3KfpUdga1Qo",
@@ -298,8 +319,15 @@
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
-        "seguidores" : 0,
-        "seguindo" : 0,
+        "seguidores" : [
+            
+        ],
+        "seguindo" : [
+            
+        ],
+        "estrelas" : [
+            
+        ],
         "competencias": [
             
         ],
@@ -349,7 +377,7 @@
         "aniversario": "2006-09-28"
     },
     {
-        "id": 6,
+        "id": "selmo_costa",
         "nome": "Selmo da Costa",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/60.jpg",
@@ -410,7 +438,7 @@
         "estrelas": 0
     },
     {
-        "id": 7,
+        "id": "ismael_silveira",
         "nome": "Ismael Silveira",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/82.jpg",
@@ -472,7 +500,7 @@
         "estrelas": 0
     },
     {
-        "id": 8,
+        "id": "darcio_mendes",
         "nome": "Dárcio Mendes",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/33.jpg",
@@ -532,7 +560,7 @@
         "estrelas": 0
     },
     {
-        "id": 9,
+        "id": "teodosio_ferreira",
         "nome": "Teodósio Ferreira",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/23.jpg",
@@ -594,7 +622,7 @@
         "estrelas": 0
     },
     {
-        "id": 10,
+        "id": "charbel_alves",
         "nome": "Charbel Alves",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/19.jpg",
@@ -655,7 +683,7 @@
         "estrelas": 0
     },
     {
-        "id": 11,
+        "id": "nobre_carvalho",
         "nome": "Nobre Carvalho",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/60.jpg",
@@ -716,7 +744,7 @@
         "estrelas": 0
     },
     {
-        "id": 12,
+        "id": "janai_peixoto",
         "nome": "Janai Peixoto",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/78.jpg",
@@ -777,7 +805,7 @@
         "estrelas": 0
     },
     {
-        "id": 13,
+        "id": "danilo_luz",
         "nome": "Danilo da Luz",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/83.jpg",
@@ -839,7 +867,7 @@
         "estrelas": 0
     },
     {
-        "id": 14,
+        "id": "boanerges_alves",
         "nome": "Boanerges Alves",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/90.jpg",
@@ -901,7 +929,7 @@
         "estrelas": 0
     },
     {
-        "id": 15,
+        "id": "irmino_ribeiro",
         "nome": "Irmino Ribeiro",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/36.jpg",
@@ -963,7 +991,7 @@
         "estrelas": 0
     },
     {
-        "id": 16,
+        "id": "everaldo_lima",
         "nome": "Everaldo Lima",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/33.jpg",
@@ -1024,7 +1052,7 @@
         "estrelas": 0
     },
     {
-        "id": 17,
+        "id": "naod_peixoto",
         "nome": "Naod Peixoto",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/47.jpg",
@@ -1088,7 +1116,7 @@
         "estrelas": 0
     },
     {
-        "id": 18,
+        "id": "iago_alves",
         "nome": "Iago Alves",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/31.jpg",
@@ -1152,7 +1180,7 @@
         "estrelas": 0
     },
     {
-        "id": 19,
+        "id": "clidio_nascimento",
         "nome": "Clídio Nascimento",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/97.jpg",
@@ -1213,7 +1241,7 @@
         "estrelas": 0
     },
     {
-        "id": 20,
+        "id": "socrates_farias",
         "nome": "Sócrates Farias",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/12.jpg",
@@ -1276,7 +1304,7 @@
         "estrelas": 0
     },
     {
-        "id": 21,
+        "id": "higino_moraes",
         "nome": "Higino Moraes",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/73.jpg",
@@ -1338,7 +1366,7 @@
         "estrelas": 0
     },
     {
-        "id": 22,
+        "id": "berilo_peixoto",
         "nome": "Berilo Peixoto",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/54.jpg",
@@ -1398,7 +1426,7 @@
         "estrelas": 0
     },
     {
-        "id": 23,
+        "id": "micael_costa",
         "nome": "Micael Costa",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/7.jpg",
@@ -1459,7 +1487,7 @@
         "estrelas": 0
     },
     {
-        "id": 24,
+        "id": "emaus_rodrigues",
         "nome": "Emaús Rodrigues",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/74.jpg",
@@ -1521,7 +1549,7 @@
         "estrelas": 0
     },
     {
-        "id": 25,
+        "id": "honorio_goncalves",
         "nome": "Honório Gonçalves",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/26.jpg",
@@ -1582,7 +1610,7 @@
         "estrelas": 0
     },
     {
-        "id": 26,
+        "id": "romario_alves",
         "nome": "Romário Alves",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/14.jpg",
@@ -1645,7 +1673,7 @@
         "estrelas": 0
     },
     {
-        "id": 27,
+        "id": "matio_vieira",
         "nome": "Mátio Vieira",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/2.jpg",
@@ -1706,7 +1734,7 @@
         "estrelas": 0
     },
     {
-        "id": 28,
+        "id": "bebiano_aragao",
         "nome": "Bebiano Aragão",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/51.jpg",
@@ -1769,7 +1797,7 @@
         "estrelas": 0
     },
     {
-        "id": 29,
+        "id": "sandrino_cavalcanti",
         "nome": "Sandrino Cavalcanti",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/92.jpg",
@@ -1831,7 +1859,7 @@
         "estrelas": 0
     },
     {
-        "id": 30,
+        "id": "arcelino_alves",
         "nome": "Arcelino Alves",
         "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/men/93.jpg",
@@ -1893,7 +1921,7 @@
         "estrelas": 0
     },
     {
-        "id": 31,
+        "id": "jassia_lopes",
         "nome": "Jássia Lopes",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/5.jpg",
@@ -1956,7 +1984,7 @@
         "estrelas": 0
     },
     {
-        "id": 32,
+        "id": "elina_nascimento",
         "nome": "Elina Nascimento",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/5.jpg",
@@ -2016,7 +2044,7 @@
         "estrelas": 0
     },
     {
-        "id": 33,
+        "id": "dalva_castro",
         "nome": "Dalva Castro",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/1.jpg",
@@ -2078,7 +2106,7 @@
         "estrelas": 0
     },
     {
-        "id": 34,
+        "id": "miuke_melo",
         "nome": "Miuke Melo",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/13.jpg",
@@ -2139,7 +2167,7 @@
         "estrelas": 0
     },
     {
-        "id": 35,
+        "id": "graciela_moura",
         "nome": "Graciela Moura",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/74.jpg",
@@ -2202,7 +2230,7 @@
         "estrelas": 0
     },
     {
-        "id": 36,
+        "id": "luciara_araujo",
         "nome": "Luciara Araújo",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/61.jpg",
@@ -2265,7 +2293,7 @@
         "estrelas": 0
     },
     {
-        "id": 37,
+        "id": "marilaine_pinto",
         "nome": "Marilaine Pinto",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/80.jpg",
@@ -2328,7 +2356,7 @@
         "estrelas": 0
     },
     {
-        "id": 38,
+        "id": "olivia_campos",
         "nome": "Olívia Campos",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/7.jpg",
@@ -2392,7 +2420,7 @@
         "estrelas": 0
     },
     {
-        "id": 39,
+        "id": "silviara_campos",
         "nome": "Silviara Campos",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/95.jpg",
@@ -2454,7 +2482,7 @@
         "estrelas": 0
     },
     {
-        "id": 40,
+        "id": "elaine_rocha",
         "nome": "Elaine da Rocha",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/82.jpg",
@@ -2517,7 +2545,7 @@
         "estrelas": 0
     },
     {
-        "id": 41,
+        "id": "carol_farias",
         "nome": "Carol Farias",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/9.jpg",
@@ -2579,7 +2607,7 @@
         "estrelas": 0
     },
     {
-        "id": 42,
+        "id": "laila_farias",
         "nome": "Laila Farias",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/39.jpg",
@@ -2640,7 +2668,7 @@
         "estrelas": 0
     },
     {
-        "id": 43,
+        "id": "karen_moreira",
         "nome": "Karen Moreira",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/25.jpg",
@@ -2702,7 +2730,7 @@
         "estrelas": 0
     },
     {
-        "id": 44,
+        "id": "efigenia_nunes",
         "nome": "Efigênia Nunes",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/15.jpg",
@@ -2764,7 +2792,7 @@
         "estrelas": 0
     },
     {
-        "id": 45,
+        "id": "lair_viana",
         "nome": "Laír Viana",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/89.jpg",
@@ -2824,7 +2852,7 @@
         "estrelas": 0
     },
     {
-        "id": 46,
+        "id": "joice_cunha",
         "nome": "Joice da Cunha",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/22.jpg",
@@ -2886,7 +2914,7 @@
         "estrelas": 0
     },
     {
-        "id": 47,
+        "id": "keli_melo",
         "nome": "Keli Melo",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/5.jpg",
@@ -2950,7 +2978,7 @@
         "estrelas": 0
     },
     {
-        "id": 48,
+        "id": "pamela_aragao",
         "nome": "Pâmela Aragão",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/66.jpg",
@@ -3012,7 +3040,7 @@
         "estrelas": 0
     },
     {
-        "id": 49,
+        "id": "florisbela_rezende",
         "nome": "Florisbela Rezende",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/73.jpg",
@@ -3075,7 +3103,7 @@
         "estrelas": 0
     },
     {
-        "id": 50,
+        "id": "fausta_moraes",
         "nome": "Fausta Moraes",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/73.jpg",
@@ -3137,7 +3165,7 @@
         "estrelas": 0
     },
     {
-        "id": 51,
+        "id": "marisvalda_rodrigues",
         "nome": "Marisvalda Rodrigues",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/36.jpg",
@@ -3199,7 +3227,7 @@
         "estrelas": 0
     },
     {
-        "id": 52,
+        "id": "diva_martins",
         "nome": "Diva Martins",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/23.jpg",
@@ -3260,7 +3288,7 @@
         "estrelas": 0
     },
     {
-        "id": 53,
+        "id": "oneida_viana",
         "nome": "Oneida Viana",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/29.jpg",
@@ -3323,7 +3351,7 @@
         "estrelas": 0
     },
     {
-        "id": 54,
+        "id": "jocieri_silva",
         "nome": "Jocieri Silva",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/2.jpg",
@@ -3383,7 +3411,7 @@
         "estrelas": 0
     },
     {
-        "id": 55,
+        "id": "amelly_melo",
         "nome": "Amelly Melo",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/91.jpg",
@@ -3446,7 +3474,7 @@
         "estrelas": 0
     },
     {
-        "id": 56,
+        "id": "maria_cunha",
         "nome": "Maria da Cunha",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/84.jpg",
@@ -3508,7 +3536,7 @@
         "estrelas": 0
     },
     {
-        "id": 57,
+        "id": "dionaura_souza",
         "nome": "Dionaura Souza",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/5.jpg",
@@ -3570,7 +3598,7 @@
         "estrelas": 0
     },
     {
-        "id": 58,
+        "id": "angelica_silva",
         "nome": "Angélica Silva",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/45.jpg",
@@ -3632,7 +3660,7 @@
         "estrelas": 0
     },
     {
-        "id": 59,
+        "id": "safira_cruz",
         "nome": "Safira da Cruz",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/73.jpg",
@@ -3693,7 +3721,7 @@
         "estrelas": 0
     },
     {
-        "id": 60,
+        "id": "candice_pinto",
         "nome": "Cândice Pinto",
         "genero": "Feminino",
         "foto": "https://randomuser.me/api/portraits/women/79.jpg",
