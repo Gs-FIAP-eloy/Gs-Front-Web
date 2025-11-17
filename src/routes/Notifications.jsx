@@ -15,7 +15,7 @@ const Notifications = () => {
         <CardProfile />
         <CardInfoProfile />
       </aside>
-      <section className="feed"> 
+      <section className="feed-notification"> 
         <article className="notification">
           <section className="img-user-notification">
             <img src={icon}/>

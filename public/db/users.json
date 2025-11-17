@@ -5,22 +5,16 @@
         "genero": "Masculino",
         "foto": "https://avatars.githubusercontent.com/u/182553526?v=4",
         "banner": "https://media.licdn.com/dms/image/v2/D4D16AQGjobWVHrk20Q/profile-displaybackgroundimage-shrink_350_1400/B4DZoj8pleGQAY-/0/1761539704579?e=1764806400&v=beta&t=_9z1jyaKKLFbWWhS4xIWs9RUAUcfJZVvN2EWClmaQbI",
-        "titulo" : "Software Engineer | Back-end Developer | Python | JavaScript | React | Node.Js | MySQL | Agile Methodologies",
+        "titulo": "Software Engineer | Back-end Developer | Python | JavaScript | React | Node.Js | MySQL | Agile Methodologies",
         "cargo": "Engenheiro de Software",
-        "empresa" : "FIAP",
+        "empresa": "FIAP",
         "resumo": "Olá! Me chamo Leonardo, sou estudante de Engenharia de Software na FIAP, onde estou construindo uma trajetória voltada à criação de soluções digitais relevantes e escaláveis. Hoje, estou à frente do GrahamAI, um projeto que une IA generativa, interação em tempo real e design funcional para redefinir a forma como humanos e máquinas se comunicam. Acredito no poder da tecnologia como ferramenta de transformação e compartilho essa visão através do meu LinkedIn Leonardo Silva.",
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
-        "seguidores" : [
-            
-        ],
-        "seguindo" : [
-            
-        ],
-        "estrelas" : [
-            
-        ],
+        "seguidores": [],
+        "seguindo": [],
+        "estrelas": [],
         "competencias": [
             "Resolução de Problemas",
             "Criatividade",
@@ -59,15 +53,14 @@
         ],
         "certificacoes": [
             {
-                "curso" : "Front-End",
-                "instituicao" : "FIAP",
-                "duracao" : "40 Horas"
+                "curso": "Front-End",
+                "instituicao": "FIAP",
+                "duracao": "40 Horas"
             },
-
             {
-                "curso" : "Python",
-                "instituicao" : "FIAP",
-                "duracao" : "80 Horas"
+                "curso": "Python",
+                "instituicao": "FIAP",
+                "duracao": "80 Horas"
             }
         ],
         "idiomas": [
@@ -94,7 +87,25 @@
         ],
         "email": "rm564929@fiap.com.br",
         "senha": "leo1234",
-        "aniversario": "2007-02-06"
+        "aniversario": "2007-02-06",
+        "posts": [
+            {
+                "id": 1,
+                "conteudo": "Primeiro post oficial no eloy! 🎊",
+                "dataTime": "2025-11-08T06:27:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 2,
+                "conteudo": "Obrigado @smk_dmz e @alem4ao pela ajuda! excelentes profissionais.",
+                "dataTime": "2025-11-17T15:45:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "smk_dmz",
@@ -102,25 +113,17 @@
         "genero": "Masculino",
         "foto": "https://media.licdn.com/dms/image/v2/D5603AQGODfaMD4tvQA/profile-displayphoto-shrink_400_400/B56ZcUfPFCGoAg-/0/1748395422545?e=1764806400&v=beta&t=zu-EKfnIxvW3CQDrqX8sB6amPheP5pUXdRVlh2SIvgo",
         "banner": "",
-        "titulo" : "Software Engineer | Cyber | IA | Machine Learning | DevOps | Big Data | Blockchain | Web3 | Python | Kubernetes | Terraform | Grafana |",
+        "titulo": "Software Engineer | Cyber | IA | Machine Learning | DevOps | Big Data | Blockchain | Web3 | Python | Kubernetes | Terraform | Grafana |",
         "cargo": "Engenheiro de Software",
-        "empresa" : "FIAP",
+        "empresa": "FIAP",
         "resumo": "",
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
-        "seguidores" : [
-            
-        ],
-        "seguindo" : [
-            
-        ],
-        "estrelas" : [
-            
-        ],
-        "competencias": [
-
-        ],
+        "seguidores": [],
+        "seguindo": [],
+        "estrelas": [],
+        "competencias": [],
         "experiencias": [
             {
                 "empresa": "",
@@ -148,9 +151,9 @@
         ],
         "certificacoes": [
             {
-                "curso" : "",
-                "instituicao" : "",
-                "duracao" : ""
+                "curso": "",
+                "instituicao": "",
+                "duracao": ""
             }
         ],
         "idiomas": [
@@ -159,12 +162,20 @@
                 "nivel": ""
             }
         ],
-        "areainteresses": [
-            
-        ],
+        "areainteresses": [],
         "email": "rm564391@fiap.com.br",
         "senha": "290107fiap",
-        "aniversario": "2007-01-29"
+        "aniversario": "2007-01-29",
+        "posts": [
+            {
+                "id": 3,
+                "conteudo": "Automatizar tudo com Terraform é lindo até o dia que seu pipeline quebra e ninguém sabe onde. Infra como código virou arma de dois gumes: poder à vista, caos nas sombras. Quem já sofreu esse blackout sabe do que falo. Cadê o manual do \"desespero controlado\"? #TerraformTerror #InfraRealTalk #CódigoÉResponsa",
+                "dataTime": "2025-11-17T14:20:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "alem4ao",
@@ -172,25 +183,17 @@
         "genero": "Masculino",
         "foto": "https://avatars.githubusercontent.com/u/198768909?v=4",
         "banner": "",
-        "titulo" : "Estudante de Engenharia de Software na FIAP | React | Node | Tailwindcss | Phyton",
+        "titulo": "Estudante de Engenharia de Software na FIAP | React | Node | Tailwindcss | Phyton",
         "cargo": "Engenheiro de Software",
-        "empresa" : "FIAP",
+        "empresa": "FIAP",
         "resumo": "Sou estudante de Engenharia da Computação na FIAP, atualmente no 2º semestre, procurando adquirir experiência profissional na área, e melhorar minhas habilidades. Tenho buscado complementar minha formação com cursos extracurriculares. Estou em busca de uma oportunidade de estágio para colocar meus conhecimentos em prática e contribuir com o time, preferencialmente no período da tarde ou noite. Me considero esforçado, interessado e com muita vontade de aprender.",
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
-        "seguidores" : [
-            
-        ],
-        "seguindo" : [
-            
-        ],
-        "estrelas" : [
-            
-        ],
-        "competencias": [
-            
-        ],
+        "seguidores": [],
+        "seguindo": [],
+        "estrelas": [],
+        "competencias": [],
         "experiencias": [
             {
                 "empresa": "",
@@ -218,9 +221,9 @@
         ],
         "certificacoes": [
             {
-                "curso" : "",
-                "instituicao" : "",
-                "duracao" : ""
+                "curso": "",
+                "instituicao": "",
+                "duracao": ""
             }
         ],
         "idiomas": [
@@ -229,12 +232,36 @@
                 "nivel": ""
             }
         ],
-        "areainteresses": [
-            
-        ],
+        "areainteresses": [],
         "email": "rm563271@fiap.com.br",
         "senha": "250607fiap",
-        "aniversario": "2007-06-25"
+        "aniversario": "2007-06-25",
+        "posts": [
+            {
+                "id": 1,
+                "conteudo": "Aprender React não é só decorar hooks e componentes. É encarar a bagunça da real aplicação, erros inesperados e refatorações que parecem loop infinito. Só quem codou sabe: teoria é pouco, o jogo é sujo. Quem mais já se perdeu no próprio código? #DevRealTalk #ReactNaVeia #CodarÉSofrer",
+                "dataTime": "2025-11-17T14:43:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 2,
+                "conteudo": "Falar “domino React” no 2º semestre soa pretensioso? Pra mim, é sobre enfrentar o medo de errar em público e codar até o cérebro fritar. Aprender é suar a camisa, não decorar docs. Quem mais sente essa pressão de “parecer pronto” antes da hora? #DevDeVerdade #ReactNaVeia #ErroÉCaminho",
+                "dataTime": "2025-11-16T18:33:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 6,
+                "conteudo": "Por que insistimos que dominar múltiplas linguagens antes do estágio é regra? Estou no 2º semestre, focado em React e Node, mas sinto que a pressa mata a profundidade. Qual vale mais: ser generalista de superfície ou especialista em essência? Quero ouvir vocês. #EstágioReal #FocoProfundo #DevComPropósito",
+                "dataTime": "2025-11-11T07:56:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "gui_araujo",
@@ -242,25 +269,17 @@
         "genero": "Masculino",
         "foto": "https://media.licdn.com/dms/image/v2/D4E03AQFtkCAZ_d5qnA/profile-displayphoto-scale_400_400/B4EZee3LPLHwAk-/0/1750716955237?e=1764806400&v=beta&t=Glfjc2PoVHkAl3iQcsMUeYLEL4Rr0oAurFe4Z69k-OM",
         "banner": "",
-        "titulo" : "Software Engineer - FIAP | HTML | Tailwind CSS | JavaScript | Node.js | React | Python | C++ | SQL | Agile Methodologies",
+        "titulo": "Software Engineer - FIAP | HTML | Tailwind CSS | JavaScript | Node.js | React | Python | C++ | SQL | Agile Methodologies",
         "cargo": "Engenheiro de Software",
-        "empresa" : "FIAP",
+        "empresa": "FIAP",
         "resumo": "Estudante de Engenharia de Software com foco em desenvolvimento, inteligência artificial e games. Possuo sólida proficiência em matemática e habilidades em JavaScript, CSS, HTML, Python, C++, React e conhecimento básico em SQL, aplicadas em projetos acadêmicos e desenvolvidas através de um forte espírito de trabalho em equipe. Com uma experiência de 6 meses nos Estados Unidos onde aperfeiçoei meu inglês, estou em busca de oportunidades para aplicar meus conhecimentos, continuar aprendendo e contribuir com soluções inovadoras em tecnologia.",
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
-        "seguidores" : [
-            
-        ],
-        "seguindo" : [
-            
-        ],
-        "estrelas" : [
-            
-        ],
-        "competencias": [
-            
-        ],
+        "seguidores": [],
+        "seguindo": [],
+        "estrelas": [],
+        "competencias": [],
         "experiencias": [
             {
                 "empresa": "",
@@ -288,9 +307,9 @@
         ],
         "certificacoes": [
             {
-                "curso" : "",
-                "instituicao" : "",
-                "duracao" : ""
+                "curso": "",
+                "instituicao": "",
+                "duracao": ""
             }
         ],
         "idiomas": [
@@ -299,12 +318,20 @@
                 "nivel": ""
             }
         ],
-        "areainteresses": [
-            
-        ],
+        "areainteresses": [],
         "email": "rm561848@fiap.com.br",
         "senha": "290905fiap",
-        "aniversario": "2005-09-29"
+        "aniversario": "2005-09-29",
+        "posts": [
+            {
+                "id": 7,
+                "conteudo": "Você já tentou ensinar um algoritmo de IA a entender a complexidade do código humano? Spoiler: inteligência artificial ainda engatinha diante da nossa criatividade caótica. E aí, IA vai substituir dev ou ser só uma ajudante frustrada? #EngenhariaComAlma #IAnaPrática #CodarÉHumano",
+                "dataTime": "2025-11-17T13:13:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "yanbreno",
@@ -312,25 +339,17 @@
         "genero": "Masculino",
         "foto": "https://media.licdn.com/dms/image/v2/D4E03AQE3kGCzSZwfcQ/profile-displayphoto-scale_400_400/B4EZjKxWTiHEAg-/0/1755748591501?e=1764806400&v=beta&t=1uI9zwyEonl3CHLMG_mtY66yY-F2fjae3KfpUdga1Qo",
         "banner": "",
-        "titulo" : "Estudante de Engenharia de Software - FIAP | HTML | CSS | JS | Python",
+        "titulo": "Estudante de Engenharia de Software - FIAP | HTML | CSS | JS | Python",
         "cargo": "Engenheiro de Software",
-        "empresa" : "FIAP",
+        "empresa": "FIAP",
         "resumo": "",
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
-        "seguidores" : [
-            
-        ],
-        "seguindo" : [
-            
-        ],
-        "estrelas" : [
-            
-        ],
-        "competencias": [
-            
-        ],
+        "seguidores": [],
+        "seguindo": [],
+        "estrelas": [],
+        "competencias": [],
         "experiencias": [
             {
                 "empresa": "",
@@ -358,9 +377,9 @@
         ],
         "certificacoes": [
             {
-                "curso" : "",
-                "instituicao" : "",
-                "duracao" : ""
+                "curso": "",
+                "instituicao": "",
+                "duracao": ""
             }
         ],
         "idiomas": [
@@ -369,12 +388,28 @@
                 "nivel": ""
             }
         ],
-        "areainteresses": [
-            
-        ],
+        "areainteresses": [],
         "email": "rm566412@fiap.com.br",
         "senha": "280906fiap",
-        "aniversario": "2006-09-28"
+        "aniversario": "2006-09-28",
+        "posts": [
+            {
+                "id": 8,
+                "conteudo": "Aprender JavaScript não é só dominar sintaxe, é enfrentar a mess de paradigmas e frameworks que mudam a cada café. Quem disse que é simples vive na superfície. A profundidade exige coragem e resistência. Quem topa esse desafio de verdade? #DevSemFiltro #JSRealTalk #CodeComAlma",
+                "dataTime": "2025-11-14T01:47:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 9,
+                "conteudo": "Aprendi que dominar Python não é só saber sintaxe, é entender que eficiência não sobrevive sem clareza. Por que tanta pressa em otimizar código se o verdadeiro bug é perder a legibilidade? Devs, vamos debater: código bonito importa mais que código rápido? #CodeComAlma #PythonReflexão #EngenhariaDeSoftwareReal",
+                "dataTime": "2025-11-17T17:50:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "selmo_costa",
@@ -435,7 +470,33 @@
         "email": "selmo.costa2305@fiap.com.br",
         "senha": "230587fiap",
         "aniversario": "1987-05-23",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 10,
+                "conteudo": "Gestão de projetos em TI não é só metodologia, é liderança na veia. Se você ainda acha que seguir planilha é gestão, tá na hora de sentir o caos, o improviso e a pressão real. Quem nunca suou pra entregar sabe do que falo. Onde está sua coragem? #LiderançaNoCaos #GestãoReal #TIComAlma",
+                "dataTime": "2025-11-09T20:16:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 11,
+                "conteudo": "Cloud não é só tecnologia, é gestão de expectativa desconstruída. Se você ainda acha que migrar para a nuvem é só apertar um botão, está ignorando o maior desafio: liderar a mudança cultural que ninguém quer enfrentar. Quem topa esse papo reto? #CloudComPropósito #GestãoDeProjetosNaVeia #TecnologiaComAlma",
+                "dataTime": "2025-11-09T10:07:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 12,
+                "conteudo": "Gestão de projetos em TI não é só cronograma e recursos; é domar o caos da inovação enquanto o relógio não para. Quem ainda acha que metodologia salva projeto, nunca lidou com o imprevisível real. E você, como equilibra técnica e caos? #GestãoNaVeia #InovaçãoOuCaos #ProjetosReais",
+                "dataTime": "2025-11-13T23:24:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "ismael_silveira",
@@ -497,7 +558,17 @@
         "email": "ismael.silveira1112@fiap.com.br",
         "senha": "111282fiap",
         "aniversario": "1982-12-11",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 13,
+                "conteudo": "Comunicação em Infraestrutura? Ainda vejo profissionais tratando dados como \"coisas frias\". É aí que erro grave começa: sem empatia, segurança e inovação são só palavras vazias. Quem condena emoção na tech, não entende o que o futuro exige. E você, onde está sua vulnerabilidade? #InfraComAlma #DadosComPropósito #TechHumana",
+                "dataTime": "2025-11-16T15:15:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "darcio_mendes",
@@ -557,7 +628,25 @@
         "email": "dárcio.mendes1706@fiap.com.br",
         "senha": "170602fiap",
         "aniversario": "2002-06-17",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 14,
+                "conteudo": "Segurança cibernética não é só firewall e antivírus. É UX mal feita que abre portas para ataques. Quando a infraestrutura ignora o usuário, vira um convite ao caos. Alguém aí sente o mesmo desconforto entre segurança e usabilidade? #UXnaSegurança #InfraQueFala #CiberDesabafo",
+                "dataTime": "2025-11-10T08:43:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 15,
+                "conteudo": "Segurança cibernética não é só firewall e antivírus. É UX mal feita que abre brecha. Se a interface confundir, o usuário erra — e a rede paga o preço. Quem convive com infraestrutura, sabe: proteger é facilitar o acesso certo, não só bloquear o errado. #UXnaSegurança #InfraHumana #CyberPontoFraco",
+                "dataTime": "2025-11-16T07:06:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "teodosio_ferreira",
@@ -619,7 +708,33 @@
         "email": "teodósio.ferreira2309@fiap.com.br",
         "senha": "230997fiap",
         "aniversario": "1997-09-23",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 16,
+                "conteudo": "Quando falamos em Segurança Cibernética na infraestrutura, quantos de nós param para questionar: estamos protegendo dados ou apenas criando barreiras que atrasam a inovação? Segurança não pode ser um freio, tem que ser motor. Quem mais sente esse choque diário? #SegurançaSemAmarras #InovaçãoÁgil #CiberReflexão",
+                "dataTime": "2025-11-10T23:09:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 17,
+                "conteudo": "Segurança cibernética é tratada como checklist, não cultura. Gestão ágil sem proteção real é só velocidade rumo ao desastre. Quem aí já viu projeto naufragar por ignorar o óbvio? Vamos debater: proteção é luxo ou pilar? #CiberVerdade #ÁgilComSegurança #PenseAntesDeClicar",
+                "dataTime": "2025-11-12T20:37:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 18,
+                "conteudo": "Segurança cibernética na infraestrutura é papo sério, não frescura de tecnólogo. Já vi líderes ignorando riscos até o desastre bater. Quem ainda acha que “proteção é excesso” não entende nada de legado digital. Vamos parar de brincar e assumir a responsabilidade de verdade? #SegurançaSemFiltro #InfraEstratégica #DigitalSemMigué",
+                "dataTime": "2025-11-13T06:07:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "charbel_alves",
@@ -680,7 +795,33 @@
         "email": "charbel.alves1506@fiap.com.br",
         "senha": "150693fiap",
         "aniversario": "1993-06-15",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 19,
+                "conteudo": "Design e segurança cibernética são tratados como universos paralelos. Por quê? Um designer que ignora segurança está criando vulnerabilidades. Inovação só é real quando protege. E você, como integra isso no seu workflow? #DesignComProteção #BlockchainNaVeia #SegurançaNãoÉExtra",
+                "dataTime": "2025-11-17T03:16:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 20,
+                "conteudo": "Design não é só estética: quando Python encontra Blockchain, a segurança é o verdadeiro design. Quem ainda acha que inovação é só visual, está perdendo o jogo da ciberdefesa. Quer mudar isso? Vamos debater #DesignQueProtege #BlockchainNaVeia #InovaçãoSemFiltro",
+                "dataTime": "2025-11-09T21:12:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 21,
+                "conteudo": "Design é empatia, certo? Então por que tanta gente esquece disso quando entra no universo frio da Blockchain? Segurança cibernética sem entender o usuário é um tiro no próprio pé. Design não é luxo, é a base da inovação real. Quem discorda? #DesignNaBlockchain #EmpatiaOuCrash #InovaçãoComAlma",
+                "dataTime": "2025-11-11T15:14:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "nobre_carvalho",
@@ -741,7 +882,33 @@
         "email": "nobre.carvalho3006@fiap.com.br",
         "senha": "300676fiap",
         "aniversario": "1976-06-30",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 22,
+                "conteudo": "Dados não mentem — mas quem os interpreta, sim. Na segurança, confiar cegamente em ferramentas é o erro fatal. Análise crítica é linha tênue entre blindagem e brecha. Quem aí já perdeu a fé nos “algoritmos infalíveis”? #SegurançaComSenso #DadosReais #AnalistaEmAlerta",
+                "dataTime": "2025-11-17T05:45:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 23,
+                "conteudo": "Segurança da Informação sem análise de dados é como um escudo sem blindagem: aparência forte, mas vulnerável na essência. Quem ainda subestima dados na defesa cibernética, está brincando com fogo — e sem perceber. #DadosSãoBlindagem #SegurançaReal #DesafioNaPrática",
+                "dataTime": "2025-11-09T13:46:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 24,
+                "conteudo": "Quem disse que análise de dados é só números? Na segurança da informação, é o coração do combate invisível. Se não entender o dado, seu firewall vira muralha de papel. Quem mais sente que a “segurança” sem análise é só ilusão? #DadosNaVeia #SegurançaComAlma #AnáliseQueSalva",
+                "dataTime": "2025-11-09T07:37:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "janai_peixoto",
@@ -802,7 +969,17 @@
         "email": "janai.peixoto1604@fiap.com.br",
         "senha": "160484fiap",
         "aniversario": "1984-04-16",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 25,
+                "conteudo": "Gestão de projetos em design? Não é só ferramenta, é teste diário de paciência e criatividade. Liderar sem engessar é a arte que poucos valorizam. Quem aí já sofreu para equilibrar inovação com prazos cruéis? Vamos falar sobre isso! #DesignReal #GestãoQueInspira #UXcomHumanidade",
+                "dataTime": "2025-11-12T03:35:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "danilo_luz",
@@ -864,7 +1041,33 @@
         "email": "danilo.luz2909@fiap.com.br",
         "senha": "290982fiap",
         "aniversario": "1982-09-29",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 26,
+                "conteudo": "Liderar equipes de tecnologia sem comunicar é como programar sem testar: pura sorte. Nem todo líder é bom comunicador, e isso está arruinando projetos incríveis. Chega de heroísmo técnico, precisamos falar mais e codar melhor. Quem concorda? #LiderançaReal #ComunicaçãoTech #DesabafoDeProfessor",
+                "dataTime": "2025-11-16T15:16:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 27,
+                "conteudo": "Python é vendido como a linguagem do futuro, mas vejo muita gente pulando passos essenciais: entender lógica e processos antes de decorar sintaxe. Tecnologia não é mágica, é raciocínio. Quem concorda que habilidade sem fundamento é só ruído? #PorDentroDoCódigo #EngenhariaReal #DigitalComSentido",
+                "dataTime": "2025-11-09T14:09:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 28,
+                "conteudo": "Python domina salas de aula, mas na liderança tech? Ainda falta coragem para abraçar o caos do real. Não falo só de código, falo de decisões sujas, visão e comunicação brutalmente honesta. Liderar é suar na frente, não só digitar atrás. #LiderançaReal #TechSemFiltro #PythonParaAlémDoCódigo",
+                "dataTime": "2025-11-09T08:23:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "boanerges_alves",
@@ -926,7 +1129,25 @@
         "email": "boanerges.alves0305@fiap.com.br",
         "senha": "030505fiap",
         "aniversario": "2005-05-03",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 29,
+                "conteudo": "Segurança cibernética não é só firewall e senha forte. É SOBRE confiança, ética e liderança real em TI. Até quando vamos ignorar o elemento humano no centro das nossas defesas? Quem aqui já viu um vazamento que poderia ter sido evitado com comunicação melhor? #SegurançaComAlma #LiderançaQueProtege #TIRealista",
+                "dataTime": "2025-11-11T06:10:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 30,
+                "conteudo": "Metodologias Ágeis não são uma moda a ser seguida cegamente. Já vi times atolados em cerimônias que só atrasam entregas. Agilidade real é sobre adaptação inteligente, não checklist religioso. Quem aí já se perdeu no “sagrado” do ágil? #ÁgilComCérebro #DesabafoDeCoordenador #TechRealTalk",
+                "dataTime": "2025-11-16T02:10:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "irmino_ribeiro",
@@ -988,7 +1209,17 @@
         "email": "irmino.ribeiro1505@fiap.com.br",
         "senha": "150585fiap",
         "aniversario": "1985-05-15",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 31,
+                "conteudo": "Metodologias Ágeis não são a salvação mágica que vendem. Vejo equipes estagnadas porque confundem processo com cultura. Agilidade é sobre pessoas, não planilhas. Quando foi a última vez que você desafiou o status quo na sua sprint? #AgileDeVerdade #LiderançaReal #InfraEstruturaHumana",
+                "dataTime": "2025-11-15T16:55:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "everaldo_lima",
@@ -1049,7 +1280,33 @@
         "email": "everaldo.lima3003@fiap.com.br",
         "senha": "300379fiap",
         "aniversario": "1979-03-30",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 32,
+                "conteudo": "Segurança da Informação não é só tecnologia: é liderança em caos, é saber dizer \"não\" quando tudo grita \"sim\". No mundo Agile, proteger dados é arte rebelde, não checklist. Quem aí encara o desconforto real da segurança? #SegurançaComAtitude #LiderançaNoCaos #DadosEmChamas",
+                "dataTime": "2025-11-15T07:45:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 33,
+                "conteudo": "Segurança da Informação NÃO é só técnica. Sem liderança verdadeira, times se perdem em protocolos e esquecem o mais importante: proteger pessoas e dados com propósito. Quem aí já viveu esse dilema no dia a dia? #SegurançaComAlma #LiderançaNaPrática #DadosQueImportam",
+                "dataTime": "2025-11-12T16:38:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 34,
+                "conteudo": "Segurança da Informação não é só tecnologia—é atitude! O maior risco? Times que se acomodam no “já deu certo”. Inovação em Java é o caminho, mas sem coragem para questionar o óbvio, estaremos sempre um passo atrás. Quem tem medo de reinventar? #SegurançaSemFiltro #InovaçãoOuEstagnação #JavaNaVeia",
+                "dataTime": "2025-11-14T00:40:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "naod_peixoto",
@@ -1113,7 +1370,33 @@
         "email": "naod.peixoto1805@fiap.com.br",
         "senha": "180576fiap",
         "aniversario": "1976-05-18",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 35,
+                "conteudo": "Segurança cibernética não é só tecnologia; é um jogo de confiança quebrada e reparada em segundos. Enquanto arquitetos de dados, estamos mais para guardiões do caos do que para meros engenheiros. Quem aí já sentiu essa pressão na espinha? #DadosComAlma #SegurançaInconveniente #CloudNãoÉCofre",
+                "dataTime": "2025-11-15T17:15:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 36,
+                "conteudo": "Segurança em Cloud não é só tecnologia, é atitude. Já vi times brilhantes perderem dados pelo que chamam de \"detalhes mínimos\". Pra mim, ignorar segurança é a maior falta de respeito com o trabalho do time. Alguém mais cansado dessa cultura do \"deixa pra depois\"? #CloudComConsciência #SegurançaNãoEspera #DadosSãoVida",
+                "dataTime": "2025-11-15T21:18:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 37,
+                "conteudo": "Python é a espada e o escudo do Arquiteto Cloud, mas aposto que muitos subestimam o poder do design UX/UI na análise de dados. Dados sem empatia são ruído. Quem concorda que a experiência do usuário não pode ser um luxo, mas sim parte do core? #DadosComAlma #UXÉRevolução #ArquitetoCloudPensante",
+                "dataTime": "2025-11-11T10:03:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "iago_alves",
@@ -1177,7 +1460,17 @@
         "email": "iago.alves0910@fiap.com.br",
         "senha": "091082fiap",
         "aniversario": "1982-10-09",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 38,
+                "conteudo": "Gestão de projetos em tecnologia não é só cronograma e orçamento. É lidar com egos, expectativas malucas e mudanças até no café do time. Quem acha que é só técnica, nunca sentou à mesa da realidade. Alguém aí já sofreu com esse “caos organizado”? #ProjetoOuCaos #TechRealTalk #GestãoSemFiltro",
+                "dataTime": "2025-11-15T06:22:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "clidio_nascimento",
@@ -1238,7 +1531,33 @@
         "email": "clídio.nascimento2904@fiap.com.br",
         "senha": "290474fiap",
         "aniversario": "1974-04-29",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 39,
+                "conteudo": "UX/UI não é só estética: é o campo minado onde inovação encontra resistência interna. Já vi equipes travadas pelo medo de arriscar, preferindo o “bom o suficiente” ao “inovador”. Quando vamos acordar para o verdadeiro potencial da experiência do usuário? #UXNãoÉDecoração #InovaçãoOuConservadorismo #TransformaçãoDigitalReal",
+                "dataTime": "2025-11-15T15:18:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 40,
+                "conteudo": "UX/UI não é só estética: é a linha tênue entre conquistar clientes ou afugentá-los. Ignorar usabilidade é jogar dinheiro no lixo. Quem aí encara esse desafio como eu? Ou ainda subestima o poder do design na transformação digital? #UXéNegócio #DesignQueConverte #TransformaçãoDeVerdade",
+                "dataTime": "2025-11-09T11:42:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 41,
+                "conteudo": "UX não é só design bonito. É a linha tênue entre encantar e frustrar o usuário — e muitos “especialistas” ainda não entenderam isso. Gestão de projetos que ignora UX está fadada ao fracasso. Alguém aí já sentiu essa dor? #UXRealTalk #TransformaçãoDigital #GestãoComAlma",
+                "dataTime": "2025-11-14T07:11:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "socrates_farias",
@@ -1301,7 +1620,25 @@
         "email": "sócrates.farias1109@fiap.com.br",
         "senha": "110983fiap",
         "aniversario": "1983-09-11",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 42,
+                "conteudo": "Segurança cibernética não é só firewall ou antivírus — é cultura. Quantas vezes você já viu times ignorarem protocolos básicos porque \"não é prioridade\"? O maior risco está dentro da própria empresa. Se não mudar a mentalidade, nenhuma tecnologia salva. #SegurançaÉAtitude #TechComPropósito #MachineLearningNaPrática",
+                "dataTime": "2025-11-16T07:00:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 43,
+                "conteudo": "Segurança cibernética não é só firewall e antivírus. É postura, cultura e liderança. Sem isso, qualquer código Java seguro vira castelo de cartas. Quem ainda subestima isso, está apostando contra o futuro. Debate aberto: é cultura ou tecnologia que salva? #CyberRealTalk #LiderançaTech #JavaNaVeia",
+                "dataTime": "2025-11-13T06:26:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "higino_moraes",
@@ -1363,7 +1700,17 @@
         "email": "higino.moraes2904@fiap.com.br",
         "senha": "290401fiap",
         "aniversario": "2001-04-29",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 44,
+                "conteudo": "Design não é só estética. UX/UI sem ouvir o usuário é só arte vazia. Liderar cursos de TI me ensinou: criar experiências é um ato de empatia radical. Quem ainda fala só em “trend” perdeu a essência. Alguém mais cansado dessa superficialidade? #DesignComPropósito #UXReal #LiderançaHumana",
+                "dataTime": "2025-11-14T06:17:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "berilo_peixoto",
@@ -1423,7 +1770,33 @@
         "email": "berilo.peixoto2809@fiap.com.br",
         "senha": "280992fiap",
         "aniversario": "1992-09-28",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 45,
+                "conteudo": "Blockchain no Administrativo não é moda: é escudo contra a desorganização crônica que vejo todos os dias. Quem ainda acha que é só hype, não entendeu que segurança e transparência são o futuro urgente. E você, tá preparado pra deixar o passado pra trás? #AdminSemFiltro #BlockchainNaVeia #RevoluçãoSilenciosa",
+                "dataTime": "2025-11-17T13:12:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 46,
+                "conteudo": "Segurança cibernética no Administrativo não é luxo, é sobrevivência. Quem ainda trata isso como “departamento separado” está pedindo para ser hackeado. Blockchain não é hype, é o escudo que precisamos. Ou abraça a inovação ou fica para trás. Simples assim. #AdminSeguro #BlockchainNaVeia #DadosComPoder",
+                "dataTime": "2025-11-16T05:17:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 47,
+                "conteudo": "Blockchain no Administrativo é mais que inovação, é redenção da burocracia tóxica. Quem ainda acredita que segurança cibernética é luxo, nunca sofreu o caos de um dado vazado. Vamos parar de romantizar processos e começar a proteger o que realmente importa? #AdminQueTransforma #BlockchainSemFiltro #SegurançaÉUrgência",
+                "dataTime": "2025-11-13T08:35:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "micael_costa",
@@ -1484,7 +1857,17 @@
         "email": "micael.costa0811@fiap.com.br",
         "senha": "081101fiap",
         "aniversario": "2001-11-08",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 48,
+                "conteudo": "Dados não transformam empresas. Quem transforma é gente que entende dados — e que não tem medo de questionar as “verdades” do dashboard. Analista que só copia gráfico nunca foi líder de inovação. Debate aberto: será que estamos valorizando os dados ou apenas jogando estatística? #InovaçãoComPropósito #DadosComAlma #LiderançaDeVerdade",
+                "dataTime": "2025-11-13T22:40:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "emaus_rodrigues",
@@ -1546,7 +1929,33 @@
         "email": "emaús.rodrigues0812@fiap.com.br",
         "senha": "081273fiap",
         "aniversario": "1973-12-08",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 49,
+                "conteudo": "UX/UI em infraestrutura não é frescura — é revolução silenciosa! 🚀 Ignorar a experiência do usuário ao arquitetar cloud é cavar a própria cova. Quem aí encara essa maratona diária comigo sem perder a alma? #UXCloudRevolution #InfraQueSente #DesignComAlma",
+                "dataTime": "2025-11-12T12:58:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 50,
+                "conteudo": "UX em cloud não é só beleza na interface. É segurança invisível, é infraestrutura que respeita o usuário real. Quem ainda separa design de backend, não entendeu nada sobre experiência — e está falhando feio. Bora debater isso? #UXnaVeia #CloudComPropósito #InfraQueEngaja",
+                "dataTime": "2025-11-09T11:45:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 51,
+                "conteudo": "UX em Cloud não é luxo; é resistência contra a alienação digital. Infraestrutura não pode ser só código frio — é experiência, sensação, vida. Quem ainda vê UX como acessório, perde a alma das soluções. Debate aberto: UX é prioridade ou distração no Cloud? #UXRevolucionário #CloudComAlma #InfraComVida",
+                "dataTime": "2025-11-16T00:41:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "honorio_goncalves",
@@ -1607,7 +2016,25 @@
         "email": "honório.gonçalves0701@fiap.com.br",
         "senha": "070104fiap",
         "aniversario": "2004-01-07",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 52,
+                "conteudo": "Cloud não é só tecnologia, é mindset. Já cansei de ver esforços acadêmicos travados por medo do “novo”. Liderar transformação digital sem abraçar o desconforto é ilusão. Quem acha que pode acelerar dados sem acelerar pessoas, está no caminho errado. #CloudRevolução #MindsetOuNada #LiderarÉDesconforto",
+                "dataTime": "2025-11-15T13:34:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 53,
+                "conteudo": "Cloud não é mágica, é disciplina. Se sua equipe trata como “modinha”, prepare-se para projetos atrasados e dados inúteis. Liderar é endurecer o processo sem perder a alma da inovação. Quem aí já quebrou a cara nessa batalha? #CloudComConsciência #LiderançaComFerro #DadosSãoRespostas",
+                "dataTime": "2025-11-13T07:22:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "romario_alves",
@@ -1670,7 +2097,33 @@
         "email": "romário.alves0911@fiap.com.br",
         "senha": "091192fiap",
         "aniversario": "1992-11-09",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 54,
+                "conteudo": "Metodologias ágeis viraram mantra, mas na prática? Equipe engajada é mito se só seguimos processos sem entender que inovação nasce do caos organizado, não do checklist. Quem aí já sentiu isso na pele? #AgilidadeSemFiltro #InovaçãoNaPrática #DesafioRealDados #RomarioReflete",
+                "dataTime": "2025-11-13T00:56:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 55,
+                "conteudo": "Metodologias Ágeis na área de Dados? Não é sobre velocidade, é sobre maturidade. Entregar rápido sem qualidade é receita pra desastres que ninguém fala. Inovação verdadeira exige disciplina, não só pressa. Quem aí já sofreu com essa armadilha? #ÁgilComConsciência #DadosResponsáveis #InovaçãoReal",
+                "dataTime": "2025-11-15T13:38:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 56,
+                "conteudo": "Segurança cibernética não é só tecnologia, é cultura – e ainda vejo times ignorando isso. Sem mudança de mindset, firewall vira vitrine vazia. Quem topa discutir como gamificar a segurança para engajar de verdade? #SegurançaNaVeia #MindsetÉTudo #InovaçãoReal #DadosComPropósito",
+                "dataTime": "2025-11-10T19:50:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "matio_vieira",
@@ -1731,7 +2184,17 @@
         "email": "mátio.vieira0304@fiap.com.br",
         "senha": "030490fiap",
         "aniversario": "1990-04-03",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 57,
+                "conteudo": "UX/UI em Infraestrutura: por que insistimos em seguir padrões sem questionar? Dados e Python ajudam, mas design é sobre empatia – algo que falta em muitos projetos técnicos. Será que nossa área está pronta para humanizar a infraestrutura de verdade? #InfraComAlma #DesignQueTransforma #MLeUX",
+                "dataTime": "2025-11-16T11:38:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "bebiano_aragao",
@@ -1794,7 +2257,33 @@
         "email": "bebiano.aragão0905@fiap.com.br",
         "senha": "090576fiap",
         "aniversario": "1976-05-09",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 58,
+                "conteudo": "Python na engenharia de software não é só código: é uma linguagem que desafia nossa criatividade e disciplina. Vejo muitos subestimando sua potência no ensino — é hora de assumir que dominar Python é reinventar a forma de pensar tecnologia! Quem concorda? #PythonNaVeia #EngSoftwareReal #ProfDeFato",
+                "dataTime": "2025-11-11T11:02:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 59,
+                "conteudo": "Python é a corda bamba que a gente vive na academia: poderoso, ágil, mas subestimado quando o assunto é segurança. Já parou pra pensar quantas brechas evitáveis pulam só porque “é só um script”? Hora de encarar o problema de frente! #PythonSemFiltro #SegurançaNaVeia #CódigoConsciente",
+                "dataTime": "2025-11-10T05:36:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 60,
+                "conteudo": "Python na Engenharia de Software é mais que código limpo: é a fronteira onde inovação e insegurança se enfrentam. Por que tanto medo da segurança em projetos acadêmicos? Ignorar isso é preparar um desastre real. Vamos encarar de frente esse tabu? #SegurançaÉPrioridade #InovaçãoSemMedo #EngSoftwareReal",
+                "dataTime": "2025-11-14T13:58:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "sandrino_cavalcanti",
@@ -1856,7 +2345,33 @@
         "email": "sandrino.cavalcanti2505@fiap.com.br",
         "senha": "250572fiap",
         "aniversario": "1972-05-25",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 61,
+                "conteudo": "Segurança cibernética não é só firewall e antivírus. É entender onde o humano quebra antes da máquina. Enquanto ignorem essa camada, dados continuarão vulneráveis. E aí, sua empresa está pronta para proteger o elo mais fraco? #DadosComAlma #SegurançaReal #FullStackReflexivo",
+                "dataTime": "2025-11-12T07:54:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 62,
+                "conteudo": "Segurança cibernética não é só firewall e senha forte. É entender que cada linha de código pode ser um convite para o caos. Quem acha que Dev Full Stack não precisa pensar como hacker está jogando no time errado. Quer debate? Me surpreenda! #SegurançaÉMentalidade #DevComVisão #HackeandoPreconceitos",
+                "dataTime": "2025-11-11T17:32:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 63,
+                "conteudo": "Segurança cibernética não é só tecnologia, é mentalidade — e 90% dos “especialistas” ainda não entenderam isso. Sem cultura de risco real, nenhuma ferramenta salva dados. E aí, bora discutir ou continuar fingindo que firewall é solução mágica? #SegurançaComConsciência #DadosNãoMentem #CyberPuraRealidade",
+                "dataTime": "2025-11-16T08:09:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "arcelino_alves",
@@ -1918,7 +2433,33 @@
         "email": "arcelino.alves2411@fiap.com.br",
         "senha": "241199fiap",
         "aniversario": "1999-11-24",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 64,
+                "conteudo": "Quem disse que Técnico de Hardware não entende de Marketing? Dados não mentem, mas líderes que ignoram tecnologia estão condenando suas estratégias ao fracasso. Foco em análise é poder — quem não vê, está fadado a repetir. #TechÉMarketing #DadosMandam #InovaçãoSemFiltro",
+                "dataTime": "2025-11-17T10:40:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 65,
+                "conteudo": "Transformação digital sem segurança é só ilusão. Vejo tanta inovação brilhando, mas descuidada na infraestrutura que sustenta tudo. Ou acordamos para proteger o que criamos, ou seremos vítimas do próprio progresso. Quem mais acha que segurança é o novo marketing? #DigitalComConsciência #SegurançaNaVeia #MarketingRealista",
+                "dataTime": "2025-11-16T05:42:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 66,
+                "conteudo": "Quando ouço que “segurança é só responsabilidade do time de TI”, sinto que estamos cegando para o maior risco: a cultura da empresa. Tecnologia sem mudança de mindset é só fachada. E aí, quem real mente lidera essa transformação? #SegurançaOuIlusão #MindsetDigital #DesafioDeLiderar",
+                "dataTime": "2025-11-10T09:12:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "jassia_lopes",
@@ -1981,7 +2522,33 @@
         "email": "jássia.lopes2007@fiap.com.br",
         "senha": "200778fiap",
         "aniversario": "1978-07-20",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 67,
+                "conteudo": "Segurança cibernética no administrativo? Ainda vejo mentes fechadas como se fosse só TI. Erro mortal! Proteger dados é liderança, estratégia e inovação. Ou começamos a tratar com respeito ou vamos continuar pagando o preço da negligência. Quem concorda, comenta! #SegurançaÉLiderança #DadosNãoSãoPiada #AdminComFoco",
+                "dataTime": "2025-11-14T01:30:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 68,
+                "conteudo": "Segurança cibernética não é só TI; é liderança em risco real. Quando o administrativo ignora, as brechas custam caro. Onde está a responsabilidade dos gestores em proteger dados? Pergunto: liderar é só comandar ou também blindar o futuro? #SegurançaÉLiderança #DadosNãoMentem #AdminComFoco",
+                "dataTime": "2025-11-13T03:38:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 69,
+                "conteudo": "Meta ágil no administrativo: foco em velocidade ou qualidade? Correr atrás do prazo não pode sacrificar análise de dados e segurança. Liderar é ter coragem de desacelerar pra pensar melhor. Quem mais já sentiu essa pressão? #AdminComPropósito #LiderançaReal #DadosNinguémMente",
+                "dataTime": "2025-11-12T21:50:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "elina_nascimento",
@@ -2041,7 +2608,25 @@
         "email": "elina.nascimento2310@fiap.com.br",
         "senha": "231084fiap",
         "aniversario": "1984-10-23",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 70,
+                "conteudo": "Aprender Python na infraestrutura é como desafiar o sistema: não é moda, é NECESSIDADE. Quem insiste em \"deixar pra depois\" está engessando inovação. E você, já codou seu medo de mudar? #InfraestruturaComCódigo #TransformaçãoOuEstagnação #MarketingQueInova",
+                "dataTime": "2025-11-17T10:25:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 71,
+                "conteudo": "Dominar Python na infraestrutura digital não é luxo, é sobrevivência. Quem ainda acha que marketing digital é só criatividade, está perdendo o jogo dos dados. Comunicação sem análise é só barulho. E você, vai acompanhar a revolução ou ficar pra trás? #DadosSãoReis #InfraTech #MarketingReal",
+                "dataTime": "2025-11-15T00:54:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "dalva_castro",
@@ -2103,7 +2688,33 @@
         "email": "dalva.castro1207@fiap.com.br",
         "senha": "120778fiap",
         "aniversario": "1978-07-12",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 72,
+                "conteudo": "Segurança cibernética não sobrevive só a firewalls. Quem ignora o poder do Python em automação está jogando contra seu próprio time. Inovação é atitude, não escolha. Quem aí já sentiu essa resistência no meio acadêmico? #CyberComPython #InovaçãoSemFiltro #FIAPNaVeia",
+                "dataTime": "2025-11-13T02:08:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 73,
+                "conteudo": "Segurança cibernética não é só tecnologia — é cultura. Quantas vezes você já viu um vazamento porque o \"humano\" foi o elo fraco? Investir em Cloud e dados sem educar as pessoas é empilhar tijolo em areia movediça. E aí, como você encara esse desafio? #CyberSemFiltro #HumanoÉALinha #SegurançaNaVeia",
+                "dataTime": "2025-11-17T02:53:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 74,
+                "conteudo": "Por que tanta resistência em investir tempo real em Segurança Cibernética nas faculdades? Falamos de inovação, dados e cloud, mas segurança fica no “depois”. Ignorar isso é dar carta branca ao caos digital. Quem mais acha que é hora de virar o jogo? #CyberSemFiltro #SegurançaOuNada #FIAPNaVeia",
+                "dataTime": "2025-11-13T03:55:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "miuke_melo",
@@ -2164,7 +2775,17 @@
         "email": "miuke.melo1408@fiap.com.br",
         "senha": "140801fiap",
         "aniversario": "2001-08-14",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 75,
+                "conteudo": "Gestão de projetos em infraestrutura não é cronograma bonitinho. É batalha diária contra o imprevisto, egos e decisões que ninguém quer tomar. Se você acha que é só seguir planilha, tá na hora de acordar pra vida real. Quem aí também sofre nessa guerra invisível? #InfraSemFiltro #GestãoDeProjetoÉGuerra #VidaRealTech",
+                "dataTime": "2025-11-14T21:12:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "graciela_moura",
@@ -2227,7 +2848,17 @@
         "email": "graciela.moura0805@fiap.com.br",
         "senha": "080594fiap",
         "aniversario": "1994-05-08",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 76,
+                "conteudo": "Quem disse que segurança é só firewall e senha forte nunca tentou explicar código Python para um time que só quer agilidade. DevOps + Segurança = dança difícil, mas quem não se adapta fica para trás. E você, como equilibra inovação e proteção? #SegurançaSemFiltro #DevOpsRealTalk #PythonNaVeia",
+                "dataTime": "2025-11-10T00:15:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "luciara_araujo",
@@ -2290,7 +2921,33 @@
         "email": "luciara.araújo1312@fiap.com.br",
         "senha": "131200fiap",
         "aniversario": "2000-12-13",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 77,
+                "conteudo": "Segurança cibernética no marketing? Não é \"nice to have\", é o que separa quem entende do mercado real de quem só fala bonito. Ignorar isso é jogar inovação fora. Quem ainda acha que marketing é só criatividade, tá vivendo no passado. #MarketingSeguro #InovaçãoSemFiltro #TechMindset",
+                "dataTime": "2025-11-10T03:33:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 78,
+                "conteudo": "Segurança cibernética no marketing: papo reto, ainda vejo times ignorando o básico enquanto correm atrás do próximo buzz. Se não proteger o dado, não adianta vender nada. Inovação sem segurança é só fachada. Quem concorda, quem discorda? #MarketingSeguroOuNada #TechComPropósito #DadosSãoPessoas",
+                "dataTime": "2025-11-15T22:58:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 79,
+                "conteudo": "Segurança cibernética no marketing? Ainda vejo equipes tratando isso como checklist, não estratégia. Se ignorarmos vulnerabilidades, criamos mais que campanhas—abrimos brechas para crises. Marketing sem segurança é convite aberto ao desastre. Quem pensa diferente? #HackeieOStatusQuo #MarketingComEscudo #SegurançaÉNegócio",
+                "dataTime": "2025-11-16T02:05:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "marilaine_pinto",
@@ -2353,7 +3010,25 @@
         "email": "marilaine.pinto0307@fiap.com.br",
         "senha": "030777fiap",
         "aniversario": "1977-07-03",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 80,
+                "conteudo": "Infraestrutura não é só cabos e servidores, é UX! Já pensou que a experiência do usuário começa muito antes da interface? Se ignorarmos isso, perdemos inovação real. Quem aí encara essa conexão entre Cloud e Design como eu? #InfraComAlma #CloudComPaixão #UXNaInfra",
+                "dataTime": "2025-11-12T10:11:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 81,
+                "conteudo": "Ser apaixonada por Infraestrutura não me impede de surtar quando vejo empresas ignorando UX/UI no Cloud. Tecnologia que não serve ao usuário é só código morto. Quem mais acha que DevOps precisa urgentemente pensar como designer? #InfraComAlma #UXnaNuvem #CloudComPaixão",
+                "dataTime": "2025-11-14T06:00:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "olivia_campos",
@@ -2417,7 +3092,17 @@
         "email": "olívia.campos2702@fiap.com.br",
         "senha": "270299fiap",
         "aniversario": "1999-02-27",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 82,
+                "conteudo": "Gestão de projetos em Infraestrutura não é só cronograma e risco — é exercício diário de liderança onde comunicar demais é melhor que pouco. Ainda vejo profissionais subestimarem o poder do diálogo claro. Quem aí já viveu isso e sabe o drama? #LiderançaReal #FalarSemFiltro #InfraestruturaViva",
+                "dataTime": "2025-11-17T08:21:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "silviara_campos",
@@ -2479,7 +3164,25 @@
         "email": "silviara.campos2108@fiap.com.br",
         "senha": "210894fiap",
         "aniversario": "1994-08-21",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 83,
+                "conteudo": "UX/UI é muito mais que estética: é sobre entender o humano por trás da tela. Quando o design vira apenas “beleza”, perdemos o propósito real — criar experiências que transformam. Quem mais acha que estamos esquecendo a empatia no digital? #DesignComAlma #UXÉVida #MarketingHumano",
+                "dataTime": "2025-11-11T02:24:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 84,
+                "conteudo": "Python no design? Quebrando a bolha: não é só código, é entender o usuário em outro nível. Quem ainda vê UX e programação como mundos separados, tá perdendo a chance real de inovar. E você, chegou a misturar esses mundos ou ainda vive na zona de conforto? #DesignComCódigo #UXRevolução #ForaDaBolhaDigital",
+                "dataTime": "2025-11-10T06:06:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "elaine_rocha",
@@ -2542,7 +3245,33 @@
         "email": "elaine.rocha0609@fiap.com.br",
         "senha": "060903fiap",
         "aniversario": "2003-09-06",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 85,
+                "conteudo": "Gestão de projetos em DevOps virou discurso de coaching, mas na prática? É caos, pressão e decisões em frações de segundo. Quem nunca sofreu para alinhar times e pipelines sabe do que falo. Alguém mais cansado desse mito do “controle total”? #DevOpsRealTalk #GestaoNaTrincheira #DadosComHumano",
+                "dataTime": "2025-11-14T20:16:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 86,
+                "conteudo": "Gerenciar projetos ágeis em DevOps é sempre elogiado, mas por que ninguém fala do desgaste REAL de liderar equipes que não entendem dados? Liderança sem preparo técnico é receita pra caos. Vamos parar de romantizar o “gestor herói”? #LiderançaComDados #DevOpsRealTalk #QuebraDeParadigmas",
+                "dataTime": "2025-11-16T17:15:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 87,
+                "conteudo": "Por que a cultura ágil ainda tropeça na entrega de valor real em dados? Metodologias não salvam projeto; liderar pessoas e entender o negócio é o que faz a diferença. DevOps não é só ferramenta, é mindset para quem quer inovar de verdade. #ÁgilSemMágica #LiderançaDataDriven #DevOpsÉPessoas",
+                "dataTime": "2025-11-10T15:35:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "carol_farias",
@@ -2604,7 +3333,17 @@
         "email": "carol.farias1901@fiap.com.br",
         "senha": "190181fiap",
         "aniversario": "1981-01-19",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 88,
+                "conteudo": "Metodologias ágeis na segurança cibernética? Claro, agilizam entregas, mas será que aceleram a proteção ou só aumentam o risco? Segurança não é sprint, é maratona que exige mais consciência que pressa. Quem aí já sentiu essa tensão? #SegurançaComAlma #AgilidadeRefletida #TechComPropósito",
+                "dataTime": "2025-11-12T07:10:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "laila_farias",
@@ -2665,7 +3404,33 @@
         "email": "laila.farias2107@fiap.com.br",
         "senha": "210777fiap",
         "aniversario": "1977-07-21",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 89,
+                "conteudo": "Cloud não é só tecnologia, é cultura. E me irrita ver líderes que não entendem isso e jogam a transformação digital no piloto automático. Sem mudança de mindset, não há inovação—só um amontoado de apps inúteis. Que time tá disposto a romper essa barreira? #CloudSemMimimi #LiderançaDeVerdade #InovarOuMorrer",
+                "dataTime": "2025-11-13T03:31:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 90,
+                "conteudo": "Cloud não é só tecnologia: é a nova cultura do 'faça e aprenda'. Se sua equipe ainda vê nuvem como “coisa técnica”, sua liderança está falhando. Liderar hoje é repensar mindset, não só processos. Aguento mais processo que entrega? Não. #LiderançaNaVeia #CloudComPropósito #DesafioReal",
+                "dataTime": "2025-11-11T01:11:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 91,
+                "conteudo": "Cloud não é só tecnologia, é atitude. Como líder, vejo equipes que tratam a nuvem como um botão mágico, ignorando a cultura por trás. Transformação digital sem mindset ágil é só uma ilusão cara. Quem topa repensar isso comigo? #CloudComPropósito #LiderançaDeVerdade #MindsetÁgil",
+                "dataTime": "2025-11-15T02:07:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "karen_moreira",
@@ -2727,7 +3492,17 @@
         "email": "karen.moreira2606@fiap.com.br",
         "senha": "260600fiap",
         "aniversario": "2000-06-26",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 92,
+                "conteudo": "UX em Segurança: por que continuar ignorando o usuário final na hora de criar protocolos? Segurança não é só firewall, é empatia que falta no design. Se não enxergarmos isso, estamos criando muros que só atrapalham o próprio time. E aí, quem sofre? #UXNãoÉBurocracia #SegurançaHumanizada #DesignComPropósito",
+                "dataTime": "2025-11-16T00:01:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "efigenia_nunes",
@@ -2789,7 +3564,33 @@
         "email": "efigênia.nunes0504@fiap.com.br",
         "senha": "050485fiap",
         "aniversario": "1985-04-05",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 93,
+                "conteudo": "Segurança cibernética não é só firewall ou senha forte. É entender o caos dos dados em tempo real e agir antes do desastre. Quem ainda trata segurança como checklist, perde a guerra. Bora debater: estamos prontos para essa corrida contra o relógio? #SegurançaViva #DadosNãoMentem #AgilidadeNaVeia",
+                "dataTime": "2025-11-11T15:33:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 94,
+                "conteudo": "Segurança cibernética não é só firewall e antivírus. O verdadeiro desafio? Educar equipes ágeis que cortam caminho em nome da velocidade. Sem cultura, não há proteção que aguente. Quem mais sente essa guerra diária? #SegurançaSemFiltro #ÁgilComConsciência #TechSemDesculpas",
+                "dataTime": "2025-11-16T19:43:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 95,
+                "conteudo": "Dados não mentem, mas quem os interpreta pode estar cego por vieses. Na segurança, tentando decifrar padrões, percebo: somos reféns da nossa própria análise. Será que a ânsia por agilidade nos faz ignorar o óbvio? #SegurançaSemFiltros #DadosNaVeia #MetodologiasComCuidado",
+                "dataTime": "2025-11-13T11:05:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "lair_viana",
@@ -2849,7 +3650,17 @@
         "email": "laír.viana0801@fiap.com.br",
         "senha": "080182fiap",
         "aniversario": "1982-01-08",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 96,
+                "conteudo": "Metodologias Ágeis no RH? Não é moda: é sobrevivência. Se seu time resiste, não é preguiça, é medo de mudar o próprio caos. Inovar em RH é guerra psicológica diária. Quem encara sabe: sem agilidade, estamos fadados ao retrocesso. #RHTech #AgilidadeÉCHOQUE #TransformaçãoOUEstagnação",
+                "dataTime": "2025-11-09T08:45:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "joice_cunha",
@@ -2911,7 +3722,33 @@
         "email": "joice.cunha2103@fiap.com.br",
         "senha": "210305fiap",
         "aniversario": "2005-03-21",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 97,
+                "conteudo": "Segurança cibernética não é só firewall ou senha forte. É entender o usuário, seus medos e erros. UX/UI é o elo perdido que muitos ignoram — até a brecha aparecer. Quem mais acha que designers deveriam sentar no comitê de segurança? #SegurançaComAlma #UXnaLinhaDeFogo #DadosQueFalam",
+                "dataTime": "2025-11-09T06:18:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 98,
+                "conteudo": "Segurança não é só tecnologia; é comunicação. Já perdi prazos porque gente “técnica” não fala a língua do time. Se UX/UI não conversa com Segurança, dados viram brechas. Quem mais acha que nossa maior vulnerabilidade é o ruído entre áreas? #SegurançaSemJargão #UXEnxerga #DadosNãoMentem",
+                "dataTime": "2025-11-15T18:14:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 99,
+                "conteudo": "Segurança não é só firewall e senha forte. É sobre HUMANIZAR dados na era da automação. UX/UI é minha arma secreta contra brechas invisíveis. Se ignoramos a experiência do usuário, abrimos portas para o caos. Quem mais acha que segurança precisa de empatia? #SegurançaComAlma #UXNaProteção #DadosHumanos",
+                "dataTime": "2025-11-09T01:21:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "keli_melo",
@@ -2975,7 +3812,17 @@
         "email": "keli.melo0206@fiap.com.br",
         "senha": "020681fiap",
         "aniversario": "1981-06-02",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 100,
+                "conteudo": "Liderar projetos de dados não é só técnica — é resistência contra o medo do novo. Python é minha arma, mas a verdadeira batalha é desmontar o “não dá pra fazer” enraizado na cultura. Quem aí também sente esse choque diário? #DadosComAtitude #PythonNaVeia #InovaçãoQueAssusta",
+                "dataTime": "2025-11-13T02:11:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "pamela_aragao",
@@ -3037,7 +3884,25 @@
         "email": "pâmela.aragão2201@fiap.com.br",
         "senha": "220193fiap",
         "aniversario": "1993-01-22",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 101,
+                "conteudo": "Python em UX? Pra mim, é quase revolucionário. Quem disse que design é só estética nunca tentou automatizar testes de usabilidade com código. Comunicação e inovação passam por dominar a linguagem dos dados, não só dos pixels. #UXComCódigo #DesignRevolucionário #TechComAlma",
+                "dataTime": "2025-11-16T19:05:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 102,
+                "conteudo": "Segurança Cibernética é papo de TI, certo? Errado. Se o UX falha, dados vazam. Design não é só estética, é blindagem invisível. Por que a galera não entende que UX/UI também salva sistemas? Quem aí já viu projeto ruir por falta desse olhar? #UXSegurançaÉTudo #DesignQueProtege #TechComAlma",
+                "dataTime": "2025-11-15T20:12:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "florisbela_rezende",
@@ -3100,7 +3965,33 @@
         "email": "florisbela.rezende2204@fiap.com.br",
         "senha": "220479fiap",
         "aniversario": "1979-04-22",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 103,
+                "conteudo": "UX/UI em infraestrutura? Só se for para tirar a complexidade na raça! Quem acha que design é só “beleza” nunca sofreu com sistemas que engasgam no mundo real. Inovação é suar a camisa para traduzir caos em clareza. Debate aberto: onde seu time falha no básico? #InfraRevolução #DesignSemFiltro #UXNaVeia",
+                "dataTime": "2025-11-10T16:55:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 104,
+                "conteudo": "Infraestrutura sem UX é como um prédio sem portas: imponente, mas inútil. Por que seguimos ignorando a experiência do usuário nas bases que sustentam tudo? Se não repensarmos isso, estamos condenados a construir fortalezas vazias. Vamos debater? #InfraEstruturaComAlma #UXNaBase #DesafioReal",
+                "dataTime": "2025-11-16T01:50:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 105,
+                "conteudo": "UX/UI em Infraestrutura não é luxo, é sobrevivência. Ignorar a experiência do usuário em sistemas críticos é receita para falhas graves. Quando vou ouvir que infraestrutura e design andam juntos? A segurança começa no design. Quem mais sofre com isso? #InfraHumana #UXQueSalva #DesignOuCaos",
+                "dataTime": "2025-11-11T20:20:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "fausta_moraes",
@@ -3162,7 +4053,17 @@
         "email": "fausta.moraes2703@fiap.com.br",
         "senha": "270377fiap",
         "aniversario": "1977-03-27",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 106,
+                "conteudo": "UX/UI é muito mais que estética: é a linha tênue entre engajamento e frustração. Quantas experiências incríveis perdemos por designers que esquecem que por trás da tela tem gente, não só dados? Foco no humano ou siga fadado ao fracasso digital. #UXComAlma #DesignSemFrescura #TransformaOuMorre",
+                "dataTime": "2025-11-12T17:04:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "marisvalda_rodrigues",
@@ -3224,7 +4125,33 @@
         "email": "marisvalda.rodrigues0507@fiap.com.br",
         "senha": "050783fiap",
         "aniversario": "1983-07-05",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 107,
+                "conteudo": "Se segurança cibernética não é prioridade no design que você entrega, repense sua carreira. Visual bonito não protege dados. Cloud é poder, mas sem proteção é convite pro caos. Quem ainda subestima isso, está fadado a perder o jogo. #DesignComSegurança #CloudSemFiltro #DesabafoDeUmaAnalista",
+                "dataTime": "2025-11-15T03:36:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 108,
+                "conteudo": "Cloud Computing virou sinônimo de \"nuvem mágica\" que resolve tudo. Sério? Ignorar a base da segurança cibernética é receita para desastre. Inovação sem proteção é convite ao caos. Quem aí já viu projeto naufragar por falta de blindagem real? #CloudSemFiltro #SegurançaOuNada #DesignConsciente",
+                "dataTime": "2025-11-15T11:47:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 109,
+                "conteudo": "Design e Segurança Cibernética: por que ainda tratamos proteção como luxo e não como pilar do design? Criar sem blindar é convite ao desastre. Quem aí já viu projeto brilhante ser soterrado por brechas evitáveis? #DesignComEscudo #SegurançaEmPrimeiroLugar #MindsetDeFerro",
+                "dataTime": "2025-11-11T15:31:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "diva_martins",
@@ -3285,7 +4212,33 @@
         "email": "diva.martins2009@fiap.com.br",
         "senha": "200982fiap",
         "aniversario": "1982-09-20",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 110,
+                "conteudo": "Segurança cibernética não é frescura, é sobrevivência. Enquanto muitos subestimam, estou cansada de ver inovação engessada por medo de errar. Quem não arrisca perderá muito mais que dados: perderá relevância. E você, está pronto pra enfrentar o risco? #SegurançaSemMimimi #InovaçãoOuExtinção #CódigoComCoragem",
+                "dataTime": "2025-11-14T22:56:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 111,
+                "conteudo": "Segurança cibernética não é só firewall e senha forte. É entender que o erro humano é a porta dos fundos da inovação. Se não educarmos, todo código vira risco. Quem realmente protege sistemas? Quem forma a cultura? #CiberReflexão #ErroHumanoÉVírus #InovaçãoSegura #DivaNaFIAP",
+                "dataTime": "2025-11-11T18:40:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 112,
+                "conteudo": "Segurança Cibernética não é só tecnologia; é um jogo de guerra mental. Enquanto desenvolvedores, temos a responsabilidade de antecipar ataques que ainda nem imaginam. Quem aí encara esse desafio sem paranoia? Ou só eu vejo ameaça em cada linha de código? #CiberVigilância #CódigoQueProtege #EngenhariaComAlma",
+                "dataTime": "2025-11-13T14:02:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "oneida_viana",
@@ -3348,7 +4301,33 @@
         "email": "oneida.viana0608@fiap.com.br",
         "senha": "060877fiap",
         "aniversario": "1977-08-06",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 113,
+                "conteudo": "Por que ainda tratamos UX/UI como “bônus” em projetos de IA? Ignorar design na inteligência artificial é receita para falhas catastróficas – dados valem nada sem experiência humana. Quem mais acha que esse papo precisa virar prioridade, não luxo? #UXnaIA #DesignQueSalva #ProjetoComPropósito",
+                "dataTime": "2025-11-09T06:40:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 114,
+                "conteudo": "Segurança cibernética é tratada como checklist, mas ignorar sua complexidade em projetos de IA é suicídio acadêmico. Quem aí já viu inovação fritar porque a segurança virou último plano? Vamos parar de romantizar riscos e debater sério. Quem topa? #SegurançaSemFiltro #IARealista #GestãoSemIlusão",
+                "dataTime": "2025-11-11T05:20:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 115,
+                "conteudo": "Design não é só beleza. Em IA, UX/UI mal feito é um risco invisível que pode comprometer segurança e a ética do projeto. Ignorar isso? Um convite explícito ao fracasso disfarçado de inovação. Quem mais sente esse nó? #UXÉSegurança #IAComPropósito #DesignQueImporta #GestaoDeProjetos",
+                "dataTime": "2025-11-15T03:28:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "jocieri_silva",
@@ -3408,7 +4387,25 @@
         "email": "jocieri.silva2603@fiap.com.br",
         "senha": "260378fiap",
         "aniversario": "1978-03-26",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 116,
+                "conteudo": "Segurança cibernética em RH ainda é visto como “extra”. Não é! Dados de pessoas são vidas digitais. Ignorar proteção é jogar confiança no lixo. Quem aí encara esse desafio de frente? Ou preferem ser os próximos a contar prejuízo? #RHTech #SegurançaOuNada #TransformacaoDigitalReal",
+                "dataTime": "2025-11-10T07:28:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 117,
+                "conteudo": "Segurança cibernética no RH: é sonho ou paranoia? Enquanto buscam agilidade e UX, muitos esquecem que dados de pessoas são o ativo mais vulnerável. Sem proteção real, inovação vira porta aberta para desastre. Quem aqui encara esse dilema diariamente? #RHNaLinhaDeFogo #CibersegurançaOuIlusão #InovaçãoResponsável",
+                "dataTime": "2025-11-16T14:59:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "amelly_melo",
@@ -3471,7 +4468,33 @@
         "email": "amelly.melo2807@fiap.com.br",
         "senha": "280797fiap",
         "aniversario": "1997-07-28",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 118,
+                "conteudo": "Cloud não é só tecnologia — é teste diário para nossa liderança e resiliência. Quem acha que migrar dados é só clicar “next” nunca enfrentou a pressão real de decisão em minutos. É aqui que inovar vira sobrevivência. Quem mais sente essa intensidade? #CloudNaVeia #LiderançaEmDados #InovaçãoReal",
+                "dataTime": "2025-11-17T09:48:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 119,
+                "conteudo": "Cloud não é só tecnologia, é sobre confiança e cultura. Já vi times travarem por medo do novo, não por falta de habilidade. Quem disse que inovação é só técnica esquece que mudar mindset é o maior bug a ser depurado. E aí, quem encara esse desafio? #CloudComCoragem #DadosComPropósito #InovaçãoReal",
+                "dataTime": "2025-11-11T10:18:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 120,
+                "conteudo": "Gestão de projetos em dados não é só planilha e cronograma. É navegar no caos do inesperado, liderar sem respostas prontas e abraçar o erro como combustível. Quem acha que é só seguir o passo a passo, nunca liderou nada de verdade. #DadosComAlma #LiderançaNaPrática #ProjetoÉDesafio",
+                "dataTime": "2025-11-15T12:55:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "maria_cunha",
@@ -3533,7 +4556,17 @@
         "email": "maria.cunha1101@fiap.com.br",
         "senha": "110181fiap",
         "aniversario": "1981-01-11",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 121,
+                "conteudo": "Segurança na nuvem não é só firewall e senha forte. É cultura, é gente treinada que entende riscos reais, não scripts prontos. Quem acha que só tecnologia resolve, ignora o maior vetor de ataque: o erro humano. Bora repensar o treinamento? #SegurançaComPropósito #ErroHumanoNuncaÉSóErro",
+                "dataTime": "2025-11-11T04:36:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "dionaura_souza",
@@ -3595,7 +4628,25 @@
         "email": "dionaura.souza1306@fiap.com.br",
         "senha": "130601fiap",
         "aniversario": "2001-06-13",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 122,
+                "conteudo": "Python na segurança cibernética: todo mundo fala, poucos dominam. E, sinceramente, acho que a comunidade perde mais tempo na teoria do que construindo defesas reais. Quem aí tá cansado do \"teórico safe space\"? Bora codar, quebrar barreiras e rebootar essa mentalidade! #CodeOuCai #CiberRealTalk #PythonNaVeia",
+                "dataTime": "2025-11-10T05:35:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 123,
+                "conteudo": "Python na Segurança Cibernética: ferramenta ou muleta? Vejo muitos afundando no código e esquecendo o básico: pensar como hacker. Se você só decora scripts, está um passo atrás do ataque. Infraestrutura e mentalidade antes da linguagem. Discorda? #HackTheMind #Ciberreflexão #SegurançaComPropósito",
+                "dataTime": "2025-11-09T08:22:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "angelica_silva",
@@ -3657,7 +4708,25 @@
         "email": "angélica.silva1407@fiap.com.br",
         "senha": "140704fiap",
         "aniversario": "2004-07-14",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 124,
+                "conteudo": "Python é incrível para segurança, mas ouvir que “automatizar tudo resolve” me faz querer gritar. Sem análise crítica e contexto, é código no escuro. Segurança não é só script, é entender o porquê, o risco real. Quem mais sente essa cilada? #SegurançaComAlma #PythonRealTalk #DadosNãoMentem",
+                "dataTime": "2025-11-13T02:34:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            },
+            {
+                "id": 125,
+                "conteudo": "Python na Segurança: não é só código, é meu escudo diário. Se você acha que segurança é firewall e antivirus, tá na hora de repensar. Inovação exige coragem para quebrar paradigmas. Quem topa esse desafio comigo? #SegurançaSemFrescura #PythonNaVeia #InovaçãoQueTransforma",
+                "dataTime": "2025-11-16T03:30:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "safira_cruz",
@@ -3718,7 +4787,17 @@
         "email": "safira.cruz1712@fiap.com.br",
         "senha": "171298fiap",
         "aniversario": "1998-12-17",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 126,
+                "conteudo": "Sabe o que me incomoda na tal “transformação digital”? A pressa em automatizar tudo sem entender a real infraestrutura por trás. Cloud é poder, mas sem base sólida, vira castelo de areia. Quem aí já sentiu essa tensão entre inovação e chão de fábrica? #InfraComAlma #CloudSemFiltro #TechRealTalk",
+                "dataTime": "2025-11-14T09:55:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     },
     {
         "id": "candice_pinto",
@@ -3778,6 +4857,16 @@
         "email": "cândice.pinto3006@fiap.com.br",
         "senha": "300674fiap",
         "aniversario": "1974-06-30",
-        "estrelas": 0
+        "estrelas": 0,
+        "posts": [
+            {
+                "id": 127,
+                "conteudo": "Design e Segurança Cibernética? Sim, não é só estética: é proteção, é código que salva. Quem acha que criatividade não dialoga com Python nunca sentiu o aperto real de um bug que pode custar caro. Design sem segurança é fachada – e eu me recuso a ser decorativa. #DesignComCódigo #SegurançaNãoÉFiltro #TechComPropósito",
+                "dataTime": "2025-11-13T09:09:00Z",
+                "likes": [],
+                "comentarios": [],
+                "compartilhamentos": []
+            }
+        ]
     }
 ]
