@@ -13,6 +13,7 @@ import CardLanguages from '../components/ui/CardLanguages';
 import CardSkills from '../components/ui/CardSkills';
 import CardNewslatter from '../components/ui/CardNewslatter';
 import CardAds from '../components/ui/CardAds';
+import CardFeedProfile from '../components/ui/CardFeedProfile';
 
 const User = () => {
 
@@ -64,9 +65,9 @@ const User = () => {
           <BannerProfile local='current_profile_id' />
           <ContentProfile local='current_profile_id' />
         </article>
-
         <CardInterests local='current_profile_id'/>
         <CardAbout local='current_profile_id'/>
+        <CardFeedProfile local='current_profile_id' />
         <CardExperiences local='current_profile_id'/>
         <CardAcademic local='current_profile_id'/>
         <CardProjects local='current_profile_id'/>

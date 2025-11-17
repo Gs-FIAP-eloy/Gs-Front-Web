@@ -13,6 +13,7 @@ import CardInterests from '../components/ui/CardInterests'
 import CardSkills from '../components/ui/CardSkills'
 import CardProjects from '../components/ui/CardProjects'
 import useAuthRedirect from '../hook/useAuthRedirect'
+import CardFeedProfile from '../components/ui/CardFeedProfile'
 
 const Profile = () => {
 
@@ -22,17 +23,18 @@ const Profile = () => {
     <section className="content">
       <section className="ctn-content-profile">
         <article className='card-content-profile'>
-          <BannerProfile local='eloy_user'/>
-          <ContentProfile local='eloy_user'/>
+          <BannerProfile local='eloy_user' />
+          <ContentProfile local='eloy_user' />
         </article>
-        <CardInterests local='eloy_user'/>
-        <CardAbout local='eloy_user'/>
-        <CardExperiences local='eloy_user'/>
-        <CardAcademic local='eloy_user'/>
-        <CardProjects local='eloy_user'/>
-        <CardMyCourses local='eloy_user'/>
-        <CardLanguages local='eloy_user'/>
-        <CardSkills local='eloy_user'/>
+        <CardInterests local='eloy_user' />
+        <CardAbout local='eloy_user' />
+        <CardFeedProfile local='eloy_user' />
+        <CardExperiences local='eloy_user' />
+        <CardAcademic local='eloy_user' />
+        <CardProjects local='eloy_user' />
+        <CardMyCourses local='eloy_user' />
+        <CardLanguages local='eloy_user' />
+        <CardSkills local='eloy_user' />
       </section>
       <aside className="right">
         <CardNewslatter />

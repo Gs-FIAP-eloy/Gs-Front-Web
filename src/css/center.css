@@ -18,6 +18,22 @@
     background: var(--background-card);
 }
 
+.feed-profile{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+    min-height: 100%;
+    gap: 10px;
+}
+
+.no-posts{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #969696;
+}
+
 .post{
     display: flex;
     flex-direction: column;
@@ -95,7 +111,7 @@
     padding: 10px;
     font-size: 0.9rem;
     font-weight: 300;
-    color: #f9f9f9;
+    color: #f0f0f0;
 }
 
 .mention-link{
@@ -118,7 +134,7 @@
     justify-content: center;
     width: fit-content;
     padding: 4px 8px;
-    color: #cdcdcd;
+    color: #969696;
     background: transparent;
     border: none;
     border-radius: 4px;
@@ -131,9 +147,27 @@
 }
 
 
+.ctn-card .btn-to-feed-profile{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: var(--border);
+    color: var(--light-color);
+    cursor: pointer;
+}
 
+.ctn-card .btn-to-feed-profile:hover{
+    background: #101010;
+}
 
-
+.title-card-feed-profile{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #969696;
+}
 
 .ctn-developers {
     margin-top: 60px;

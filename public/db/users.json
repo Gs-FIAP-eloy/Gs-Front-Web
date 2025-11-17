@@ -112,27 +112,37 @@
         "nome": "Samuel Monteiro",
         "genero": "Masculino",
         "foto": "https://media.licdn.com/dms/image/v2/D5603AQGODfaMD4tvQA/profile-displayphoto-shrink_400_400/B56ZcUfPFCGoAg-/0/1748395422545?e=1764806400&v=beta&t=zu-EKfnIxvW3CQDrqX8sB6amPheP5pUXdRVlh2SIvgo",
-        "banner": "",
-        "titulo": "Software Engineer | Cyber | IA | Machine Learning | DevOps | Big Data | Blockchain | Web3 | Python | Kubernetes | Terraform | Grafana |",
+        "banner": "https://i.pinimg.com/1200x/26/d1/c6/26d1c632231158001b72708eb8ec8687.jpg",
+        "titulo": "Software Engineer | Cybersecurity | IA | Machine Learning | DevOps | Big Data | Blockchain | Web3 | Python | Kubernetes | Terraform | Grafana",
         "cargo": "Engenheiro de Software",
         "empresa": "FIAP",
-        "resumo": "",
+        "resumo": "Sou Samuel, estudante de Engenharia de Software na FIAP e apaixonado por tecnologia de ponta. Me interesso especialmente por cibersegurança, inteligência artificial e infraestrutura escalável. Busco constantemente entender como sistemas complexos funcionam e como automatizá-los com segurança, performance e criatividade. Estou construindo minha trajetória explorando DevOps, nuvem, IA e segurança ofensiva/defensiva.",
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
         "seguidores": [],
         "seguindo": [],
         "estrelas": [],
-        "competencias": [],
+        "competencias": [
+            "Cibersegurança",
+            "Python",
+            "Machine Learning",
+            "DevOps",
+            "Kubernetes",
+            "Terraform",
+            "Linux",
+            "Resolução de Problemas",
+            "Análise Lógica"
+        ],
         "experiencias": [
             {
-                "empresa": "",
-                "tipo": "",
-                "cargo": "",
-                "inicio": "",
-                "fim": "",
-                "local": "",
-                "descricao": ""
+                "empresa": "FIAP Labs",
+                "tipo": "Iniciação Tecnológica",
+                "cargo": "Assistente de Desenvolvimento",
+                "inicio": "2024",
+                "fim": "2025",
+                "local": "São Paulo, Brasil",
+                "descricao": "Colaboração em projetos acadêmicos envolvendo automação de infraestrutura, análise de segurança e desenvolvimento de scripts Python. Participação em pesquisas práticas sobre modelos de IA aplicada e uso de ferramentas DevOps para melhorar processos internos."
             }
         ],
         "formacao": [
@@ -144,25 +154,44 @@
         ],
         "projetos": [
             {
-                "titulo": "",
+                "titulo": "InfraGuard-Lite",
                 "link": "",
-                "descricao": ""
+                "descricao": "Protótipo acadêmico de um monitor de infraestrutura automatizado usando Python e Grafana, desenvolvido para estudos internos na FIAP. O objetivo era detectar comportamento anômalo em serviços simulados e treinar alertas."
             }
         ],
         "certificacoes": [
             {
-                "curso": "",
-                "instituicao": "",
-                "duracao": ""
+                "curso": "Cybersecurity Essentials",
+                "instituicao": "Cisco Networking Academy",
+                "duracao": "30 Horas"
+            },
+            {
+                "curso": "Linux Fundamentals",
+                "instituicao": "Udemy",
+                "duracao": "12 Horas"
             }
         ],
         "idiomas": [
             {
-                "idioma": "",
-                "nivel": ""
+                "idioma": "Português",
+                "nivel": "Nativo"
+            },
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
             }
         ],
-        "areainteresses": [],
+        "areainteresses": [
+            "Cibersegurança",
+            "Machine Learning",
+            "DevOps",
+            "IA Generativa",
+            "Nuvem",
+            "Python",
+            "Redes",
+            "Blockchain",
+            "Análise de Dados"
+        ],
         "email": "rm564391@fiap.com.br",
         "senha": "290107fiap",
         "aniversario": "2007-01-29",
