@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import CardAds from '../components/ui/CardAds'
 import CardInfoProfile from '../components/ui/CardInfoProfile'
@@ -8,28 +8,33 @@ import '../css/center.css'
 
 const FeedProfile = () => {
 
+  const { id } = useParams();
+
   const [userPosts, setUserPosts] = useState([]);
   const [currentUser, setCurrentUser] = useState(null);
 
   useEffect(() => {
-    const userLogged = JSON.parse(localStorage.getItem("eloy_user"));
-    if (!userLogged) return;
+    if (!id) return;
 
     fetch("/db/users.json")
       .then(res => res.json())
       .then(data => {
-        const user = data.find(u => u.id === userLogged.id);
-        if (user) {
-          setCurrentUser(user);
-          if (user.posts) {
-            const sortedPosts = [...user.posts].sort(
-              (a, b) => new Date(b.dataTime) - new Date(a.dataTime)
-            );
-            setUserPosts(sortedPosts);
-          }
+
+        const user = data.find(u => u.id === id);
+
+        if (!user) return;
+
+        setCurrentUser(user);
+
+        if (user.posts) {
+          const sorted = [...user.posts].sort(
+            (a, b) => new Date(b.dataTime) - new Date(a.dataTime)
+          );
+          setUserPosts(sorted);
         }
       });
-  }, []);
+
+  }, [id]);
 
   const formatTime = (dateString) => {
     const postDate = new Date(dateString);
@@ -60,7 +65,7 @@ const FeedProfile = () => {
       return (
         <NavLink
           key={index}
-          to={mentionedId === currentUser?.id ? "/profile" : `/user/${mentionedId}`}
+          to={`/user/${mentionedId}`}
           className="mention-link"
         >
           @{mentionedId}
@@ -71,24 +76,31 @@ const FeedProfile = () => {
 
   if (!currentUser) return null;
 
+  const loggedUser = JSON.parse(localStorage.getItem("eloy_user"));
+
+  const localType =
+    loggedUser && loggedUser.id === id
+      ? "eloy_user"
+      : "current_profile_id";
+
   return (
     <section className="content">
 
       <aside className='left'>
-        <CardProfile />
-        <CardInfoProfile />
+        <CardProfile local={localType} />
+        <CardInfoProfile local={localType} />
       </aside>
 
       <section className='feed-profile'>
 
         {userPosts.length === 0 && (
-          <h2 className="no-posts">Você ainda não publicou nada.</h2>
+          <h2 className="no-posts">Nenhuma publicação encontrada.</h2>
         )}
 
         {userPosts.map(post => (
           <article key={post.id} className='post'>
 
-            <NavLink className='header-post' to="/profile">
+            <NavLink className='header-post'>
               <div className="info-user-header-post">
                 <img
                   src={currentUser.foto?.trim() || "assets/img/img-profile-default.png"}
@@ -101,12 +113,13 @@ const FeedProfile = () => {
                     <h3>{formatTime(post.dataTime)}</h3>
                   </div>
                   <h2>
-                    {currentUser.titulo?.length > 65
-                      ? currentUser.titulo.slice(0, 65) + "..."
-                      : currentUser.titulo || ""}
+                    {post.titulo?.length > 65
+                      ? post.titulo.slice(0, 65) + "..."
+                      : post.titulo || ""}
                   </h2>
                 </div>
               </div>
+
               <button><i className="fa-solid fa-ellipsis"></i></button>
             </NavLink>
 

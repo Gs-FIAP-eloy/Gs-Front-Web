@@ -118,15 +118,19 @@ const CardFeedProfile = ({ local }) => {
                 )}
             </section>
 
-            {local == "eloy_user" ? (
-                <NavLink to='/profile/feed profile' className='btn-to-feed-profile'>
+            {local === "eloy_user" ? (
+                <NavLink to={`/user/${currentUser?.id}/feed profile`} className='btn-to-feed-profile'>
                     Acessar minhas publicações
                 </NavLink>
             ) : (
-                <NavLink to='/feed profile/:id' className='btn-to-feed-profile'>
+                <NavLink
+                    to={`/user/${JSON.parse(localStorage.getItem("current_profile_id"))?.id}/feed profile`}
+                    className='btn-to-feed-profile'
+                >
                     Visualizar publicações
                 </NavLink>
             )}
+
 
         </section>
     );

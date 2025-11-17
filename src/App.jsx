@@ -45,8 +45,8 @@ function App() {
         <Route path="/notifications" element={<Notifications />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/developers" element={<Devs />} />
-        <Route path="/profile/feed profile" element={<FeedProfile />} />
         <Route path="/user/:id" element={<User />} />
+        <Route path="/user/:id/feed profile" element={<FeedProfile />} />
 
         <Route path="/settings" element={<Settings />} >
           <Route path="introduction" element={<Introduction />} />

@@ -1,12 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-const CardProfile = () => {
+const CardProfile = ({local}) => {
 
+    const { id } = useParams();
     const [userData, setUserData] = useState(null);
 
     useEffect(() => {
-        const user = localStorage.getItem("eloy_user");
+        const user = localStorage.getItem(local);
         if (!user) return;
 
         const usuarioLogado = JSON.parse(user);
@@ -20,9 +21,16 @@ const CardProfile = () => {
                 }
             })
             .catch(err => console.error("Erro ao carregar JSON:", err));
-    });
+    }, [local]);
 
     if (!userData) return null;
+
+    const loggedUser = JSON.parse(localStorage.getItem("eloy_user"));
+    
+    const redirectLink =
+        !id || (loggedUser && loggedUser.id === id)
+            ? "/profile"
+            : `/user/${id}`;
 
     const tituloLimite = (text) => {
         if (!text) return "";
@@ -38,7 +46,7 @@ const CardProfile = () => {
         : "assets/img/img-profile-default.png";
 
     return (
-        <Link to='/profile' className="card-profile">
+        <Link to={redirectLink} className="card-profile">
             <section className="banner-card-profile">
                 <img src={bannerSrc} alt="Banner do usuário" />
             </section>

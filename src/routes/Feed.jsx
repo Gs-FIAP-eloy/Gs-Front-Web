@@ -113,8 +113,8 @@ const Feed = () => {
     <section className="content">
 
       <aside className="left">
-        <CardProfile />
-        <CardInfoProfile />
+        <CardProfile local='eloy_user'/>
+        <CardInfoProfile local='eloy_user'/>
       </aside>
 
       <section className="feed">

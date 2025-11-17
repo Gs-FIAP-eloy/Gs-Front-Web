@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const CardInfoProfile = () => {
+const CardInfoProfile = ({local}) => {
 
   const [seguidores, setSeguidores] = useState(0);
   const [seguindo, setSeguindo] = useState(0);
   const [estrelas, setEstrelas] = useState(0);
 
   useEffect(() => {
-    const user = localStorage.getItem("eloy_user");
+    const user = localStorage.getItem(local);
     if (!user) return;
 
     const usuarioLogado = JSON.parse(user);
