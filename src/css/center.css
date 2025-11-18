@@ -146,7 +146,6 @@
     background: #131313;
 }
 
-
 .ctn-card .btn-to-feed-profile{
     display: flex;
     justify-content: center;
@@ -649,6 +648,7 @@
 .btn-content-profile {
     margin-top: 15px;
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 
@@ -665,19 +665,20 @@
     cursor: pointer;
 }
 
+.btn-content-profile button:hover {
+    color: #f5f5f5;
+    border-color: #0d5dad;
+    background: #0d5195;
+}
+
 .btn-content-profile .active {
     color: #f5f5f5;
     background: #0d5dad;
 }
 
 .btn-content-profile .active:hover {
-    color: #f5f5f5;
-    background: #0d5195;
-}
-
-.btn-content-profile button:hover {
     color: #0d5195;
-    border-color: #0d5195;
+    background: transparent;
 }
 
 .my-interests {

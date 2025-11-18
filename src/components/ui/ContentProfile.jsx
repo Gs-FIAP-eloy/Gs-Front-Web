@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const ContentProfile = ({ local }) => {
     const [userData, setUserData] = useState(null);
@@ -89,8 +89,11 @@ const ContentProfile = ({ local }) => {
                         >
                             Editar perfil
                         </button>
+                        
+                        <button onClick={() => window.open("https://eloydashboard.vercel.app/", "_blank")}>Minhas estatísticas</button>
 
                         <button>Compartilhar perfil</button>
+
                     </>
                 )}
             </section>
