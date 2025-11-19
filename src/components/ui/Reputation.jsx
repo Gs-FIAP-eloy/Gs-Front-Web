@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import calculateUserRanking from "../../hook/calculateUserRanking";
+import { NavLink } from "react-router-dom";
 
 export default function Reputation() {
     const [posicao, setPosicao] = useState(null);
@@ -24,10 +25,10 @@ export default function Reputation() {
     }, []);
 
     return (
-        <section className="repute">
+        <NavLink to='/ranking' className="repute">
             <p>Você está em</p>
             <p className="position">{posicao ? `${posicao}º` : "..."}</p>
             <p>lugar!</p>
-        </section>
+        </NavLink>
     );
 }

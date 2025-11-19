@@ -28,6 +28,7 @@ export default function calculateUserRanking(usuarios) {
             id: user.id,
             nome: user.nome,
             foto: user.foto,
+            titulo: user.titulo,
             score,
         };
     });

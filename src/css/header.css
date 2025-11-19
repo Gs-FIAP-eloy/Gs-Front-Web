@@ -53,6 +53,7 @@ header {
     justify-content: center;
     width: 35px;
     background: #151515;
+    cursor: pointer;
 } 
 
 .btn-to-search {
