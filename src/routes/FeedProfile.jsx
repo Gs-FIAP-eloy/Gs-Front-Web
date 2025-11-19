@@ -113,9 +113,9 @@ const FeedProfile = () => {
                     <h3>{formatTime(post.dataTime)}</h3>
                   </div>
                   <h2>
-                    {post.titulo?.length > 65
-                      ? post.titulo.slice(0, 65) + "..."
-                      : post.titulo || ""}
+                    {currentUser.titulo?.length > 65
+                      ? currentUser.titulo.slice(0, 65) + "..."
+                      : currentUser.titulo || ""}
                   </h2>
                 </div>
               </div>

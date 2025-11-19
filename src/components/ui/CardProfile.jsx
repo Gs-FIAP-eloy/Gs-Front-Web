@@ -39,11 +39,11 @@ const CardProfile = ({local}) => {
 
     const bannerSrc = userData.banner && userData.banner.trim() !== ""
         ? userData.banner
-        : "assets/img/img-banner-default.png";
+        : "/assets/img/img-banner-default.png";
 
     const fotoSrc = userData.foto && userData.foto.trim() !== ""
         ? userData.foto
-        : "assets/img/img-profile-default.png";
+        : "/assets/img/img-profile-default.png";
 
     return (
         <Link to={redirectLink} className="card-profile">

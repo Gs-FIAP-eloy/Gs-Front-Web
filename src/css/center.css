@@ -2,12 +2,126 @@
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    width: 630px;
-    min-height: 100%;
+    width: 875px;
+    height: fit-content;
     border: 1.2px solid var(--border-color);
     border-radius: var(--border);
     background: var(--background-card);
 }
+
+.header-publish{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.user-header-publish{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-header-publish img{
+    display: flex;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.info-user-header-publish h1{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.info-user-header-publish h2{
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: #969696;
+}
+
+.header-publish button{
+    display: flex;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    color: var(--light-color);
+    cursor: pointer;
+}
+
+.header-publish button:hover{
+    background: #151515;
+}
+
+.input-publish{
+    display: flex;
+    padding: 5px 15px;
+}
+
+.input-publish textarea{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    resize: none;
+    outline: none;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--light-color);
+    border-radius: var(--border);
+    background: var(--dark-color);
+}
+
+.input-publish textarea::-webkit-scrollbar{
+    display: flex;
+    width: 5px;
+}
+
+.input-publish textarea::-webkit-scrollbar-thumb{
+    background: var(--border-color);
+    border-radius: 50px;
+}
+
+.btns-publish{
+    margin-top: 15px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.btn-add-content-publish{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-add-content-publish button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    color: #969696;
+    background: transparent;
+    border: none;
+}
+
+.btns-publish .active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 12px;
+    border-radius: 50px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--light-color);
+    background: var(--primary-color);
+    cursor: pointer;
+}
+
 
 .feed {
     margin-top: 10px;
