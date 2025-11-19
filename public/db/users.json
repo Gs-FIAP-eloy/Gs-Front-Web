@@ -120,7 +120,7 @@
             {
                 "id": 2,
                 "conteudo": "Obrigado @smk_dmz e @alem4ao pela ajuda! excelentes profissionais.",
-                "dataTime": "2025-11-17T15:45:00Z",
+                "dataTime": "2025-11-19T12:45:00Z",
                 "likes": [],
                 "comentarios": [],
                 "compartilhamentos": []
@@ -4898,41 +4898,73 @@
         ]
     },
     {
-        "id": "candice_pinto",
-        "nome": "Cândice Pinto",
-        "genero": "Feminino",
-        "foto": "https://randomuser.me/api/portraits/women/79.jpg",
+        "id": "aurelio_vitorino",
+        "nome": "Aurélio Vitorino",
+        "genero": "Maculino",
+        "foto": "https://media.licdn.com/dms/image/v2/C4D03AQHshxyO5BHiDw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517438875092?e=1765411200&v=beta&t=C8ayHTSlGsCq2qtZj4Y9st5FsKnu-Y0zUofDC9K-qMg",
         "banner": "",
-        "titulo": "Consultora de Carreira | Foco em Segurança Cibernética",
-        "cargo": "Consultora de Carreira",
+        "titulo": "MSc, PhD, Pós-doutorando(UNIFESP)| Gestão de TI| Tecnologia da Informação em Saúde| Gestão de Projetos| Governança em TI| Inovação| Engenharia de SW| Professor (graduação e Pós-graduação)",
+        "cargo": "Professor",
         "empresa": "FIAP",
-        "resumo": "Profissional com experiência na área de Design e atuação como Consultora de Carreira na FIAP. Foco em Segurança Cibernética e inovação.",
+        "resumo": "",
         "estado": "São Paulo",
         "pais": "Brasil",
-        "area": "Design",
+        "area": "Educação, tecnologia",
         "seguidores": 0,
         "seguindo": 0,
+        "estrelas": 0,
         "competencias": [
-            "Java",
-            "Python",
-            "Comunicação"
+            "Planejamento Didático",
+            "Atualização Permanente",
+            "Pensamento Crítico",
+            "Educação",
+            "Inteligência Emocional",
+            "Orientação Acadêmica",
+            "24 horas",
+            "Ambiente colaborativo",
+            "Postura Ética",
+            "Gestão de projetos",
+            "Didática e Metodologias Ativas"
         ],
         "experiencias": [
             {
                 "empresa": "FIAP",
-                "tipo": "Tempo Integral",
-                "cargo": "Consultora de Carreira",
-                "inicio": "2020-01-01",
+                "tipo": "CLT",
+                "cargo": "Professor",
+                "inicio": "Jul de 2009",
                 "fim": "Atual",
                 "local": "São Paulo, SP",
-                "descricao": "Responsável por..."
+                "descricao": "Professor responsável por ministrar disciplinas de tecnologia, aplicar metodologias ativas e orientar projetos alinhados ao modelo inovador da FIAP."
+            },
+            {
+                "empresa": "Centro Universitário São Camilo",
+                "tipo": "CLT",
+                "cargo": "Professor Pós Graduação",
+                "inicio": "Jan de 2009",
+                "fim": "Atual",
+                "local": "São Paulo, SP",
+                "descricao": "Professor de pós-graduação responsável por ministrar aulas e orientar projetos acadêmicos nos programas da Universidade São Camilo."
+            },
+            {
+                "empresa": "Faculdade de Medicina da USP",
+                "tipo": "Tempo Integral",
+                "cargo": "Cordenador Técnico de TI",
+                "inicio": "Abr de 2015",
+                "fim": "Nov de 2024",
+                "local": "São Paulo, SP",
+                "descricao": "Responsável pela coordenação técnica de TI, infraestrutura e suporte institucional na Faculdade de Medicina da USP."
             }
         ],
         "formacao": [
             {
-                "curso": "Pós-graduação em Tecnologia",
-                "instituicao": "FIAP",
+                "curso": "Doutorado, Ciências",
+                "instituicao": "Faculdade de Medicina da USP",
                 "ano": 2020
+            },
+            {
+                "curso": "Pós-Doutorado",
+                "instituicao": "UNIFESP",
+                "ano": 2024
             }
         ],
         "projetos": [],
@@ -4948,19 +4980,18 @@
             }
         ],
         "areainteresses": [
-            "Design",
+            "Educação",
             "Tecnologia",
-            "Marketing"
+            "Empreendedorismo"
         ],
-        "email": "cândice.pinto3006@fiap.com.br",
-        "senha": "300674fiap",
-        "aniversario": "1974-06-30",
-        "estrelas": 0,
+        "email": "profaurelio@fiap.com.br",
+        "senha": "aurelio123",
+        "aniversario": "0000-00-00",
         "posts": [
             {
-                "id": 127,
-                "conteudo": "Design e Segurança Cibernética? Sim, não é só estética: é proteção, é código que salva. Quem acha que criatividade não dialoga com Python nunca sentiu o aperto real de um bug que pode custar caro. Design sem segurança é fachada – e eu me recuso a ser decorativa. #DesignComCódigo #SegurançaNãoÉFiltro #TechComPropósito",
-                "dataTime": "2025-11-13T09:09:00Z",
+                "id": 1,
+                "conteudo": "Software Design na era da Sociedade 5.0 não é só sobre telas bonitas — é sobre criar sistemas que entendem pessoas. Tecnologia que prevê, ajuda e conecta, sem esquecer ética e responsabilidade. O desafio não é escrever código, é escrever futuro. Projetar software hoje é decidir como humanos e máquinas vão conviver amanhã. #Sociedade50 #SoftwareDesign #TechHumanizada",
+                "dataTime": "2025-11-19T13:00:00Z",
                 "likes": [],
                 "comentarios": [],
                 "compartilhamentos": []

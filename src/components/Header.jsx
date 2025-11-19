@@ -107,12 +107,10 @@ const Header = () => {
             return modal && modal.contains(target);
         };
 
-        // Fecha ao clicar fora
         const handleClickOutside = (e) => {
             if (!isInsideModal(e.target)) close();
         };
 
-        // Fecha ao scrolar a página, mas NÃO dentro do modal
         const handleScroll = (e) => {
             if (!isInsideModal(e.target)) close();
         };
