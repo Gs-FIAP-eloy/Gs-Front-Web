@@ -47,6 +47,14 @@ header {
     gap: 5px;
 }
 
+.repute .position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    background: #151515;
+} 
+
 .btn-to-search {
     display: flex;
     align-items: center;

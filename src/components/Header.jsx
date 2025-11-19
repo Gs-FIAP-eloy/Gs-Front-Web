@@ -4,6 +4,7 @@ import logo from '../assets/svg/logo-light.svg'
 import ModalProfile from './ui/ModalProfile'
 import Search from './Search'
 import '../css/header.css'
+import Reputation from './ui/Reputation'
 
 const Header = () => {
 
@@ -142,14 +143,11 @@ const Header = () => {
         <header ref={headerRef} className={`main-header ${hidden ? 'hidden' : ''}`}>
 
             <section className="ctn-left-header">
-                <article className="logo">
+                <NavLink to='/feed' className="logo">
                     <img src={logo} alt="logo eloy" />
-                </article>
+                </NavLink>
 
-                <section className="repute">
-                    <p>Sua reputação está caindo!</p>
-                    <p>13º</p>
-                </section>
+                <Reputation />
             </section>
 
             <button className='btn-to-search' onClick={() => setOpenSearch(true)}>

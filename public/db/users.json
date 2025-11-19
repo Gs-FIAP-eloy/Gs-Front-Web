@@ -12,8 +12,28 @@
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
-        "seguidores": [],
-        "seguindo": [],
+        "seguidores": [
+            {
+                "id": "smk_dmz"
+            },
+            {
+                "id": "alem4ao"
+            },
+            {
+                "id": "gui_araujo"
+            },
+            {
+                "id": "yanbreno"
+            }
+        ],
+        "seguindo": [
+            {
+                "id": "smk_dmz"
+            },
+            {
+                "id": "alem4ao"
+            }
+        ],
         "estrelas": [],
         "competencias": [
             "Resolução de Problemas",
@@ -120,8 +140,22 @@
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
-        "seguidores": [],
-        "seguindo": [],
+        "seguidores": [
+            {
+                "id": "leeosilvp"
+            },
+            {
+                "id": "alem4ao"
+            }
+        ],
+        "seguindo": [
+            {
+                "id": "alem4ao"
+            },
+            {
+                "id": "leeosilvp"
+            }
+        ],
         "estrelas": [],
         "competencias": [
             "Cibersegurança",
@@ -219,10 +253,26 @@
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
-        "seguidores": [],
-        "seguindo": [],
+        "seguidores": [
+            {
+                "id": "leeosilvp"
+            },
+            {
+                "id": "smk_dmz"
+            }
+        ],
+        "seguindo": [
+            {
+                "id": "leeosilvp"
+            },
+            {
+                "id": "smk_dmz"
+            }
+        ],
         "estrelas": [],
-        "competencias": ["todas"],
+        "competencias": [
+            "todas"
+        ],
         "experiencias": [
             {
                 "empresa": "",
@@ -261,7 +311,11 @@
                 "nivel": "Avançado"
             }
         ],
-        "areainteresses": ["Agentes de AI", "Desenvolvimento de Software", "Inovação Tecnológica"],
+        "areainteresses": [
+            "Agentes de AI",
+            "Desenvolvimento de Software",
+            "Inovação Tecnológica"
+        ],
         "email": "rm563271@fiap.com.br",
         "senha": "250607fiap",
         "aniversario": "2007-06-25",
@@ -305,7 +359,11 @@
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
-        "seguidores": [],
+        "seguidores": [
+            {
+                "id": "yanbreno"
+            }
+        ],
         "seguindo": [],
         "estrelas": [],
         "competencias": [],
@@ -375,8 +433,19 @@
         "estado": "São Paulo",
         "pais": "Brasil",
         "area": "Desenvolvimento",
-        "seguidores": [],
-        "seguindo": [],
+        "seguidores": [
+            {
+                "id": "alem4ao"
+            },
+            {
+                "id": "gui_araujo"
+            }
+        ],
+        "seguindo": [
+            {
+                "id": "leeosilvp"
+            }
+        ],
         "estrelas": [],
         "competencias": [],
         "experiencias": [
