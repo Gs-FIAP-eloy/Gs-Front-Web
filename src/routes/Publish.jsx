@@ -1,3 +1,7 @@
+import CardAds from "../components/ui/CardAds";
+import CardInfoProfile from "../components/ui/CardInfoProfile";
+import CardNewslatter from "../components/ui/CardNewslatter";
+import CardProfile from "../components/ui/CardProfile";
 import useAuthRedirect from "../hook/useAuthRedirect";
 
 const Publish = () => {
@@ -5,9 +9,19 @@ const Publish = () => {
   useAuthRedirect();
 
   return (
-    <div>
-      <h1>publicar</h1>
-    </div>
+    <section className="content">
+      <aside className="left">
+        <CardProfile local='eloy_user'/>
+        <CardInfoProfile local='eloy_user'/>
+      </aside>
+      <section className="publish">
+
+      </section>
+      <aside className="right">
+        <CardNewslatter />
+        <CardAds />
+      </aside>
+    </section>
   )
 }
 
