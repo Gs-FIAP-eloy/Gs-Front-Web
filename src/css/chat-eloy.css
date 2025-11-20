@@ -20,9 +20,9 @@
     background: var(--background-card);
     border: 1.2px solid var(--border-color);
     border-radius: 7px 7px 0 0;
-    box-shadow: 0 0 10px 2px #000000aa;
+    box-shadow: 0 0 10px 2px var(--shadow-strong);
     animation: fadeIn 0.2s ease;
-    color: #fff;
+    color: var(--light-color);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .btns-header-chat-eloy button:hover {
-    background: #1e1e1e;
+    background: var(--hover);
 }
 
 .ctn-options-chat-eloy{
@@ -71,7 +71,7 @@
     padding: 4px;
     border: 1px solid var(--border-color);
     border-radius: 5px;
-    background: #111;
+    background: var(--background-card);
 }
 
 .ctn-options-chat-eloy button{
@@ -81,13 +81,13 @@
     border: none;
     border-radius: 3px;
     font-size: 0.8rem;
-    color: #959595;
+    color: var(--muted-color);
     background: transparent;
     gap: 5px;
 }
 
 .ctn-options-chat-eloy button:hover{
-    background: #202020;
+    background: var(--hover);
 }
 
 .content-chat-eloy {
@@ -147,14 +147,14 @@
 
 .no-chat-eloy i {
     font-size: 2.5rem;
-    color: #959595;
+    color: var(--muted-color);
 }
 
 .no-chat-eloy h2 {
     margin-top: 10px;
     font-size: 1rem;
     font-weight: 400;
-    color: #959595;
+    color: var(--muted-color);
 }
 
 .no-chat-eloy p {
@@ -162,7 +162,7 @@
     width: 220px;
     font-size: 0.75rem;
     font-weight: 300;
-    color: #606060;
+    color: var(--muted-color);
 }
 
 .ctn-input-chat-eloy {
@@ -221,17 +221,17 @@
     background: transparent;
     border-radius: 50%;
     border: none;
-    color: #989898;
+    color: var(--muted-color);
     cursor: pointer;
 }
 
 .btn-left-chat-eloy button:hover {
-    background: #202020;
+    background: var(--hover);
 }
 
 .send-btn {
-    background: #fff;
-    color: #000;
+    background: var(--light-color);
+    color: var(--dark-color);
     border: none;
     padding: 4px 16px;
     border-radius: 50px;
@@ -240,5 +240,5 @@
 }
 
 .send-btn:hover {
-    background: #ccc;
+    background: var(--border-color);
 }

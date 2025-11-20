@@ -57,7 +57,7 @@
 
 .ctn-input-auth label span{
     font-size: 0.8rem;
-    color: #969696;
+    color: var(--muted-color);
     font-weight: 400;
 }
 
@@ -93,7 +93,7 @@
 
 .ctn-auth a{
     font-weight: 500;
-    color: #004b96;
+    color: var(--primary-color);
 }
 
 .ctn-auth a:hover{
@@ -105,7 +105,7 @@
     text-align: center;
     font-size: 0.65rem;
     font-weight: 300;
-    color: #969696;
+    color: var(--muted-color);
 }
 
 .ctn-auth .active{
@@ -124,7 +124,7 @@
 }
 
 .ctn-auth .active:hover{
-    background: #004b96;
+    background: var(--primary-color);
     color: var(--light-color);
 }
 
@@ -137,7 +137,7 @@
 .line-auth .hr{
     display: flex;
     width: 100%;
-    border-bottom: 1px solid #969696;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .ctn-auth button{
@@ -169,5 +169,5 @@
 }
 
 .ctn-auth .msg-erro{
-    color: #ae3939;
+    color: var(--danger-color);
 }

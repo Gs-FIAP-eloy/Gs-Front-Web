@@ -18,6 +18,14 @@
     --background: #000000;
     --background-card: #0b0b0b;
     --border-color: #202020;
+    --muted-color: var(--gray-color);
+    --danger-color: #ae3939;
+    --overlay: rgba(0,0,0,0.35);
+    --overlay-weak: rgba(68,68,68,0.25);
+    --overlay-weak-2: rgba(65,65,65,0.22);
+    --scrim: rgba(0,0,0,0.31);
+    --shadow: rgba(0,0,0,0.38);
+    --shadow-strong: rgba(0,0,0,0.66);
     --border: 7px;
     --transition-2s: all 0.2s ease;
     --transition-3s: all 0.3s ease;
@@ -31,6 +39,14 @@
     --background: #ece9e5;
     --background-card: #ffffff;
     --border-color: #dcd6cf;
+    --muted-color: var(--gray-color);
+    --danger-color: #ae3939;
+    --overlay: rgba(0,0,0,0.08);
+    --overlay-weak: rgba(0,0,0,0.06);
+    --overlay-weak-2: rgba(0,0,0,0.05);
+    --scrim: rgba(0,0,0,0.06);
+    --shadow: rgba(0,0,0,0.12);
+    --shadow-strong: rgba(0,0,0,0.18);
 }
 
 body{
@@ -69,7 +85,7 @@ body{
 }
 
 .btn-chat-eloy:hover{
-    background: #57575775;
+    background: var(--overlay);
 }
 
 .page-not-found{
@@ -98,7 +114,7 @@ body{
     width: 250px;
     font-size: 1rem;
     font-weight: 300;
-    color: #747474;
+    color: var(--muted-color);
 }
 
 

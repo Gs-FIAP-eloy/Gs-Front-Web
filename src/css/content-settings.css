@@ -32,13 +32,13 @@
 }
 
 .content-change::-webkit-scrollbar-thumb{
-    background: #151515;
+    background: var(--border-color);
 }
 
 .content-change p{
     font-size: 0.75rem;
     font-weight: 300;
-    color: #969696;
+    color: var(--gray-color);
 }
 
 .content-change h1{
@@ -78,7 +78,7 @@
     margin-top: 5px;
     font-size: 0.75rem;
     font-weight: 300;
-    color: #969696;
+    color: var(--gray-color);
 }
 
 .ctn-change-settings{
@@ -109,7 +109,7 @@
     outline: none;
     border: none;
     border-radius: 3px;
-    background: #151515;
+    background: var(--dark-color);
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--light-color);
@@ -137,7 +137,7 @@
     outline: none;
     border: none;
     border-radius: 3px;
-    background: #151515;
+    background: var(--dark-color);
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--light-color);
@@ -165,7 +165,7 @@
     outline: none;
     border: none;
     border-radius: 3px;
-    background: #151515;
+    background: var(--dark-color);
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--light-color);
@@ -193,7 +193,7 @@
     outline: none;
     border: none;
     border-radius: 3px;
-    background: #151515;
+    background: var(--dark-color);
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--light-color);
@@ -217,7 +217,7 @@
     outline: none;
     border: none;
     border-radius: 3px;
-    background: #151515;
+    background: var(--dark-color);
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--light-color);
@@ -246,7 +246,7 @@
     outline: none;
     border: none;
     border-radius: 3px;
-    background: #151515;
+    background: var(--dark-color);
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--light-color);
@@ -257,7 +257,7 @@
     flex-wrap: wrap;
     padding: 15px;
     gap: 10px;
-    background: #0f0f0f;
+    background: var(--background-card);
     border-radius: var(--border);
 }
 
@@ -268,7 +268,7 @@
     border-radius: 50px;
     font-size: 0.85rem;
     color: var(--light-color);
-    background: #121212;
+    background: var(--background-card);
 }
 
 .change-about{
@@ -291,7 +291,7 @@
     border: none;
     resize: none;
     border-radius: 3px;
-    background: #151515;
+    background: var(--dark-color);
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--light-color);
@@ -323,7 +323,7 @@
     outline: none;
     border: none;
     border-radius: 3px;
-    background: #151515;
+    background: var(--dark-color);
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--light-color);
@@ -340,7 +340,7 @@
     border: none;
     resize: none;
     border-radius: 3px;
-    background: #151515;
+    background: var(--dark-color);
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--light-color);
@@ -361,7 +361,7 @@
 
 .my-projects p{
     font-size: 0.85rem;
-    color: #bfbfbf;
+    color: var(--gray-color);
 }
 
 .my-courses hr{

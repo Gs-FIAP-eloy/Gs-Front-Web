@@ -39,19 +39,19 @@
 }
 
 .btns-header-welcome button:hover{
-    color: #004b96;
-    border-color: #004b96;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .btns-header-welcome .active{
     background: var(--primary-color);
-    color: #fff;
+    color: var(--light-color);
 }
 
 .btns-header-welcome .active:hover{
-    border-color: #004b96;
-    background: #004b96;
-    color: #fff;
+    border-color: var(--primary-color);
+    background: var(--primary-color);
+    color: var(--light-color);
 }
 
 .content-welcome{
@@ -71,7 +71,7 @@
 }
 
 .content-left-welcome a{
-    color: #004b96;
+    color: var(--primary-color);
     font-weight: 500;
 }
 
@@ -94,7 +94,7 @@
     font-size: 0.7rem;
     font-weight: 300;
     width: 450px;
-    color: #969696;
+    color: var(--gray-color);
 }
 
 .content-left-welcome button{
