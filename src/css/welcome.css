@@ -45,13 +45,13 @@
 
 .btns-header-welcome .active{
     background: var(--primary-color);
-    color: var(--light-color);
+    color: var(--on-primary);
 }
 
 .btns-header-welcome .active:hover{
     border-color: var(--primary-color);
     background: var(--primary-color);
-    color: var(--light-color);
+    color: var(--on-primary);
 }
 
 .content-welcome{

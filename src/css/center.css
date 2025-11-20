@@ -117,7 +117,7 @@
     border: none;
     font-size: 0.9rem;
     font-weight: 500;
-    color: var(--light-color);
+    color: var(--on-primary);
     background: var(--primary-color);
     cursor: pointer;
 }
@@ -917,7 +917,7 @@
 }
 
 .btn-content-profile .active {
-    color: var(--light-color);
+    color: var(--on-primary);
     background: var(--primary-color);
 }
 

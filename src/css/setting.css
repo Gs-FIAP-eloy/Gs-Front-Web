@@ -43,12 +43,12 @@
 }
 
 .btns-header-settings button:hover{
-    color: var(--primary-color);
-    border-color: var(--primary-color);
+    color: var(--on-primary);
+    background: var(--primary-color);
 }
 
 .btns-header-settings .active{
-    color: var(--light-color);
+    color: var(--on-primary);
     background: var(--primary-color);
 }
 

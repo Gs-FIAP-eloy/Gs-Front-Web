@@ -26,6 +26,7 @@
     --scrim: rgba(0,0,0,0.31);
     --shadow: rgba(0,0,0,0.38);
     --shadow-strong: rgba(0,0,0,0.66);
+    --on-primary: #ffffff;
     --border: 7px;
     --transition-2s: all 0.2s ease;
     --transition-3s: all 0.3s ease;
