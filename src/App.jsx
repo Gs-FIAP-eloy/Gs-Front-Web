@@ -27,50 +27,55 @@ import Skills from "./components/ui/Skills"
 import User from "./routes/User"
 import FeedProfile from "./routes/FeedProfile"
 import Ranking from "./routes/Ranking"
+
+import { ThemeProvider } from "./hook/ThemeContext"
+import Appearance from "./components/ui/Appearance"
+
 function App() {
 
   ChangeIcon();
 
   return (
-    <BrowserRouter>
-      <Header />
-      <ChangeTitle />
-      <Routes>
-        <Route path="/welcome" element={<Welcome />} />
-        <Route path="/auth" element={<Auth />} />
-        <Route path="*" element={<Error />} />
-        <Route path="/" element={<Navigate to="/welcome" replace />} />
-        <Route path="/feed" element={<Feed />} />
-        <Route path="/chat" element={<Chat />} />
-        <Route path="/publish" element={<Publish />} />
-        <Route path="/notifications" element={<Notifications />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/developers" element={<Devs />} />
-        <Route path="/user/:id" element={<User />} />
-        <Route path="/user/:id/feed profile" element={<FeedProfile />} />
-        <Route path="/ranking" element={<Ranking />} />
+    <ThemeProvider>
+      <BrowserRouter>
+        <Header />
+        <ChangeTitle />
+        <Routes>
+          <Route path="/welcome" element={<Welcome />} />
+          <Route path="/auth" element={<Auth />} />
+          <Route path="*" element={<Error />} />
+          <Route path="/" element={<Navigate to="/welcome" replace />} />
+          <Route path="/feed" element={<Feed />} />
+          <Route path="/chat" element={<Chat />} />
+          <Route path="/publish" element={<Publish />} />
+          <Route path="/notifications" element={<Notifications />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/developers" element={<Devs />} />
+          <Route path="/user/:id" element={<User />} />
+          <Route path="/user/:id/feed profile" element={<FeedProfile />} />
+          <Route path="/ranking" element={<Ranking />} />
 
-        <Route path="/settings" element={<Settings />} >
-          <Route path="introduction" element={<Introduction />} />
-          <Route path="interests" element={<Interests />} />
-          <Route path="about" element={<About />} />
-          <Route path="Experiences" element={<Experiences />} />
-          <Route path="academic" element={<Academic />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="courses" element={<Courses />} />
-          <Route path="languages" element={<Languages />} />
-          <Route path="skills" element={<Skills />} />
-          <Route path="appearance" element={<Introduction />} />
-          <Route path="accessibility" element={<Introduction />} />
-          <Route path="terms and Privacy" element={<Introduction />} />
-          <Route path="support" element={<Introduction />} />
-        </Route>
+          <Route path="/settings" element={<Settings />} >
+            <Route path="introduction" element={<Introduction />} />
+            <Route path="interests" element={<Interests />} />
+            <Route path="about" element={<About />} />
+            <Route path="Experiences" element={<Experiences />} />
+            <Route path="academic" element={<Academic />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="courses" element={<Courses />} />
+            <Route path="languages" element={<Languages />} />
+            <Route path="skills" element={<Skills />} />
+            <Route path="appearance" element={<Appearance />} />
+            <Route path="accessibility" element={<Introduction />} />
+            <Route path="terms and Privacy" element={<Introduction />} />
+            <Route path="support" element={<Introduction />} />
+          </Route>
 
-      </Routes>
-      <Icon />
-      <Footer />
-    </BrowserRouter>
-
+        </Routes>
+        <Icon />
+        <Footer />
+      </BrowserRouter>
+    </ThemeProvider>
   )
 }
 

@@ -356,7 +356,7 @@
     padding: 10px;
     font-size: 0.9rem;
     font-weight: 300;
-    color: #f0f0f0;
+    color: var(--light-color);
 }
 
 .mention-link {
@@ -533,7 +533,7 @@
 .ctn-header-chat {
     display: flex;
     padding: 10px;
-    background: #101010;
+    background: var(--background-card);
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -556,20 +556,18 @@
 .ctn-aside-chat::-webkit-scrollbar {
     display: flex;
     width: 5px;
+    background: #4444443f;
 }
 
 .ctn-aside-chat::-webkit-scrollbar-thumb {
     cursor: pointer;
     border-radius: 50px;
-    background: #181818;
+    background: var(--gray-color);
 }
 
-.ctn-aside-chat::-webkit-scrollbar-track {
-    background: #181818;
-}
 
 .ctn-aside-chat .active {
-    background: #0f0f0f;
+    background: var(--hover);
 }
 
 .profile-user-chat {
@@ -582,7 +580,7 @@
 }
 
 .profile-user-chat:hover {
-    background: #131313;
+    background: var(--hover);
 }
 
 .img-profile-chat {
@@ -705,7 +703,8 @@
     max-width: 65%;
     flex-direction: column;
     padding: 10px;
-    background: #131313;
+    background: #181818;
+    color: #fff;
     border-radius: 10px 10px 0px 10px;
 }
 
@@ -715,14 +714,15 @@
     max-width: 65%;
     flex-direction: column;
     padding: 10px;
-    background: #131313;
+    background: #181818;
+    color: #fff;
     border-radius: 10px 10px 10px 0px;
 }
 
 .ctn-send-message {
     display: flex;
     width: 100%;
-    background: #131313;
+    background: var(--background-card);
     border-top: 1px solid var(--border-color);
 }
 
@@ -743,7 +743,7 @@
     border: none;
     resize: none;
     border-radius: var(--border);
-    background: #181818;
+    background: #41414137;
     font-size: 0.9rem;
     font-weight: 300;
     color: var(--light-color);
@@ -1203,7 +1203,7 @@
 }
 
 .notification:hover {
-    background: #121212;
+    background: var(--hover);
 }
 
 .img-user-notification {
@@ -1262,4 +1262,16 @@
 
 .info-notification button:hover {
     background: #1b1b1b;
+}
+
+.change-theme{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 6px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border);
+    background: transparent;
+    color: var(--light-color);
+    gap: 10px;
 }

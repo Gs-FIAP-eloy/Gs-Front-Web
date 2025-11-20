@@ -1,10 +1,12 @@
 import { NavLink, useLocation } from 'react-router-dom'
 import { useEffect, useRef, useState } from 'react'
 import logo from '../assets/svg/logo-light.svg'
+import logoDark from '../assets/svg/logo-dark.svg'
 import ModalProfile from './ui/ModalProfile'
 import Search from './Search'
 import '../css/header.css'
 import Reputation from './ui/Reputation'
+import { useTheme } from "../hook/ThemeContext.jsx";
 
 const Header = () => {
 
@@ -14,6 +16,9 @@ const Header = () => {
     const ticking = useRef(false)
     const headerRef = useRef(null)
     const location = useLocation()
+
+    const { theme} = useTheme();
+
 
     const [openProfileModal, setOpenProfileModal] = useState(false);
 
@@ -142,7 +147,7 @@ const Header = () => {
 
             <section className="ctn-left-header">
                 <NavLink to='/feed' className="logo">
-                    <img src={logo} alt="logo eloy" />
+                    <img src={theme === "light" ? logoDark : logo} alt="logo eloy" />
                 </NavLink>
 
                 <Reputation />

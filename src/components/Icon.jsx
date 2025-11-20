@@ -1,13 +1,17 @@
 import { useRef, useState, useEffect } from "react";
 import { useModal } from "../hook/useModal";
 import logo from '../assets/svg/logo-light.svg';
+import logoDark from '../assets/svg/logo-dark.svg';
 import '../css/chat-eloy.css';
+import { useTheme } from "../hook/ThemeContext";
 
 const Icon = () => {
     const { isOpen, openModal, closeModal } = useModal();
     const modalRef = useRef(null);
     const optionsRef = useRef(null);
     const contentRef = useRef(null);
+
+    const { theme } = useTheme();
 
     const [messages, setMessages] = useState(() => {
         const saved = localStorage.getItem("chat_eloy");
@@ -104,7 +108,7 @@ const Icon = () => {
     return (
         <section>
             <article onClick={openModal} className='btn-chat-eloy'>
-                <img src={logo} title="Conversar com eloy" />
+                <img src={theme === "light" ? logoDark : logo} title="Conversar com eloy" />
             </article>
 
             {isOpen && (

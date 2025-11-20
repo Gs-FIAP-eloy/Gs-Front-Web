@@ -42,7 +42,7 @@ header {
     width: fit-content;
     align-items: center;
     font-size: 0.85rem;
-    color: #ababab;
+    color: var(--gray-color);
     border-radius: 4px;
     gap: 5px;
 }
@@ -52,7 +52,7 @@ header {
     align-items: center;
     justify-content: center;
     width: 35px;
-    background: #151515;
+    background: var(--hover);
     cursor: pointer;
 } 
 
@@ -70,7 +70,7 @@ header {
 
 .btn-to-search i {
     font-size: 1rem;
-    color: #b7b7b7;
+    color: var(--gray-color);
 }
 
 .btn-to-search h1 {
@@ -78,16 +78,16 @@ header {
     align-items: center;
     font-size: 0.9rem;
     font-weight: 500;
-    color: #b7b7b7;
+    color: var(--gray-color);
     gap: 6px;
 }
 
 .btn-to-search h1 span {
     padding: 3px 6px;
     border-radius: 4px;
-    background: #ffffff20;
+    background: var(--hover);
     font-size: 0.8rem;
-    color: #c1c1c1;
+    color: var(--gray-color);
 }
 
 nav ul {

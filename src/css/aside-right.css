@@ -45,7 +45,7 @@
     font-size: 0.85rem;
     font-weight: 500;
     background: var(--light-color);
-    color: black;
+    color: var(--dark-color);
     border-radius: 50px;
 }
 
@@ -75,6 +75,7 @@
 .header-newslatter h1{
     font-size: 1.1rem;
     font-weight: 500;
+    color: var(--light-color);
 }
 
 .header-newslatter button{
@@ -94,17 +95,18 @@
     flex-direction: column;
     width: 100%;
     padding: 5px 0;
-    color: #d4d4d4;
+    color: var(--gray-color);
 }
 
 .card-news:hover{
-    background: #202020;
+    background: var(--hover);
 }
 
 .card-news h1{
     margin-left: 15px;
     font-size: 0.9rem;
     font-weight: 600;
+    color: var(--light-color);
 }
 
 .sub-card-news{
@@ -115,4 +117,5 @@
     margin-left: 15px;
     font-size: 0.80rem;
     font-weight: 400;
+    color: var(--gray-color);
 }

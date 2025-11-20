@@ -17,8 +17,8 @@
     flex-direction: column;
     width: 450px;
     height: 500px;
-    background: #111;
-    border: 1.2px solid #292929;
+    background: var(--background-card);
+    border: 1.2px solid var(--border-color);
     border-radius: 7px 7px 0 0;
     box-shadow: 0 0 10px 2px #000000aa;
     animation: fadeIn 0.2s ease;
@@ -37,6 +37,7 @@
 .header-chat-eloy h1 {
     font-size: 0.95rem;
     font-weight: 500;
+    color: var(--light-color);
 }
 
 .btns-header-chat-eloy {
@@ -51,7 +52,7 @@
     background: transparent;
     width: 25px;
     height: 25px;
-    color: #fff;
+    color: var(--light-color);
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -240,10 +241,4 @@
 
 .send-btn:hover {
     background: #ccc;
-}
-
-.send-btn:disabled {
-    background: #959595;
-    color: #353535;
-    cursor: not-allowed;
 }

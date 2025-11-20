@@ -11,8 +11,10 @@
 
 :root{
     --primary-color: #0058b1;
-    --light-color: #f4f4f5;
+    --light-color: #f5f5f5;
     --dark-color: #151515;
+    --gray-color: #969696;
+    --hover: #151515;
     --background: #000000;
     --background-card: #0b0b0b;
     --border-color: #202020;
@@ -24,8 +26,10 @@
 [data-theme="light"]{
     --light-color: #050505;
     --dark-color: #f5f5f5;
-    --background: #ffffff;
-    --background-card: #ece9e5;
+    --hover: #e6e6e6;
+    --gray-color: #2b2b2b;
+    --background: #ece9e5;
+    --background-card: #ffffff;
     --border-color: #dcd6cf;
 }
 
@@ -65,7 +69,7 @@ body{
 }
 
 .btn-chat-eloy:hover{
-    background: #141414;
+    background: #57575775;
 }
 
 .page-not-found{
