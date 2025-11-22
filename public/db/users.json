@@ -4595,43 +4595,45 @@
         ]
     },
     {
-        "id": "maria_cunha",
-        "nome": "Maria da Cunha",
-        "genero": "Feminino",
-        "foto": "https://randomuser.me/api/portraits/women/84.jpg",
+        "id": "w_cidade",
+        "nome": "Wellington Cidade",
+        "genero": "Masculino",
+        "foto": "https://media.licdn.com/dms/image/v2/C4D03AQG9LkDRJH6UDA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1565313254734?e=1765411200&v=beta&t=r8FZg6rtITNjy9vG0U6Rtow30PQdl6gXesIv0Imbslg",
         "banner": "",
-        "titulo": "Apaixonado por Segurança | Designer Instrucional",
-        "cargo": "Designer Instrucional",
+        "titulo": "Full Stack || Teacher and Coordinator of Courses in Systems Development Technologies and Digital Games || Scrum Master",
+        "cargo": "Professor",
         "empresa": "FIAP",
-        "resumo": "Profissional com experiência na área de Segurança e atuação como Designer Instrucional na FIAP. Foco em Java e inovação.",
+        "resumo": "I have been working for 20 years with professional education, developing several programming languages, systems analysis, database modeling, wireframing of desktop, web and mobile systems and digital. Tools used: # HTM, # CSS, # JAVASCRIPT, #.NET, # JAVA, # REACT, # ANGULAR, # VUE, # GIT e GITHUB, # BANCO DE DADOS",
         "estado": "São Paulo",
         "pais": "Brasil",
-        "area": "Segurança",
+        "area": "Educação",
         "seguidores": 0,
         "seguindo": 0,
         "competencias": [
-            "Cloud Computing",
-            "Metodologias Ágeis",
-            "Python",
-            "Java",
+            "Educação",
+            "Front-End",
+            "CSS",
+            "HTML",
+            "JavaScript",
+            "Banco de dados",
             "Gestão de Projetos"
         ],
         "experiencias": [
             {
                 "empresa": "FIAP",
-                "tipo": "Tempo Integral",
-                "cargo": "Consultora de Carreira",
-                "inicio": "2020-01-01",
+                "tipo": "Meio Periodo",
+                "cargo": "Professor de Engenharia de Software",
+                "inicio": "Fev de 2023",
                 "fim": "Atual",
                 "local": "São Paulo, SP",
-                "descricao": "Responsável por..."
+                "descricao": "Professor dos cursos de Graduação de Engenharia de Software e Análise e Desenvolvimento de Sistemas."
             }
         ],
         "formacao": [
             {
-                "curso": "Pós-graduação em Tecnologia",
-                "instituicao": "FIAP",
-                "ano": 2020
+                "curso": "Mestrado em Desenvolvimento de Software",
+                "instituicao": "FUNIBER",
+                "ano": 2022
             }
         ],
         "projetos": [],
@@ -4651,14 +4653,14 @@
             "Tecnologia",
             "Infraestrutura"
         ],
-        "email": "maria.cunha1101@fiap.com.br",
-        "senha": "110181fiap",
-        "aniversario": "1981-01-11",
+        "email": "pf1734@fiap.com.br",
+        "senha": "cidade123",
+        "aniversario": "0000-00-00",
         "estrelas": 0,
         "posts": [
             {
-                "id": 121,
-                "conteudo": "Segurança na nuvem não é só firewall e senha forte. É cultura, é gente treinada que entende riscos reais, não scripts prontos. Quem acha que só tecnologia resolve, ignora o maior vetor de ataque: o erro humano. Bora repensar o treinamento? #SegurançaComPropósito #ErroHumanoNuncaÉSóErro",
+                "id": 1,
+                "conteudo": "O front-end evoluiu para um nível absurdo: componentes inteligentes, bundlers otimizados, edge rendering… mas tem dev preso em tutorial de 2018 achando que JSX é o ápice da inovação. Hoje, escrever interface é engenharia — é lidar com estado complexo, acessibilidade séria e segurança em cada input. Quem ainda trata front-end como ‘parte visual’ está ficando para trás. #FrontEndRaiz #EngenhariaDeInterface #ModernoOuNada",
                 "dataTime": "2025-11-11T04:36:00Z",
                 "likes": [],
                 "comentarios": [],
@@ -4667,43 +4669,51 @@
         ]
     },
     {
-        "id": "dionaura_souza",
-        "nome": "Dionaura Souza",
-        "genero": "Feminino",
-        "foto": "https://randomuser.me/api/portraits/women/5.jpg",
+        "id": "lucas_sousa",
+        "nome": "Lucas Sousa",
+        "genero": "Masculino",
+        "foto": "",
         "banner": "",
-        "titulo": "Consultora de Carreira | Foco em Segurança Cibernética",
-        "cargo": "Consultora de Carreira",
+        "titulo": "Professor na FIAP | CSS | Tailwind | JavaScript | React.js | Coordenador Pedagógico",
+        "cargo": "Professor",
         "empresa": "FIAP",
-        "resumo": "Profissional com experiência na área de Acadêmico e atuação como Consultora de Carreira na FIAP. Foco em Segurança Cibernética e inovação.",
+        "resumo": "Com uma formação acadêmica diversificada sempre busquei ter uma base sólida em educação e tecnologia. Meu objetivo de carreira é claro: crescer profissionalmente e me desenvolver como líder na área de educação TI. Atuo como Coordenador Pedagógico e Professor Universitário, HTML, CSS, PHP, JavaScript, React.js, Sass. Minhas formações complementares em EAD, TIC's e práticas pedagógicas demonstram o que sempre busquei: comprometimento em estar sempre atualizado e oferecer o melhor ensino possível aos alunos. Com essas habilidades e conhecimentos, busco ter um futuro promissor na área de educação e tecnologia.",
         "estado": "São Paulo",
         "pais": "Brasil",
-        "area": "Acadêmico",
+        "area": "Educação",
         "seguidores": 0,
         "seguindo": 0,
         "competencias": [
             "Liderança",
-            "Python",
-            "Análise de Dados",
+            "Dev Web",
+            "React",
+            "Next.js",
+            "Tailwindcss",
+            "Segurança Cibernética",
             "UX/UI",
             "Cloud Computing"
         ],
         "experiencias": [
             {
                 "empresa": "FIAP",
-                "tipo": "Tempo Integral",
-                "cargo": "Consultora de Carreira",
-                "inicio": "2020-01-01",
+                "tipo": "Meio Periodo",
+                "cargo": "Professor",
+                "inicio": "Fev de 2024",
                 "fim": "Atual",
                 "local": "São Paulo, SP",
-                "descricao": "Responsável por..."
+                "descricao": "Professor de Desenvolvimento Front-End Web, JavaScript."
             }
         ],
         "formacao": [
             {
-                "curso": "Pós-graduação em Tecnologia",
-                "instituicao": "FIAP",
-                "ano": 2020
+                "curso": "MBA, Engenharia de Software",
+                "instituicao": "MBA USP/Esalq",
+                "ano": 2024
+            },
+            {
+                "curso": "Análise e Desenvolvimento de Programas",
+                "instituicao": "Descomplica",
+                "ano": 2022
             }
         ],
         "projetos": [],
@@ -4720,25 +4730,29 @@
         ],
         "areainteresses": [
             "Dados",
+            "Web Dev",
+            "Educação",
+            "Cibersegurança",
+            "Inovação",
             "Tecnologia",
             "Marketing"
         ],
-        "email": "dionaura.souza1306@fiap.com.br",
-        "senha": "130601fiap",
-        "aniversario": "2001-06-13",
+        "email": "pf2036@fiap.com.br",
+        "senha": "lucas123",
+        "aniversario": "0000-00-00",
         "estrelas": 0,
         "posts": [
             {
-                "id": 122,
-                "conteudo": "Python na segurança cibernética: todo mundo fala, poucos dominam. E, sinceramente, acho que a comunidade perde mais tempo na teoria do que construindo defesas reais. Quem aí tá cansado do \"teórico safe space\"? Bora codar, quebrar barreiras e rebootar essa mentalidade! #CodeOuCai #CiberRealTalk #PythonNaVeia",
+                "id": 1,
+                "conteudo": "Todo mundo ama falar de performance em React, mas poucos encaram o verdadeiro vilão: segurança no front. Tem dev empolgado com Server Components e esquecendo que um XSS bem colocado derruba qualquer hype. A real é simples: não existe UI bonita que sobreviva a payload mal sanitizado. Bora elevar o nível e tratar segurança como feature obrigatória. #ReactHardMode #WebSecFirst #DevDeVerdade",
                 "dataTime": "2025-11-10T05:35:00Z",
                 "likes": [],
                 "comentarios": [],
                 "compartilhamentos": []
             },
             {
-                "id": 123,
-                "conteudo": "Python na Segurança Cibernética: ferramenta ou muleta? Vejo muitos afundando no código e esquecendo o básico: pensar como hacker. Se você só decora scripts, está um passo atrás do ataque. Infraestrutura e mentalidade antes da linguagem. Discorda? #HackTheMind #Ciberreflexão #SegurançaComPropósito",
+                "id": 2,
+                "conteudo": "Next.js virou o queridinho da galera — tudo SSR, tudo rápido, tudo perfeito… até alguém deixar um endpoint público e expor dados sensíveis. Framework moderno não corrige descuido antigo. Quem constrói web hoje precisa pensar como engenheiro e como auditor. Next não é só rota automática: é arquitetura segura. #NextSemFiltro #ArquiteturaWeb #SecurityDrivenDev",
                 "dataTime": "2025-11-09T08:22:00Z",
                 "likes": [],
                 "comentarios": [],
@@ -4848,7 +4862,7 @@
     {
         "id": "leandrosq",
         "nome": "Leandro Queiroz",
-        "genero": "Maculino",
+        "genero": "Masculino",
         "foto": "https://media.licdn.com/dms/image/v2/C4D03AQGn62tZ4mahIg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1567121482931?e=1765411200&v=beta&t=nRxXpNEqsOyfZ65VFg3tKNamkSkYMhk1gXP4_50JKlY",
         "banner": "",
         "titulo": "Empreendedorismo + Inovação + Empreendedorismo Corporativo + Programa de Aceleração + Mentoria + Professor + Paletrante",
@@ -4937,7 +4951,7 @@
     {
         "id": "aurelio_vitorino",
         "nome": "Aurélio Vitorino",
-        "genero": "Maculino",
+        "genero": "Masculino",
         "foto": "https://media.licdn.com/dms/image/v2/C4D03AQHshxyO5BHiDw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517438875092?e=1765411200&v=beta&t=C8ayHTSlGsCq2qtZj4Y9st5FsKnu-Y0zUofDC9K-qMg",
         "banner": "",
         "titulo": "MSc, PhD, Pós-doutorando(UNIFESP)| Gestão de TI| Tecnologia da Informação em Saúde| Gestão de Projetos| Governança em TI| Inovação| Engenharia de SW| Professor (graduação e Pós-graduação)",

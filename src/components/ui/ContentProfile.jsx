@@ -38,7 +38,7 @@ const ContentProfile = ({ local }) => {
 
     const profileImg = userData.foto !== ""
         ? userData.foto
-        : "src/assets/img/img-profile-default.png";
+        : "/assets/img/img-profile-default.png";
 
     return (
         <section className="content-profile">

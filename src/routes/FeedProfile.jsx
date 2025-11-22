@@ -103,7 +103,7 @@ const FeedProfile = () => {
             <NavLink className='header-post'>
               <div className="info-user-header-post">
                 <img
-                  src={currentUser.foto?.trim() || "assets/img/img-profile-default.png"}
+                  src={currentUser.foto?.trim() || "/assets/img/img-profile-default.png"}
                   alt={currentUser.nome}
                 />
                 <div>
