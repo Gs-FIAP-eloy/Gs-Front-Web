@@ -1968,92 +1968,32 @@
         ]
     },
     {
-        "id": "emaus_rodrigues",
-        "nome": "Emaús Rodrigues",
+        "id": "user_demo",
+        "nome": "Usuário",
         "genero": "Masculino",
-        "foto": "https://randomuser.me/api/portraits/men/74.jpg",
+        "foto": "",
         "banner": "",
-        "titulo": "Arquiteto de Soluções Cloud | Foco em UX/UI",
-        "cargo": "Arquiteto de Soluções Cloud",
+        "titulo": "Perfil de usuário teste",
+        "cargo": "cobaia",
         "empresa": "FIAP",
-        "resumo": "Profissional com experiência na área de Infraestrutura e atuação como Arquiteto de Soluções Cloud na FIAP. Foco em UX/UI e inovação.",
+        "resumo": "Sou um usuário teste criado para demonstrar a interface do eloy.",
         "estado": "São Paulo",
         "pais": "Brasil",
-        "area": "Infraestrutura",
+        "area": "Educação",
         "seguidores": 0,
         "seguindo": 0,
-        "competencias": [
-            "UX/UI",
-            "Java",
-            "Liderança"
-        ],
-        "experiencias": [
-            {
-                "empresa": "FIAP",
-                "tipo": "Tempo Integral",
-                "cargo": "Consultora de Carreira",
-                "inicio": "2020-01-01",
-                "fim": "Atual",
-                "local": "São Paulo, SP",
-                "descricao": "Responsável por..."
-            }
-        ],
-        "formacao": [
-            {
-                "curso": "Pós-graduação em Tecnologia",
-                "instituicao": "FIAP",
-                "ano": 2020
-            }
-        ],
+        "competencias": [],
+        "experiencias": [],
+        "formacao": [],
         "projetos": [],
         "certificacoes": [],
-        "idiomas": [
-            {
-                "idioma": "Português",
-                "nivel": "Nativo"
-            },
-            {
-                "idioma": "Inglês",
-                "nivel": "Avançado"
-            }
-        ],
-        "areainteresses": [
-            "Design",
-            "Dados",
-            "Segurança",
-            "Infraestrutura",
-            "Acadêmico"
-        ],
-        "email": "emaús.rodrigues0812@fiap.com.br",
-        "senha": "081273fiap",
-        "aniversario": "1973-12-08",
+        "idiomas": [],
+        "areainteresses": [],
+        "email": "teste@fiap.com.br",
+        "senha": "teste123",
+        "aniversario": "0000-00-00",
         "estrelas": 0,
-        "posts": [
-            {
-                "id": 49,
-                "conteudo": "UX/UI em infraestrutura não é frescura — é revolução silenciosa! 🚀 Ignorar a experiência do usuário ao arquitetar cloud é cavar a própria cova. Quem aí encara essa maratona diária comigo sem perder a alma? #UXCloudRevolution #InfraQueSente #DesignComAlma",
-                "dataTime": "2025-11-12T12:58:00Z",
-                "likes": [],
-                "comentarios": [],
-                "compartilhamentos": []
-            },
-            {
-                "id": 50,
-                "conteudo": "UX em cloud não é só beleza na interface. É segurança invisível, é infraestrutura que respeita o usuário real. Quem ainda separa design de backend, não entendeu nada sobre experiência — e está falhando feio. Bora debater isso? #UXnaVeia #CloudComPropósito #InfraQueEngaja",
-                "dataTime": "2025-11-09T11:45:00Z",
-                "likes": [],
-                "comentarios": [],
-                "compartilhamentos": []
-            },
-            {
-                "id": 51,
-                "conteudo": "UX em Cloud não é luxo; é resistência contra a alienação digital. Infraestrutura não pode ser só código frio — é experiência, sensação, vida. Quem ainda vê UX como acessório, perde a alma das soluções. Debate aberto: UX é prioridade ou distração no Cloud? #UXRevolucionário #CloudComAlma #InfraComVida",
-                "dataTime": "2025-11-16T00:41:00Z",
-                "likes": [],
-                "comentarios": [],
-                "compartilhamentos": []
-            }
-        ]
+        "posts": []
     },
     {
         "id": "honorio_goncalves",
@@ -4416,53 +4356,47 @@
                 "likes": [],
                 "comentarios": [],
                 "compartilhamentos": []
-            },
-            {
-                "id": 115,
-                "conteudo": "Design não é só beleza. Em IA, UX/UI mal feito é um risco invisível que pode comprometer segurança e a ética do projeto. Ignorar isso? Um convite explícito ao fracasso disfarçado de inovação. Quem mais sente esse nó? #UXÉSegurança #IAComPropósito #DesignQueImporta #GestaoDeProjetos",
-                "dataTime": "2025-11-15T03:28:00Z",
-                "likes": [],
-                "comentarios": [],
-                "compartilhamentos": []
             }
         ]
     },
     {
-        "id": "jocieri_silva",
-        "nome": "Jocieri Silva",
-        "genero": "Feminino",
+        "id": "jessica_schlickmann",
+        "nome": "Jessica Schlickmann",
+        "genero": "Masculino",
         "foto": "https://randomuser.me/api/portraits/women/2.jpg",
         "banner": "",
-        "titulo": "Transformação Digital | Analista de RH Tech",
-        "cargo": "Analista de RH Tech",
+        "titulo": "Cálculo | Estatística | Matemática Financeira | Doutora em Educação | Experiência em Ensino Superior na área de Tecnologia",
+        "cargo": "Professor",
         "empresa": "FIAP",
-        "resumo": "Profissional com experiência na área de Administrativo e atuação como Analista de RH Tech na FIAP. Foco em UX/UI e inovação.",
+        "resumo": "Doutora em Educação Científica e Tecnológica com sólida atuação no Ensino Superior em cursos de Engenharia de Software e Análise e Desenvolvimento de Sistemas. Licenciada em Matemática, com especialização em Matemática Financeira e Mestrado em Educação, desenvolvo práticas pedagógicas inovadoras, integrando matemática aplicada, estatística, tecnologia e machine learning. Leciono disciplinas como Cálculo, Estatística Descritiva e Inferencial, Matemática Financeira e Fundamentos de Matemática, com foco em aprendizagem ativa, resolução de problemas reais e desenvolvimento de competências alinhadas à Indústria 4.0. Tenho expertise em metodologias ativas, ensino por projetos, educação híbrida e uso de Python, Excel e Google Colab no ensino de conteúdos matemáticos. Atuo também na produção de materiais didáticos, planejamento de avaliações e orientação de projetos integradores. Busco colaborar com instituições de ensino superior comprometidas com inovação, qualidade acadêmica e formação crítica de profissionais da área de tecnologia e engenharia.",
         "estado": "São Paulo",
         "pais": "Brasil",
-        "area": "Administrativo",
+        "area": "Educação",
         "seguidores": 0,
         "seguindo": 0,
         "competencias": [
             "Liderança",
-            "Segurança Cibernética",
+            "Cálculo",
+            "Educação",
+            "Estatística",
             "Metodologias Ágeis"
         ],
         "experiencias": [
             {
                 "empresa": "FIAP",
-                "tipo": "Tempo Integral",
-                "cargo": "Consultora de Carreira",
-                "inicio": "2020-01-01",
+                "tipo": "Meio Periodo",
+                "cargo": "Professor",
+                "inicio": "Ago de 2024",
                 "fim": "Atual",
                 "local": "São Paulo, SP",
-                "descricao": "Responsável por..."
+                "descricao": "Planejamento e execução de aulas nas áreas de cálculo diferencial, integral e limites, voltadas a estudantes de Engenharia de Software. Aplicação de metodologias ativas (como aprendizagem baseada em problemas e projetos), com uso de Python e Google Colab para resolução de problemas reais. Integração entre conteúdos matemáticos e suas aplicações em TI, como otimização de algoritmos, análise de dados e modelagem de soluções computacionais. Produção de materiais didáticos e construção de avaliações contextualizadas que incentivam o pensamento crítico e a resolução de problemas complexos. Orientação de projetos de aplicação prática em matemática, com foco na indústria 4.0 e engenharia de software."
             }
         ],
         "formacao": [
             {
-                "curso": "Pós-graduação em Tecnologia",
-                "instituicao": "FIAP",
-                "ano": 2020
+                "curso": "Doutorado em Educação Científica",
+                "instituicao": "UFSC",
+                "ano": 2018
             }
         ],
         "projetos": [],
@@ -4479,25 +4413,28 @@
         ],
         "areainteresses": [
             "Acadêmico",
-            "Infraestrutura",
-            "Segurança"
+            "Matemática",
+            "Cálculo",
+            "Educação",
+            "Gestão",
+            "Estatística"
         ],
-        "email": "jocieri.silva2603@fiap.com.br",
-        "senha": "260378fiap",
-        "aniversario": "1978-03-26",
+        "email": "pf2151@fiap.com.br",
+        "senha": "jessica123",
+        "aniversario": "0000-00-00",
         "estrelas": 0,
         "posts": [
             {
-                "id": 116,
-                "conteudo": "Segurança cibernética em RH ainda é visto como “extra”. Não é! Dados de pessoas são vidas digitais. Ignorar proteção é jogar confiança no lixo. Quem aí encara esse desafio de frente? Ou preferem ser os próximos a contar prejuízo? #RHTech #SegurançaOuNada #TransformacaoDigitalReal",
+                "id": 1,
+                "conteudo": "Cálculo não é um conjunto de passos para decorar — é uma linguagem para compreender mudanças, fenômenos e sistemas complexos. O problema é que muita gente ainda trata matemática como um ritual mecânico. Na Educação Científica, o desafio é transformar abstração em insight, e fórmula em ferramenta. Quem ensina sabe: quando o aluno entende o porquê, o como flui. #CálculoComSentido #EducaçãoCientífica #MatemáticaViva",
                 "dataTime": "2025-11-10T07:28:00Z",
                 "likes": [],
                 "comentarios": [],
                 "compartilhamentos": []
             },
             {
-                "id": 117,
-                "conteudo": "Segurança cibernética no RH: é sonho ou paranoia? Enquanto buscam agilidade e UX, muitos esquecem que dados de pessoas são o ativo mais vulnerável. Sem proteção real, inovação vira porta aberta para desastre. Quem aqui encara esse dilema diariamente? #RHNaLinhaDeFogo #CibersegurançaOuIlusão #InovaçãoResponsável",
+                "id": 2,
+                "conteudo": "A matemática não assusta. O que assusta é a maneira como ela ainda é apresentada. Aulas expositivas, foco em resposta pronta e pouca investigação só afastam curiosidade. Na pesquisa em Educação Científica, isso é claro: estudantes aprendem mais quando exploram, testam, questionam. O problema não está no Cálculo — está em como ensinamos Cálculo. Precisamos de menos decoreba e mais descoberta. #EnsinoDeMatemática #EducaçãoComPesquisa #CálculoParaTodos",
                 "dataTime": "2025-11-16T14:59:00Z",
                 "likes": [],
                 "comentarios": [],
@@ -4506,43 +4443,44 @@
         ]
     },
     {
-        "id": "amelly_melo",
-        "nome": "Amelly Melo",
-        "genero": "Feminino",
-        "foto": "https://randomuser.me/api/portraits/women/91.jpg",
+        "id": "lucas_augusto",
+        "nome": "Lucas Augusto",
+        "genero": "Masculino",
+        "foto": "https://media.licdn.com/dms/image/v2/C4D03AQHfpFqmuGEVNw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517041934445?e=1765411200&v=beta&t=yC7iNhZKyL9kIOCU4IvX3qQzI-PNbJzVkulEZnstJX4",
         "banner": "",
-        "titulo": "Especialista em Dados | Analista de Suporte Técnico na FIAP",
-        "cargo": "Analista de Suporte Técnico",
+        "titulo": "Doutorando em Energia | Professor Universitário | Desenvolvedor de Sistemas Embarcados",
+        "cargo": "Professor",
         "empresa": "FIAP",
-        "resumo": "Profissional com experiência na área de Dados e atuação como Analista de Suporte Técnico na FIAP. Foco em Comunicação e inovação.",
+        "resumo": "Doutorando em energia desenvolvendo pesquisa relacionada a eletrônica de potência, sistemas de controle e sistemas embarcados aplicados a geração de energia solar. Experiência como engenheiro eletrônico desenvolvendo soluções embarcadas (firmware e hardware) para instrumentos, equipamentos para automação comercial/industrial e dispositivos para telecomunicações e como professor universitário.",
         "estado": "São Paulo",
         "pais": "Brasil",
-        "area": "Dados",
+        "area": "Educação",
         "seguidores": 0,
         "seguindo": 0,
         "competencias": [
-            "Gestão de Projetos",
-            "Cloud Computing",
-            "Liderança",
-            "Análise de Dados",
-            "Metodologias Ágeis"
+            "PCB",
+            "Prototipagem",
+            "Matlab",
+            "Engenharia",
+            "IOT",
+            "DevOps"
         ],
         "experiencias": [
             {
                 "empresa": "FIAP",
-                "tipo": "Tempo Integral",
-                "cargo": "Consultora de Carreira",
-                "inicio": "2020-01-01",
+                "tipo": "Meio Periodo",
+                "cargo": "Professor",
+                "inicio": "Fev de 2023",
                 "fim": "Atual",
                 "local": "São Paulo, SP",
-                "descricao": "Responsável por..."
+                "descricao": "Professor da disciplina \"Edge Computing & Computer Systems\" no curso de Engenharia de Software, com foco no ensino de microcontroladores e Internet das Coisas (IoT), utilizando ferramentas e tecnologias, como Linux, Docker, FIWARE, Node-RED, broker Eclipse-Mosquitto, AWS e Azure, aplicando uma abordagem baseada em DevOps. Além disso, integrando plataformas de hardware como Arduino e ESP32 para promover o desenvolvimento de sistemas embarcados e soluções práticas de IoT, alinhando teoria e prática para resolver desafios reais do mercado."
             }
         ],
         "formacao": [
             {
-                "curso": "Pós-graduação em Tecnologia",
-                "instituicao": "FIAP",
-                "ano": 2020
+                "curso": "Doutorando, Energia",
+                "instituicao": "Universidade Federal do ABC - UFABC",
+                "ano": 2022
             }
         ],
         "projetos": [],
@@ -4558,36 +4496,31 @@
             }
         ],
         "areainteresses": [
-            "Administrativo",
-            "Marketing",
-            "Segurança",
-            "Tecnologia"
+            "IOT",
+            "Banco de dados",
+            "Servidor",
+            "DevOps",
+            "Inovação",
+            "Ciência",
+            "Educação"
         ],
-        "email": "amelly.melo2807@fiap.com.br",
-        "senha": "280797fiap",
-        "aniversario": "1997-07-28",
+        "email": "pf1739@fiap.com.br",
+        "senha": "lucas123",
+        "aniversario": "0000-00-00",
         "estrelas": 0,
         "posts": [
             {
-                "id": 118,
-                "conteudo": "Cloud não é só tecnologia — é teste diário para nossa liderança e resiliência. Quem acha que migrar dados é só clicar “next” nunca enfrentou a pressão real de decisão em minutos. É aqui que inovar vira sobrevivência. Quem mais sente essa intensidade? #CloudNaVeia #LiderançaEmDados #InovaçãoReal",
+                "id": 1,
+                "conteudo": "IoT virou moda, mas pouca gente fala do real gargalo: energia. Sensor bonito não sustenta rede — o que sustenta é eficiência energética, protocolo leve e arquitetura pensada pra operar anos, não horas. Quem trabalha com IoT de verdade sabe: otimizar consumo é tão importante quanto coletar dados. É pesquisa, é engenharia e é visão. #IoTEficiente #EnergiaÉBase #EngenhariaDoFuturo",
                 "dataTime": "2025-11-17T09:48:00Z",
                 "likes": [],
                 "comentarios": [],
                 "compartilhamentos": []
             },
             {
-                "id": 119,
-                "conteudo": "Cloud não é só tecnologia, é sobre confiança e cultura. Já vi times travarem por medo do novo, não por falta de habilidade. Quem disse que inovação é só técnica esquece que mudar mindset é o maior bug a ser depurado. E aí, quem encara esse desafio? #CloudComCoragem #DadosComPropósito #InovaçãoReal",
+                "id": 2,
+                "conteudo": "Smart Grid não é tendência — é necessidade. Com IoT distribuído, baterias avançadas e monitoramento em tempo real, o setor elétrico pode ser mais resiliente, sustentável e previsível. Mas ainda tem empresa tratando modernização energética como luxo. Quem pesquisa energia sabe: integrar IoT ao sistema elétrico é o passo que separa colapso de eficiência. #SmartGridNow #IoTNaEnergia #PesquisaQueTransforma",
                 "dataTime": "2025-11-11T10:18:00Z",
-                "likes": [],
-                "comentarios": [],
-                "compartilhamentos": []
-            },
-            {
-                "id": 120,
-                "conteudo": "Gestão de projetos em dados não é só planilha e cronograma. É navegar no caos do inesperado, liderar sem respostas prontas e abraçar o erro como combustível. Quem acha que é só seguir o passo a passo, nunca liderou nada de verdade. #DadosComAlma #LiderançaNaPrática #ProjetoÉDesafio",
-                "dataTime": "2025-11-15T12:55:00Z",
                 "likes": [],
                 "comentarios": [],
                 "compartilhamentos": []
