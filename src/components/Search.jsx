@@ -58,18 +58,71 @@ const Search = () => {
           .map(u => {
             let score = 0;
 
-            if (u.area && loggedUser.area) {
-              if (normalize(u.area) === normalize(loggedUser.area)) {
-                score += 3;
-              }
+            const normArea = u.area ? normalize(u.area) : null;
+            const normCargo = u.cargo ? normalize(u.cargo) : null;
+            const normTitle = u.titulo ? normalize(u.titulo) : null;
+            const userArea = loggedUser.area ? normalize(loggedUser.area) : null;
+            const userCargo = loggedUser.cargo ? normalize(loggedUser.cargo) : null;
+
+            if (normArea && userArea && normArea === userArea) {
+              score += 12;
+            }
+
+            if (normCargo && userCargo && normCargo === userCargo) {
+              score += 10;
+            }
+
+            if (normTitle && userCargo && normTitle.includes(userCargo)) {
+              score += 6;
+            }
+            if (normTitle && userArea && normTitle.includes(userArea)) {
+              score += 6;
+            }
+
+            if (normArea && userArea && (
+              normArea.includes(userArea) ||
+              userArea.includes(normArea)
+            )) {
+              score += 3;
+            }
+
+            if (normCargo && userCargo && (
+              normCargo.includes(userCargo) ||
+              userCargo.includes(normCargo)
+            )) {
+              score += 3;
             }
 
             if (Array.isArray(u.areainteresses) && Array.isArray(loggedUser.areainteresses)) {
-              const matches = u.areainteresses.filter(i =>
-                loggedUser.areainteresses.includes(i)
-              ).length;
+              const matches = u.areainteresses.filter(itemU => {
+                const normI = normalize(itemU);
+                return loggedUser.areainteresses.some(itemL => {
+                  const normL = normalize(itemL);
+                  return (
+                    normI === normL ||                
+                    normI.includes(normL) ||          
+                    normL.includes(normI)             
+                  );
+                });
+              }).length;
 
-              score += matches * 2;
+              score += matches * 4;
+            }
+
+            const weakSynonyms = [
+              ["tecnologia", "ti", "desenvolvimento", "programacao", "dev"],
+              ["marketing", "publicidade", "branding"],
+              ["engenharia", "projetos", "automacao"],
+              ["gestao", "administracao", "lideranca"]
+            ];
+
+            for (const group of weakSynonyms) {
+              const hasUser = group.includes(userArea) || group.includes(userCargo);
+              const hasOther = group.includes(normArea) || group.includes(normCargo);
+
+              if (hasUser && hasOther) {
+                score += 5;
+              }
             }
 
             return { ...u, score };

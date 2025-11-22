@@ -2,16 +2,20 @@ import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom'
 import '../css/welcome.css'
 import logo from '../assets/img/logo.png'
+import logoDark from '../assets/img/logo-dark.png'
 import img from '../assets/img/img-welcome.png'
+import { useTheme } from "../hook/ThemeContext.jsx";
 
 const Welcome = () => {
 
     const navigate = useNavigate();
 
+    const { theme} = useTheme();
+ 
     return (
         <section className="ctn-page-welcome">
             <header className='header-page-welcome'>
-                <img src={logo} />
+                <img src={theme === "light" ? logoDark : logo} />
                 <section className='btns-header-welcome'>
                     <button onClick={() => navigate("/auth")}>Criar conta</button>
                     <button onClick={() => navigate("/auth")} className='active'>Entrar</button>

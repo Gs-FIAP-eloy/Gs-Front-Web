@@ -4747,18 +4747,18 @@
         ]
     },
     {
-        "id": "angelica_silva",
-        "nome": "Angélica Silva",
-        "genero": "Feminino",
-        "foto": "https://randomuser.me/api/portraits/women/45.jpg",
+        "id": "danilo_elias",
+        "nome": "Danilo R. de Assis Elias",
+        "genero": "Masculino",
+        "foto": "https://media.licdn.com/dms/image/v2/D4D03AQEEMwyMbbk_Lw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723914791734?e=1765411200&v=beta&t=K9EhLXjd6D0jIjJLvFXb78hugXUyFdREiljY2CKvvIQ",
         "banner": "",
-        "titulo": "Especialista em Segurança | Gerente de Produto na FIAP",
-        "cargo": "Gerente de Produto",
+        "titulo": "Campaign Lead @Invisible | Professor @FIAP | Python | Statistics | Physics | Phase Transitions",
+        "cargo": "Professor",
         "empresa": "FIAP",
-        "resumo": "Profissional com experiência na área de Segurança e atuação como Gerente de Produto na FIAP. Foco em Python e inovação.",
+        "resumo": "Hybrid technical–business Solutions Engineer with end-to-end ownership of data, automation, and workflow systems supporting high-volume enterprise operations. Designs, builds, and maintains scalable ETL pipelines, custom integrations, and dashboards used by leadership and teams across multiple campaigns and languages. Combines advanced scripting (Python, JS/Apps Script), SQL, and automation with strong analytical and communication skills to solve operational bottlenecks, deliver actionable insights, and ensure reliability at scale. Known for proactive problem solving, rapid implementation, and bridging engineering with business needs.",
         "estado": "São Paulo",
         "pais": "Brasil",
-        "area": "Segurança",
+        "area": "Educação",
         "seguidores": 0,
         "seguindo": 0,
         "competencias": [
@@ -4770,20 +4770,34 @@
         ],
         "experiencias": [
             {
-                "empresa": "FIAP",
+                "empresa": "Invisible Technologies",
                 "tipo": "Tempo Integral",
-                "cargo": "Consultora de Carreira",
-                "inicio": "2020-01-01",
+                "cargo": "Campaign Lead",
+                "inicio": "Jun de 2025",
                 "fim": "Atual",
                 "local": "São Paulo, SP",
-                "descricao": "Responsável por..."
+                "descricao": "Hybrid technical–business Solutions Engineer with end-to-end ownership of data, automation, and workflow systems supporting high-volume enterprise operations. Designs, builds, and maintains scalable ETL pipelines, custom integrations, and dashboards used by leadership and teams across multiple campaigns and languages. Combines advanced scripting (Python, JS/Apps Script), SQL, and automation with strong analytical and communication skills to solve operational bottlenecks, deliver actionable insights, and ensure reliability at scale. Known for proactive problem solving, rapid implementation, and bridging engineering with business needs."
+            },
+            {
+                "empresa": "FIAP",
+                "tipo": "Meio Periodo",
+                "cargo": "Professor",
+                "inicio": "Jul de 2022",
+                "fim": "Atual",
+                "local": "São Paulo, SP",
+                "descricao": "Professor of AI/NLP/ML, Data Science and Programming"
             }
         ],
         "formacao": [
             {
-                "curso": "Pós-graduação em Tecnologia",
-                "instituicao": "FIAP",
-                "ano": 2020
+                "curso": "Doctor of philosophy",
+                "instituicao": "Universidade Estadual de Campinas",
+                "ano": 2023
+            },
+            {
+                "curso": "Mestrado em física aplicada",
+                "instituicao": "Universidade Estadual de Campinas",
+                "ano": 2019
             }
         ],
         "projetos": [],
@@ -4801,23 +4815,28 @@
         "areainteresses": [
             "Acadêmico",
             "Administrativo",
+            "IA Generativa",
+            "Machine Learning",
+            "Engenharia",
+            "Física",
+            "Python",
             "Dados"
         ],
-        "email": "angélica.silva1407@fiap.com.br",
-        "senha": "140704fiap",
-        "aniversario": "2004-07-14",
+        "email": "pf1670@fiap.com.br",
+        "senha": "danilo123",
+        "aniversario": "0000-00-00",
         "estrelas": 0,
         "posts": [
             {
-                "id": 124,
+                "id": 1,
                 "conteudo": "Python é incrível para segurança, mas ouvir que “automatizar tudo resolve” me faz querer gritar. Sem análise crítica e contexto, é código no escuro. Segurança não é só script, é entender o porquê, o risco real. Quem mais sente essa cilada? #SegurançaComAlma #PythonRealTalk #DadosNãoMentem",
-                "dataTime": "2025-11-13T02:34:00Z",
+                "dataTime": "2025-11-17T17:34:00Z",
                 "likes": [],
                 "comentarios": [],
                 "compartilhamentos": []
             },
             {
-                "id": 125,
+                "id": 2,
                 "conteudo": "Python na Segurança: não é só código, é meu escudo diário. Se você acha que segurança é firewall e antivirus, tá na hora de repensar. Inovação exige coragem para quebrar paradigmas. Quem topa esse desafio comigo? #SegurançaSemFrescura #PythonNaVeia #InovaçãoQueTransforma",
                 "dataTime": "2025-11-16T03:30:00Z",
                 "likes": [],
@@ -4827,41 +4846,54 @@
         ]
     },
     {
-        "id": "safira_cruz",
-        "nome": "Safira da Cruz",
-        "genero": "Feminino",
-        "foto": "https://randomuser.me/api/portraits/women/73.jpg",
+        "id": "leandrosq",
+        "nome": "Leandro Queiroz",
+        "genero": "Maculino",
+        "foto": "https://media.licdn.com/dms/image/v2/C4D03AQGn62tZ4mahIg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1567121482931?e=1765411200&v=beta&t=nRxXpNEqsOyfZ65VFg3tKNamkSkYMhk1gXP4_50JKlY",
         "banner": "",
-        "titulo": "Transformação Digital | Analista de Business Intelligence",
-        "cargo": "Analista de Business Intelligence",
+        "titulo": "Empreendedorismo + Inovação + Empreendedorismo Corporativo + Programa de Aceleração + Mentoria + Professor + Paletrante",
+        "cargo": "Professor",
         "empresa": "FIAP",
         "resumo": "Profissional com experiência na área de Infraestrutura e atuação como Analista de Business Intelligence na FIAP. Foco em Python e inovação.",
         "estado": "São Paulo",
         "pais": "Brasil",
-        "area": "Infraestrutura",
+        "area": "Educação",
         "seguidores": 0,
         "seguindo": 0,
         "competencias": [
-            "Cloud Computing",
-            "Java",
-            "Metodologias Ágeis",
+            "Business Planning",
+            "Strategic Planning",
+            "Start-ups",
+            "Contabilidade",
+            "Consultoria de gestão",
+            "Gestão",
+            "Mentoria",
             "Comunicação"
         ],
         "experiencias": [
             {
-                "empresa": "FIAP",
+                "empresa": "UNIMED do Brasil",
                 "tipo": "Tempo Integral",
-                "cargo": "Consultora de Carreira",
-                "inicio": "2020-01-01",
+                "cargo": "Inovação e Investimento em Startups",
+                "inicio": "Set de 2025",
                 "fim": "Atual",
                 "local": "São Paulo, SP",
-                "descricao": "Responsável por..."
+                "descricao": ""
+            },
+            {
+                "empresa": "FIAP",
+                "tipo": "Meio Periodo",
+                "cargo": "Professr em Innovation and Entrepreneurship",
+                "inicio": "Fev de 2023",
+                "fim": "Atual",
+                "local": "São Paulo, SP",
+                "descricao": "Professr em Innovation and Entrepreneurship na graduação no curso de Engenharja de Software."
             }
         ],
         "formacao": [
             {
-                "curso": "Pós-graduação em Tecnologia",
-                "instituicao": "FIAP",
+                "curso": "Mestrado Profissional em Empreendedorismo, Administração e Negócios",
+                "instituicao": "feaUSP",
                 "ano": 2020
             }
         ],
@@ -4878,18 +4910,23 @@
             }
         ],
         "areainteresses": [
-            "Acadêmico",
-            "Infraestrutura",
-            "Tecnologia"
+            "Educação",
+            "Gestão",
+            "Mentoria",
+            "Start-ups",
+            "Negociação",
+            "Inovação de produtos",
+            "Liderança",
+            "Empreendedorismo"
         ],
-        "email": "safira.cruz1712@fiap.com.br",
-        "senha": "171298fiap",
-        "aniversario": "1998-12-17",
+        "email": "pf1738@fiap.com.br",
+        "senha": "leandro123",
+        "aniversario": "0000-00-00",
         "estrelas": 0,
         "posts": [
             {
-                "id": 126,
-                "conteudo": "Sabe o que me incomoda na tal “transformação digital”? A pressa em automatizar tudo sem entender a real infraestrutura por trás. Cloud é poder, mas sem base sólida, vira castelo de areia. Quem aí já sentiu essa tensão entre inovação e chão de fábrica? #InfraComAlma #CloudSemFiltro #TechRealTalk",
+                "id": 1,
+                "conteudo": "Inovação não é velocidade — é alinhamento. Vejo em mentorias e acelerações que muita ideia boa desaba por falta de base, e muita empresa grande trava por medo de mudar. O ponto de virada nasce quando estratégia, pessoas e tecnologia caminham juntas.",
                 "dataTime": "2025-11-14T09:55:00Z",
                 "likes": [],
                 "comentarios": [],
@@ -4984,7 +5021,7 @@
             "Tecnologia",
             "Empreendedorismo"
         ],
-        "email": "profaurelio@fiap.com.br",
+        "email": "pf0527@fiap.com.br",
         "senha": "aurelio123",
         "aniversario": "0000-00-00",
         "posts": [

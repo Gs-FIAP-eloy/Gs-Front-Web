@@ -2,6 +2,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react'
 import '../css/auth.css'
 import logo from '../assets/img/logo.png'
+import logoDark from '../assets/img/logo-dark.png'
+import { useTheme } from "../hook/ThemeContext.jsx";
 
 const Auth = () => {
 
@@ -12,6 +14,7 @@ const Auth = () => {
 
     const navigate = useNavigate();
 
+    const { theme} = useTheme();
 
     async function handleLogin() {
 
@@ -63,7 +66,7 @@ const Auth = () => {
         <section className='ctn-page-auth' onKeyDown={handleKeyPress}>
             <header className='header-page-auth'>
                 <Link to='/welcome'>
-                    <img src={logo} />
+                    <img src={theme === "light" ? logoDark : logo} />
                 </Link>
             </header>
 
